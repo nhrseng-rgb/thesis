@@ -1,0 +1,67 @@
+[
+  {
+    "phase": "START",
+    "status": "running",
+    "detail": "walkthrough"
+  },
+  {
+    "phase": "Phase 1",
+    "status": "completed",
+    "detail": "12 baselines saved; convergence gate YES (attempt 1)"
+  },
+  {
+    "phase": "Phase 2",
+    "status": "running",
+    "detail": "Five count/dispersion configurations, finite-grid enumeration"
+  },
+  {
+    "phase": "Phase 2",
+    "status": "completed",
+    "detail": "Reference N and dispersion selected; 1%, 2%, 5% decisions retained"
+  },
+  {
+    "phase": "Phase 3",
+    "status": "running",
+    "detail": "Seeded RNSGA-II; fixed-site decomposition; three benchmark cells"
+  },
+  {
+    "phase": "Phase 3",
+    "status": "completed",
+    "detail": "3 core cells; results limited to the tested search spaces"
+  },
+  {
+    "phase": "Phase 4",
+    "status": "running",
+    "detail": "Free sizing then strictly matched MW/MWh at Low/Medium/High dispersion"
+  },
+  {
+    "phase": "Phase 4",
+    "status": "completed",
+    "detail": "Spatial results kept separate from core surface"
+  },
+  {
+    "phase": "Phase 5",
+    "status": "running",
+    "detail": "Critical cells: detailed-model validation and eleven one-seed sensitivities"
+  },
+  {
+    "phase": "Phase 5",
+    "status": "partial",
+    "detail": "Missing physical validation remains explicit; software walkthrough can finish"
+  },
+  {
+    "phase": "Data Analysis",
+    "status": "running",
+    "detail": "Capacity caps, handovers, run ranges and failure maps"
+  },
+  {
+    "phase": "Data Analysis",
+    "status": "completed",
+    "detail": "No mean/std from three seeds; limits are within tested bounds"
+  },
+  {
+    "phase": "END",
+    "status": "walkthrough completed; research validation incomplete",
+    "detail": ""
+  }
+]

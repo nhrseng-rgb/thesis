@@ -1,0 +1,293 @@
+[
+  {
+    "cell": {
+      "grid": "A",
+      "state": "islanded",
+      "re": 0.6,
+      "d": 0.6
+    },
+    "algorithm": "RNSGA-II",
+    "run": 0,
+    "seed": 2376335722,
+    "evaluations": 16,
+    "best": {
+      "cell": {
+        "grid": "A",
+        "state": "islanded",
+        "re": 0.6,
+        "d": 0.6
+      },
+      "design": {
+        "sites": [
+          25,
+          23,
+          27
+        ],
+        "shares": [
+          0.38457993739005225,
+          0.2626185799313306,
+          0.35280148267861705
+        ],
+        "rho": 0.23326074515057305
+      },
+      "evidence": {
+        "metrics": {
+          "nadir_hz": 59.98269258837797,
+          "rocof_hz_s": 0.034614823244055515,
+          "settling_hz": 59.995460499041556,
+          "voltage_deviation_pu": 0.039563372189565404,
+          "reserve_mw": 1961.6295624182592,
+          "reserve_required_mw": 560.64,
+          "discharge_mwh": 7.390354998772196,
+          "reserve_shortfall_mw": -1400.989562418259,
+          "spread_hz": 0.0
+        },
+        "static_pass": true,
+        "physical_limits_verified": false,
+        "unsupported_changes": [],
+        "displaced_sg_mw": 8409.6,
+        "total_mw": 1961.6295624182592,
+        "total_mwh": 1961.6295624182592,
+        "fault_status": "unavailable",
+        "emt_status": "unavailable",
+        "dynamic_runs": 18
+      },
+      "residuals": {
+        "g1": -4.826925883779722,
+        "g2": -9.653851767559445,
+        "g3": -2.9546049904155325,
+        "g4": -3.0453950095844107,
+        "g5": null,
+        "g6": -1.0436627810434598,
+        "g7": null,
+        "g8": null,
+        "g9": null,
+        "g10": -1400.989562418259
+      },
+      "missing_constraints": [
+        "g5",
+        "g7",
+        "g8",
+        "g9"
+      ],
+      "cv": 0.0,
+      "eligible": true,
+      "research_feasible": false,
+      "objectives": [
+        0.23326074515057305,
+        0.0
+      ],
+      "status": "evaluated",
+      "physical_complete": false,
+      "evaluation_id": 153,
+      "phase": "Phase 3",
+      "algorithm": "RNSGA-II",
+      "seed": 2376335722,
+      "dynamic_runs": 1,
+      "changes": {},
+      "x": [
+        0.11105979541268907,
+        0.6666279210125227,
+        0.17540665300321945,
+        0.6516214515332702,
+        0.4449735506636605,
+        0.597776929827117,
+        0.11663037257528652
+      ]
+    }
+  },
+  {
+    "cell": {
+      "grid": "B",
+      "state": "islanded",
+      "re": 0.6,
+      "d": 0.6
+    },
+    "algorithm": "RNSGA-II",
+    "run": 0,
+    "seed": 1071858997,
+    "evaluations": 16,
+    "best": {
+      "cell": {
+        "grid": "B",
+        "state": "islanded",
+        "re": 0.6,
+        "d": 0.6
+      },
+      "design": {
+        "sites": [
+          24,
+          28,
+          16
+        ],
+        "shares": [
+          0.4002148582913732,
+          0.5047684186802294,
+          0.09501672302839739
+        ],
+        "rho": 0.29216170405204456
+      },
+      "evidence": {
+        "metrics": {
+          "nadir_hz": 59.981427000739835,
+          "rocof_hz_s": 0.03714599852033018,
+          "settling_hz": 59.99508459138516,
+          "voltage_deviation_pu": 0.03956337218956585,
+          "reserve_mw": 469.9713171381188,
+          "reserve_required_mw": 107.24000000000001,
+          "discharge_mwh": 1.9165737153895706,
+          "reserve_shortfall_mw": -362.7313171381188,
+          "spread_hz": 0.0
+        },
+        "static_pass": true,
+        "physical_limits_verified": false,
+        "unsupported_changes": [],
+        "displaced_sg_mw": 1608.6,
+        "total_mw": 469.9713171381188,
+        "total_mwh": 469.9713171381188,
+        "fault_status": "unavailable",
+        "emt_status": "unavailable",
+        "dynamic_runs": 46
+      },
+      "residuals": {
+        "g1": -4.814270007398349,
+        "g2": -9.628540014796698,
+        "g3": -2.950845913851552,
+        "g4": -3.0491540861483912,
+        "g5": null,
+        "g6": -1.0436627810434154,
+        "g7": null,
+        "g8": null,
+        "g9": null,
+        "g10": -362.7313171381188
+      },
+      "missing_constraints": [
+        "g5",
+        "g7",
+        "g8",
+        "g9"
+      ],
+      "cv": 0.0,
+      "eligible": true,
+      "research_feasible": false,
+      "objectives": [
+        0.29216170405204456,
+        0.0
+      ],
+      "status": "evaluated",
+      "physical_complete": false,
+      "evaluation_id": 186,
+      "phase": "Phase 3",
+      "algorithm": "RNSGA-II",
+      "seed": 1071858997,
+      "dynamic_runs": 1,
+      "changes": {},
+      "x": [
+        0.782801519874523,
+        0.3141478300912527,
+        0.9296242902835168,
+        0.19881438573285604,
+        0.25075336664335457,
+        0.047201374541388286,
+        0.14608085202602228
+      ]
+    }
+  },
+  {
+    "cell": {
+      "grid": "C",
+      "state": "islanded",
+      "re": 0.6,
+      "d": 0.6
+    },
+    "algorithm": "RNSGA-II",
+    "run": 0,
+    "seed": 3174272509,
+    "evaluations": 16,
+    "best": {
+      "cell": {
+        "grid": "C",
+        "state": "islanded",
+        "re": 0.6,
+        "d": 0.6
+      },
+      "design": {
+        "sites": [
+          18,
+          9,
+          16
+        ],
+        "shares": [
+          0.5645105316996691,
+          0.03966890382368512,
+          0.3958205644766457
+        ],
+        "rho": 0.3182415511211061
+      },
+      "evidence": {
+        "metrics": {
+          "nadir_hz": 59.98139261030646,
+          "rocof_hz_s": 0.03721477938708517,
+          "settling_hz": 59.99505613383611,
+          "voltage_deviation_pu": 0.03956337218956585,
+          "reserve_mw": 492.06508634345425,
+          "reserve_required_mw": 103.08,
+          "discharge_mwh": 2.0180238135035795,
+          "reserve_shortfall_mw": -388.98508634345427,
+          "spread_hz": 0.0
+        },
+        "static_pass": true,
+        "physical_limits_verified": false,
+        "unsupported_changes": [],
+        "displaced_sg_mw": 1546.2,
+        "total_mw": 492.06508634345425,
+        "total_mwh": 492.06508634345425,
+        "fault_status": "unavailable",
+        "emt_status": "unavailable",
+        "dynamic_runs": 75
+      },
+      "residuals": {
+        "g1": -4.813926103064574,
+        "g2": -9.627852206129148,
+        "g3": -2.950561338361055,
+        "g4": -3.049438661638888,
+        "g5": null,
+        "g6": -1.0436627810434154,
+        "g7": null,
+        "g8": null,
+        "g9": null,
+        "g10": -388.98508634345427
+      },
+      "missing_constraints": [
+        "g5",
+        "g7",
+        "g8",
+        "g9"
+      ],
+      "cv": 0.0,
+      "eligible": true,
+      "research_feasible": false,
+      "objectives": [
+        0.3182415511211061,
+        0.0
+      ],
+      "status": "evaluated",
+      "physical_complete": false,
+      "evaluation_id": 221,
+      "phase": "Phase 3",
+      "algorithm": "RNSGA-II",
+      "seed": 3174272509,
+      "dynamic_runs": 1,
+      "changes": {},
+      "x": [
+        0.04401375434881605,
+        0.4964325266550681,
+        0.367475788051893,
+        0.9119878253167437,
+        0.06408659413657997,
+        0.6394628896042501,
+        0.15912077556055304
+      ]
+    }
+  }
+]

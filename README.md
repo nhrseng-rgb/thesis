@@ -1,5 +1,14 @@
-<<<<<<< HEAD
-# Fig. 3.1 — Python / pandapower and MATLAB / Simulink system
+# Section 3.8 — Python / pandapower and MATLAB / Simulink system
+
+**New complete experiment controller:** [experiment_38.py](experiment_38.py). Read [SECTION_3_8.md](SECTION_3_8.md) for the entire system flow, phase-by-phase code map, research data contract, and diagrams. The files described below also retain the earlier aggregate Fig. 3.1 prototype.
+
+Run all five stages on the three benchmark cells:
+
+```powershell
+.\.venv\Scripts\python experiment_38.py --quick --output my_first_run
+```
+
+Omit `--quick` to exercise all 50 cells. The complete controller adds real-coded NSGA-II, MOPSO, archived annealing, site/share/ratio enumeration, six-group decomposition, matched-capacity spacing, all eleven sensitivity-case registrations, cap analysis and an append-only evaluation audit. Walkthrough settings reduce computation and use partial demo physics. Research mode requires calibrated models and does not fabricate missing metrics.
 
 Source: **Updated Chapter 3.pdf**, PDF pages 25–26, Fig. 3.1, with phase descriptions in Section 3.8. The original embedded figure is in [reference/X665.png](reference/X665.png).
 
@@ -105,6 +114,3 @@ The local MATLAB release is R2025b Update 1; the chapter names R2026b. A Simulin
 Demo generator and external-grid voltage targets are explicitly set to 0.99 pu, since the original IEEE39 case includes generator setpoints above the chapter's 1.05 pu ceiling and line charging raises voltages at reduced SG dispatch. This changes the demo operating point and is not a calibrated AVR setting.
 
 An isolated `.venv` is included locally and should be used for this project. The initial global installation exposed a conflict with PyPSA; the original shared pandas 3.0.6 and NumPy 2.5.3 versions were restored. The project environment contains pandapower's compatible dependencies. The downloadable ZIP omits `.venv`; recreate it with the setup commands above.
-=======
-# thesis
->>>>>>> d687c5af716e8f6bd59b6a859af7f74f0a02dfbb

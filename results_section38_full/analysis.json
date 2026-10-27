@@ -1,0 +1,2208 @@
+{
+  "cap_sensitivity": {
+    "1.0": [
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.2,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.4,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.4,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.8
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.2,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.4,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.4,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.8
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.2,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.4,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.4,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.6,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.6,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.6,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.8,
+          "d": 0.2
+        },
+        "within_cap": false,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.8,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.8,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.8,
+          "d": 0.8
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.2,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.4,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.4,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.8
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.2,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.4,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.4,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.6,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.6,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.6,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.8,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.8,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.8,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.8,
+          "d": 0.8
+        },
+        "within_cap": true,
+        "research_feasible": false
+      }
+    ],
+    "1.25": [
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.2,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.4,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.4,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.8
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.2,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.4,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.4,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.8
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.2,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.4,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.4,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.6,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.6,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.6,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.8,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.8,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.8,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.8,
+          "d": 0.8
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.2,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.4,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.4,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.8
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.2,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.4,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.4,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.6,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.6,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.6,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.8,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.8,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.8,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.8,
+          "d": 0.8
+        },
+        "within_cap": true,
+        "research_feasible": false
+      }
+    ],
+    "1.5": [
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.2,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.4,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.4,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.8
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.2,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.4,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.4,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.8
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.2,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.4,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.4,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.6,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.6,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.6,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.8,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.8,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.8,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.8,
+          "d": 0.8
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.2,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.4,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.4,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.8
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.2,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.4,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.4,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.6,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.6,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.6,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.8,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.8,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.8,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.8,
+          "d": 0.8
+        },
+        "within_cap": true,
+        "research_feasible": false
+      }
+    ],
+    "2.0": [
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.2,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.4,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.4,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.8
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.2,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.4,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.4,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.8
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.2,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.4,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.4,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.6,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.6,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.6,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.8,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.8,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.8,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "interconnected",
+          "re": 0.8,
+          "d": 0.8
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.2,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.4,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.4,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.8,
+          "d": 0.8
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.2,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.4,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.4,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.6,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.6,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.6,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.8,
+          "d": 0.2
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.8,
+          "d": 0.4
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.8,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "interconnected",
+          "re": 0.8,
+          "d": 0.8
+        },
+        "within_cap": true,
+        "research_feasible": false
+      }
+    ]
+  },
+  "tested_limits": [
+    {
+      "cap": 1.0,
+      "grid": "A",
+      "state": "islanded",
+      "maximum_tested_displacement": 0.8,
+      "maximum_tested_re": 0.8,
+      "demonstration": true
+    },
+    {
+      "cap": 1.0,
+      "grid": "B",
+      "state": "islanded",
+      "maximum_tested_displacement": 0.8,
+      "maximum_tested_re": 0.8,
+      "demonstration": true
+    },
+    {
+      "cap": 1.0,
+      "grid": "B",
+      "state": "interconnected",
+      "maximum_tested_displacement": 0.8,
+      "maximum_tested_re": 0.8,
+      "demonstration": true
+    },
+    {
+      "cap": 1.0,
+      "grid": "C",
+      "state": "islanded",
+      "maximum_tested_displacement": 0.8,
+      "maximum_tested_re": 0.8,
+      "demonstration": true
+    },
+    {
+      "cap": 1.0,
+      "grid": "C",
+      "state": "interconnected",
+      "maximum_tested_displacement": 0.8,
+      "maximum_tested_re": 0.8,
+      "demonstration": true
+    },
+    {
+      "cap": 1.25,
+      "grid": "A",
+      "state": "islanded",
+      "maximum_tested_displacement": 0.8,
+      "maximum_tested_re": 0.8,
+      "demonstration": true
+    },
+    {
+      "cap": 1.25,
+      "grid": "B",
+      "state": "islanded",
+      "maximum_tested_displacement": 0.8,
+      "maximum_tested_re": 0.8,
+      "demonstration": true
+    },
+    {
+      "cap": 1.25,
+      "grid": "B",
+      "state": "interconnected",
+      "maximum_tested_displacement": 0.8,
+      "maximum_tested_re": 0.8,
+      "demonstration": true
+    },
+    {
+      "cap": 1.25,
+      "grid": "C",
+      "state": "islanded",
+      "maximum_tested_displacement": 0.8,
+      "maximum_tested_re": 0.8,
+      "demonstration": true
+    },
+    {
+      "cap": 1.25,
+      "grid": "C",
+      "state": "interconnected",
+      "maximum_tested_displacement": 0.8,
+      "maximum_tested_re": 0.8,
+      "demonstration": true
+    },
+    {
+      "cap": 1.5,
+      "grid": "A",
+      "state": "islanded",
+      "maximum_tested_displacement": 0.8,
+      "maximum_tested_re": 0.8,
+      "demonstration": true
+    },
+    {
+      "cap": 1.5,
+      "grid": "B",
+      "state": "islanded",
+      "maximum_tested_displacement": 0.8,
+      "maximum_tested_re": 0.8,
+      "demonstration": true
+    },
+    {
+      "cap": 1.5,
+      "grid": "B",
+      "state": "interconnected",
+      "maximum_tested_displacement": 0.8,
+      "maximum_tested_re": 0.8,
+      "demonstration": true
+    },
+    {
+      "cap": 1.5,
+      "grid": "C",
+      "state": "islanded",
+      "maximum_tested_displacement": 0.8,
+      "maximum_tested_re": 0.8,
+      "demonstration": true
+    },
+    {
+      "cap": 1.5,
+      "grid": "C",
+      "state": "interconnected",
+      "maximum_tested_displacement": 0.8,
+      "maximum_tested_re": 0.8,
+      "demonstration": true
+    },
+    {
+      "cap": 2.0,
+      "grid": "A",
+      "state": "islanded",
+      "maximum_tested_displacement": 0.8,
+      "maximum_tested_re": 0.8,
+      "demonstration": true
+    },
+    {
+      "cap": 2.0,
+      "grid": "B",
+      "state": "islanded",
+      "maximum_tested_displacement": 0.8,
+      "maximum_tested_re": 0.8,
+      "demonstration": true
+    },
+    {
+      "cap": 2.0,
+      "grid": "B",
+      "state": "interconnected",
+      "maximum_tested_displacement": 0.8,
+      "maximum_tested_re": 0.8,
+      "demonstration": true
+    },
+    {
+      "cap": 2.0,
+      "grid": "C",
+      "state": "islanded",
+      "maximum_tested_displacement": 0.8,
+      "maximum_tested_re": 0.8,
+      "demonstration": true
+    },
+    {
+      "cap": 2.0,
+      "grid": "C",
+      "state": "interconnected",
+      "maximum_tested_displacement": 0.8,
+      "maximum_tested_re": 0.8,
+      "demonstration": true
+    }
+  ],
+  "handovers": [],
+  "failure_counts": {
+    "FFR": {
+      "evaluated": 2187,
+      "failed": 0,
+      "unknown": 0
+    },
+    "RoCoF": {
+      "evaluated": 2187,
+      "failed": 0,
+      "unknown": 0
+    },
+    "PR": {
+      "evaluated": 2187,
+      "failed": 0,
+      "unknown": 0
+    },
+    "Q": {
+      "evaluated": 0,
+      "failed": 0,
+      "unknown": 2187
+    },
+    "STAB": {
+      "evaluated": 0,
+      "failed": 0,
+      "unknown": 2187
+    },
+    "REG": {
+      "evaluated": 2187,
+      "failed": 440,
+      "unknown": 0
+    }
+  },
+  "failure_denominator": "measured evaluations per group; unknown reported separately"
+}

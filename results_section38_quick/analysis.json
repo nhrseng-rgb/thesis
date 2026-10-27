@@ -1,0 +1,328 @@
+{
+  "cap_sensitivity": {
+    "1.0": [
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      }
+    ],
+    "1.25": [
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      }
+    ],
+    "1.5": [
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      }
+    ],
+    "2.0": [
+      {
+        "cell": {
+          "grid": "A",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "B",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      },
+      {
+        "cell": {
+          "grid": "C",
+          "state": "islanded",
+          "re": 0.6,
+          "d": 0.6
+        },
+        "within_cap": true,
+        "research_feasible": false
+      }
+    ]
+  },
+  "tested_limits": [
+    {
+      "cap": 1.0,
+      "grid": "A",
+      "state": "islanded",
+      "maximum_tested_displacement": 0.6,
+      "maximum_tested_re": 0.6,
+      "demonstration": true
+    },
+    {
+      "cap": 1.0,
+      "grid": "B",
+      "state": "islanded",
+      "maximum_tested_displacement": 0.6,
+      "maximum_tested_re": 0.6,
+      "demonstration": true
+    },
+    {
+      "cap": 1.0,
+      "grid": "B",
+      "state": "interconnected",
+      "maximum_tested_displacement": null,
+      "maximum_tested_re": null,
+      "demonstration": true
+    },
+    {
+      "cap": 1.0,
+      "grid": "C",
+      "state": "islanded",
+      "maximum_tested_displacement": 0.6,
+      "maximum_tested_re": 0.6,
+      "demonstration": true
+    },
+    {
+      "cap": 1.0,
+      "grid": "C",
+      "state": "interconnected",
+      "maximum_tested_displacement": null,
+      "maximum_tested_re": null,
+      "demonstration": true
+    },
+    {
+      "cap": 1.25,
+      "grid": "A",
+      "state": "islanded",
+      "maximum_tested_displacement": 0.6,
+      "maximum_tested_re": 0.6,
+      "demonstration": true
+    },
+    {
+      "cap": 1.25,
+      "grid": "B",
+      "state": "islanded",
+      "maximum_tested_displacement": 0.6,
+      "maximum_tested_re": 0.6,
+      "demonstration": true
+    },
+    {
+      "cap": 1.25,
+      "grid": "B",
+      "state": "interconnected",
+      "maximum_tested_displacement": null,
+      "maximum_tested_re": null,
+      "demonstration": true
+    },
+    {
+      "cap": 1.25,
+      "grid": "C",
+      "state": "islanded",
+      "maximum_tested_displacement": 0.6,
+      "maximum_tested_re": 0.6,
+      "demonstration": true
+    },
+    {
+      "cap": 1.25,
+      "grid": "C",
+      "state": "interconnected",
+      "maximum_tested_displacement": null,
+      "maximum_tested_re": null,
+      "demonstration": true
+    },
+    {
+      "cap": 1.5,
+      "grid": "A",
+      "state": "islanded",
+      "maximum_tested_displacement": 0.6,
+      "maximum_tested_re": 0.6,
+      "demonstration": true
+    },
+    {
+      "cap": 1.5,
+      "grid": "B",
+      "state": "islanded",
+      "maximum_tested_displacement": 0.6,
+      "maximum_tested_re": 0.6,
+      "demonstration": true
+    },
+    {
+      "cap": 1.5,
+      "grid": "B",
+      "state": "interconnected",
+      "maximum_tested_displacement": null,
+      "maximum_tested_re": null,
+      "demonstration": true
+    },
+    {
+      "cap": 1.5,
+      "grid": "C",
+      "state": "islanded",
+      "maximum_tested_displacement": 0.6,
+      "maximum_tested_re": 0.6,
+      "demonstration": true
+    },
+    {
+      "cap": 1.5,
+      "grid": "C",
+      "state": "interconnected",
+      "maximum_tested_displacement": null,
+      "maximum_tested_re": null,
+      "demonstration": true
+    },
+    {
+      "cap": 2.0,
+      "grid": "A",
+      "state": "islanded",
+      "maximum_tested_displacement": 0.6,
+      "maximum_tested_re": 0.6,
+      "demonstration": true
+    },
+    {
+      "cap": 2.0,
+      "grid": "B",
+      "state": "islanded",
+      "maximum_tested_displacement": 0.6,
+      "maximum_tested_re": 0.6,
+      "demonstration": true
+    },
+    {
+      "cap": 2.0,
+      "grid": "B",
+      "state": "interconnected",
+      "maximum_tested_displacement": null,
+      "maximum_tested_re": null,
+      "demonstration": true
+    },
+    {
+      "cap": 2.0,
+      "grid": "C",
+      "state": "islanded",
+      "maximum_tested_displacement": 0.6,
+      "maximum_tested_re": 0.6,
+      "demonstration": true
+    },
+    {
+      "cap": 2.0,
+      "grid": "C",
+      "state": "interconnected",
+      "maximum_tested_displacement": null,
+      "maximum_tested_re": null,
+      "demonstration": true
+    }
+  ],
+  "handovers": [],
+  "failure_counts": {
+    "FFR": {
+      "evaluated": 890,
+      "failed": 0,
+      "unknown": 0
+    },
+    "RoCoF": {
+      "evaluated": 890,
+      "failed": 0,
+      "unknown": 0
+    },
+    "PR": {
+      "evaluated": 890,
+      "failed": 0,
+      "unknown": 0
+    },
+    "Q": {
+      "evaluated": 0,
+      "failed": 0,
+      "unknown": 890
+    },
+    "STAB": {
+      "evaluated": 0,
+      "failed": 0,
+      "unknown": 890
+    },
+    "REG": {
+      "evaluated": 890,
+      "failed": 57,
+      "unknown": 0
+    }
+  },
+  "failure_denominator": "measured evaluations per group; unknown reported separately"
+}

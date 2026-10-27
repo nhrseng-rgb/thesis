@@ -1,0 +1,46 @@
+{
+  "candidates": {
+    "A": [
+      18,
+      25,
+      27,
+      28,
+      9,
+      26,
+      23,
+      24,
+      16,
+      12
+    ],
+    "B": [
+      18,
+      25,
+      27,
+      28,
+      9,
+      26,
+      23,
+      24,
+      16,
+      12
+    ],
+    "C": [
+      18,
+      25,
+      27,
+      28,
+      9,
+      26,
+      23,
+      24,
+      16,
+      12
+    ]
+  },
+  "tie_breaker": {
+    "A": false,
+    "B": false,
+    "C": false
+  },
+  "distance_definition": "DC effective reactance; rank-tercile dispersion classes"
+}

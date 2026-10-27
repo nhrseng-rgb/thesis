@@ -1,0 +1,122 @@
+[
+  {
+    "grid": "A",
+    "re": 0.2,
+    "path": "C:\\abacus\\results_section38_verified\\baselines\\A_re20.json",
+    "converged": true,
+    "sg_retained": true,
+    "dynamic_seconds": 1.5227096999878995,
+    "frequency_spread_hz": null,
+    "reference_solution_verified": false
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "path": "C:\\abacus\\results_section38_verified\\baselines\\A_re40.json",
+    "converged": true,
+    "sg_retained": true,
+    "dynamic_seconds": 0.2739414000243414,
+    "frequency_spread_hz": null,
+    "reference_solution_verified": false
+  },
+  {
+    "grid": "A",
+    "re": 0.6,
+    "path": "C:\\abacus\\results_section38_verified\\baselines\\A_re60.json",
+    "converged": true,
+    "sg_retained": true,
+    "dynamic_seconds": 0.27546480001183227,
+    "frequency_spread_hz": null,
+    "reference_solution_verified": false
+  },
+  {
+    "grid": "A",
+    "re": 0.8,
+    "path": "C:\\abacus\\results_section38_verified\\baselines\\A_re80.json",
+    "converged": true,
+    "sg_retained": true,
+    "dynamic_seconds": 0.28756239998620003,
+    "frequency_spread_hz": null,
+    "reference_solution_verified": false
+  },
+  {
+    "grid": "B",
+    "re": 0.2,
+    "path": "C:\\abacus\\results_section38_verified\\baselines\\B_re20.json",
+    "converged": true,
+    "sg_retained": true,
+    "dynamic_seconds": 1.6429576999798883,
+    "frequency_spread_hz": null,
+    "reference_solution_verified": false
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "path": "C:\\abacus\\results_section38_verified\\baselines\\B_re40.json",
+    "converged": true,
+    "sg_retained": true,
+    "dynamic_seconds": 0.2895104000053834,
+    "frequency_spread_hz": null,
+    "reference_solution_verified": false
+  },
+  {
+    "grid": "B",
+    "re": 0.6,
+    "path": "C:\\abacus\\results_section38_verified\\baselines\\B_re60.json",
+    "converged": true,
+    "sg_retained": true,
+    "dynamic_seconds": 0.28260050000972115,
+    "frequency_spread_hz": null,
+    "reference_solution_verified": false
+  },
+  {
+    "grid": "B",
+    "re": 0.8,
+    "path": "C:\\abacus\\results_section38_verified\\baselines\\B_re80.json",
+    "converged": true,
+    "sg_retained": true,
+    "dynamic_seconds": 0.2840685000119265,
+    "frequency_spread_hz": null,
+    "reference_solution_verified": false
+  },
+  {
+    "grid": "C",
+    "re": 0.2,
+    "path": "C:\\abacus\\results_section38_verified\\baselines\\C_re20.json",
+    "converged": true,
+    "sg_retained": true,
+    "dynamic_seconds": 1.5156286999990698,
+    "frequency_spread_hz": null,
+    "reference_solution_verified": false
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "path": "C:\\abacus\\results_section38_verified\\baselines\\C_re40.json",
+    "converged": true,
+    "sg_retained": true,
+    "dynamic_seconds": 0.2800672000157647,
+    "frequency_spread_hz": null,
+    "reference_solution_verified": false
+  },
+  {
+    "grid": "C",
+    "re": 0.6,
+    "path": "C:\\abacus\\results_section38_verified\\baselines\\C_re60.json",
+    "converged": true,
+    "sg_retained": true,
+    "dynamic_seconds": 0.30394529999466613,
+    "frequency_spread_hz": null,
+    "reference_solution_verified": false
+  },
+  {
+    "grid": "C",
+    "re": 0.8,
+    "path": "C:\\abacus\\results_section38_verified\\baselines\\C_re80.json",
+    "converged": true,
+    "sg_retained": true,
+    "dynamic_seconds": 0.29173359999549575,
+    "frequency_spread_hz": null,
+    "reference_solution_verified": false
+  }
+]

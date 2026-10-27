@@ -1,0 +1,1430 @@
+[
+  {
+    "grid": "A",
+    "options": [
+      {
+        "n": 1,
+        "dispersion": "none",
+        "best": {
+          "cell": {
+            "grid": "A",
+            "re": 0.4,
+            "d": 0.4,
+            "state": "islanded"
+          },
+          "design": {
+            "sites": [
+              18
+            ],
+            "shares": [
+              1.0
+            ],
+            "rho": 0.5
+          },
+          "evidence": {
+            "metrics": {
+              "nadir_hz": 59.986912099108636,
+              "rocof_hz_s": 0.026175801782727603,
+              "settling_hz": 59.99682267884324,
+              "voltage_deviation_pu": 0.03651094516069375,
+              "reserve_mw": 2803.2000000000003,
+              "reserve_required_mw": 560.64,
+              "discharge_mwh": 7.393632535117661,
+              "reserve_shortfall_mw": -2242.5600000000004,
+              "spread_hz": 0.0
+            },
+            "static_pass": true,
+            "physical_limits_verified": false,
+            "unsupported_changes": [],
+            "displaced_sg_mw": 5606.400000000001,
+            "total_mw": 2803.2000000000003,
+            "total_mwh": 2803.2000000000003,
+            "fault_status": "unavailable",
+            "emt_status": "unavailable",
+            "dynamic_runs": 14
+          },
+          "residuals": {
+            "g1": -4.869120991086362,
+            "g2": -9.738241982172724,
+            "g3": -2.9682267884323466,
+            "g4": -3.0317732115675966,
+            "g5": null,
+            "g6": -1.348905483930625,
+            "g7": null,
+            "g8": null,
+            "g9": null,
+            "g10": -2242.5600000000004
+          },
+          "missing_constraints": [
+            "g5",
+            "g7",
+            "g8",
+            "g9"
+          ],
+          "cv": 0.0,
+          "eligible": true,
+          "research_feasible": false,
+          "objectives": [
+            0.5,
+            0.0
+          ],
+          "status": "evaluated",
+          "physical_complete": false,
+          "evaluation_id": 2,
+          "phase": "Phase 2",
+          "algorithm": "finite-grid enumeration",
+          "seed": null,
+          "dynamic_runs": 1,
+          "changes": {}
+        },
+        "evaluations": 10,
+        "complete_site_enumeration": false,
+        "share_grid": "equal only",
+        "ratio_grid": [
+          0.0,
+          0.5,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "global_continuous_optimum": false
+      },
+      {
+        "n": 3,
+        "dispersion": "Medium",
+        "best": {
+          "cell": {
+            "grid": "A",
+            "re": 0.4,
+            "d": 0.4,
+            "state": "islanded"
+          },
+          "design": {
+            "sites": [
+              9,
+              26,
+              24
+            ],
+            "shares": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "rho": 0.5
+          },
+          "evidence": {
+            "metrics": {
+              "nadir_hz": 59.986912099108636,
+              "rocof_hz_s": 0.026175801782727603,
+              "settling_hz": 59.99682267884324,
+              "voltage_deviation_pu": 0.03651094516069375,
+              "reserve_mw": 2803.2000000000003,
+              "reserve_required_mw": 560.64,
+              "discharge_mwh": 7.393632535117661,
+              "reserve_shortfall_mw": -2242.5600000000004,
+              "spread_hz": 0.0
+            },
+            "static_pass": true,
+            "physical_limits_verified": false,
+            "unsupported_changes": [],
+            "displaced_sg_mw": 5606.400000000001,
+            "total_mw": 2803.2000000000003,
+            "total_mwh": 2803.2000000000003,
+            "fault_status": "unavailable",
+            "emt_status": "unavailable",
+            "dynamic_runs": 17
+          },
+          "residuals": {
+            "g1": -4.869120991086362,
+            "g2": -9.738241982172724,
+            "g3": -2.9682267884323466,
+            "g4": -3.0317732115675966,
+            "g5": null,
+            "g6": -1.348905483930625,
+            "g7": null,
+            "g8": null,
+            "g9": null,
+            "g10": -2242.5600000000004
+          },
+          "missing_constraints": [
+            "g5",
+            "g7",
+            "g8",
+            "g9"
+          ],
+          "cv": 0.0,
+          "eligible": true,
+          "research_feasible": false,
+          "objectives": [
+            0.5,
+            0.0
+          ],
+          "status": "evaluated",
+          "physical_complete": false,
+          "evaluation_id": 12,
+          "phase": "Phase 2",
+          "algorithm": "finite-grid enumeration",
+          "seed": null,
+          "dynamic_runs": 0,
+          "changes": {}
+        },
+        "evaluations": 10,
+        "complete_site_enumeration": false,
+        "share_grid": "equal only",
+        "ratio_grid": [
+          0.0,
+          0.5,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "global_continuous_optimum": false
+      },
+      {
+        "n": 5,
+        "dispersion": "Medium",
+        "best": {
+          "cell": {
+            "grid": "A",
+            "re": 0.4,
+            "d": 0.4,
+            "state": "islanded"
+          },
+          "design": {
+            "sites": [
+              27,
+              26,
+              24,
+              16,
+              12
+            ],
+            "shares": [
+              0.2,
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "rho": 0.5
+          },
+          "evidence": {
+            "metrics": {
+              "nadir_hz": 59.986912099108636,
+              "rocof_hz_s": 0.026175801782727603,
+              "settling_hz": 59.99682267884324,
+              "voltage_deviation_pu": 0.03651094516069375,
+              "reserve_mw": 2803.2000000000003,
+              "reserve_required_mw": 560.64,
+              "discharge_mwh": 7.393632535117661,
+              "reserve_shortfall_mw": -2242.5600000000004,
+              "spread_hz": 0.0
+            },
+            "static_pass": true,
+            "physical_limits_verified": false,
+            "unsupported_changes": [],
+            "displaced_sg_mw": 5606.400000000001,
+            "total_mw": 2803.2000000000003,
+            "total_mwh": 2803.2000000000003,
+            "fault_status": "unavailable",
+            "emt_status": "unavailable",
+            "dynamic_runs": 17
+          },
+          "residuals": {
+            "g1": -4.869120991086362,
+            "g2": -9.738241982172724,
+            "g3": -2.9682267884323466,
+            "g4": -3.0317732115675966,
+            "g5": null,
+            "g6": -1.348905483930625,
+            "g7": null,
+            "g8": null,
+            "g9": null,
+            "g10": -2242.5600000000004
+          },
+          "missing_constraints": [
+            "g5",
+            "g7",
+            "g8",
+            "g9"
+          ],
+          "cv": 0.0,
+          "eligible": true,
+          "research_feasible": false,
+          "objectives": [
+            0.5,
+            0.0
+          ],
+          "status": "evaluated",
+          "physical_complete": false,
+          "evaluation_id": 22,
+          "phase": "Phase 2",
+          "algorithm": "finite-grid enumeration",
+          "seed": null,
+          "dynamic_runs": 0,
+          "changes": {}
+        },
+        "evaluations": 10,
+        "complete_site_enumeration": false,
+        "share_grid": "equal only",
+        "ratio_grid": [
+          0.0,
+          0.5,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "global_continuous_optimum": false
+      },
+      {
+        "n": 3,
+        "dispersion": "Low",
+        "best": {
+          "cell": {
+            "grid": "A",
+            "re": 0.4,
+            "d": 0.4,
+            "state": "islanded"
+          },
+          "design": {
+            "sites": [
+              25,
+              26,
+              16
+            ],
+            "shares": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "rho": 0.5
+          },
+          "evidence": {
+            "metrics": {
+              "nadir_hz": 59.986912099108636,
+              "rocof_hz_s": 0.026175801782727603,
+              "settling_hz": 59.99682267884324,
+              "voltage_deviation_pu": 0.03651094516069375,
+              "reserve_mw": 2803.2000000000003,
+              "reserve_required_mw": 560.64,
+              "discharge_mwh": 7.393632535117661,
+              "reserve_shortfall_mw": -2242.5600000000004,
+              "spread_hz": 0.0
+            },
+            "static_pass": true,
+            "physical_limits_verified": false,
+            "unsupported_changes": [],
+            "displaced_sg_mw": 5606.400000000001,
+            "total_mw": 2803.2000000000003,
+            "total_mwh": 2803.2000000000003,
+            "fault_status": "unavailable",
+            "emt_status": "unavailable",
+            "dynamic_runs": 17
+          },
+          "residuals": {
+            "g1": -4.869120991086362,
+            "g2": -9.738241982172724,
+            "g3": -2.9682267884323466,
+            "g4": -3.0317732115675966,
+            "g5": null,
+            "g6": -1.348905483930625,
+            "g7": null,
+            "g8": null,
+            "g9": null,
+            "g10": -2242.5600000000004
+          },
+          "missing_constraints": [
+            "g5",
+            "g7",
+            "g8",
+            "g9"
+          ],
+          "cv": 0.0,
+          "eligible": true,
+          "research_feasible": false,
+          "objectives": [
+            0.5,
+            0.0
+          ],
+          "status": "evaluated",
+          "physical_complete": false,
+          "evaluation_id": 32,
+          "phase": "Phase 2",
+          "algorithm": "finite-grid enumeration",
+          "seed": null,
+          "dynamic_runs": 0,
+          "changes": {}
+        },
+        "evaluations": 10,
+        "complete_site_enumeration": false,
+        "share_grid": "equal only",
+        "ratio_grid": [
+          0.0,
+          0.5,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "global_continuous_optimum": false
+      },
+      {
+        "n": 3,
+        "dispersion": "High",
+        "best": {
+          "cell": {
+            "grid": "A",
+            "re": 0.4,
+            "d": 0.4,
+            "state": "islanded"
+          },
+          "design": {
+            "sites": [
+              25,
+              27,
+              9
+            ],
+            "shares": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "rho": 0.5
+          },
+          "evidence": {
+            "metrics": {
+              "nadir_hz": 59.986912099108636,
+              "rocof_hz_s": 0.026175801782727603,
+              "settling_hz": 59.99682267884324,
+              "voltage_deviation_pu": 0.03651094516069375,
+              "reserve_mw": 2803.2000000000003,
+              "reserve_required_mw": 560.64,
+              "discharge_mwh": 7.393632535117661,
+              "reserve_shortfall_mw": -2242.5600000000004,
+              "spread_hz": 0.0
+            },
+            "static_pass": true,
+            "physical_limits_verified": false,
+            "unsupported_changes": [],
+            "displaced_sg_mw": 5606.400000000001,
+            "total_mw": 2803.2000000000003,
+            "total_mwh": 2803.2000000000003,
+            "fault_status": "unavailable",
+            "emt_status": "unavailable",
+            "dynamic_runs": 17
+          },
+          "residuals": {
+            "g1": -4.869120991086362,
+            "g2": -9.738241982172724,
+            "g3": -2.9682267884323466,
+            "g4": -3.0317732115675966,
+            "g5": null,
+            "g6": -1.348905483930625,
+            "g7": null,
+            "g8": null,
+            "g9": null,
+            "g10": -2242.5600000000004
+          },
+          "missing_constraints": [
+            "g5",
+            "g7",
+            "g8",
+            "g9"
+          ],
+          "cv": 0.0,
+          "eligible": true,
+          "research_feasible": false,
+          "objectives": [
+            0.5,
+            0.0
+          ],
+          "status": "evaluated",
+          "physical_complete": false,
+          "evaluation_id": 42,
+          "phase": "Phase 2",
+          "algorithm": "finite-grid enumeration",
+          "seed": null,
+          "dynamic_runs": 0,
+          "changes": {}
+        },
+        "evaluations": 10,
+        "complete_site_enumeration": false,
+        "share_grid": "equal only",
+        "ratio_grid": [
+          0.0,
+          0.5,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "global_continuous_optimum": false
+      }
+    ],
+    "relative_variation": 0.0,
+    "decisions": {
+      "0.01": {
+        "n": 3,
+        "dispersion": "Medium"
+      },
+      "0.02": {
+        "n": 3,
+        "dispersion": "Medium"
+      },
+      "0.05": {
+        "n": 3,
+        "dispersion": "Medium"
+      }
+    },
+    "all_configurations_pass": true
+  },
+  {
+    "grid": "B",
+    "options": [
+      {
+        "n": 1,
+        "dispersion": "none",
+        "best": {
+          "cell": {
+            "grid": "B",
+            "re": 0.4,
+            "d": 0.4,
+            "state": "islanded"
+          },
+          "design": {
+            "sites": [
+              18
+            ],
+            "shares": [
+              1.0
+            ],
+            "rho": 0.5
+          },
+          "evidence": {
+            "metrics": {
+              "nadir_hz": 59.98463572510413,
+              "rocof_hz_s": 0.030728549791746218,
+              "settling_hz": 59.99627004848936,
+              "voltage_deviation_pu": 0.036510945160693975,
+              "reserve_mw": 536.2,
+              "reserve_required_mw": 107.24000000000001,
+              "discharge_mwh": 1.6602468260297334,
+              "reserve_shortfall_mw": -428.96000000000004,
+              "spread_hz": 0.0
+            },
+            "static_pass": true,
+            "physical_limits_verified": false,
+            "unsupported_changes": [],
+            "displaced_sg_mw": 1072.4,
+            "total_mw": 536.2,
+            "total_mwh": 536.2,
+            "fault_status": "unavailable",
+            "emt_status": "unavailable",
+            "dynamic_runs": 19
+          },
+          "residuals": {
+            "g1": -4.846357251041269,
+            "g2": -9.692714502082538,
+            "g3": -2.9627004848935456,
+            "g4": -3.0372995151063975,
+            "g5": null,
+            "g6": -1.3489054839306027,
+            "g7": null,
+            "g8": null,
+            "g9": null,
+            "g10": -428.96000000000004
+          },
+          "missing_constraints": [
+            "g5",
+            "g7",
+            "g8",
+            "g9"
+          ],
+          "cv": 0.0,
+          "eligible": true,
+          "research_feasible": false,
+          "objectives": [
+            0.5,
+            0.0
+          ],
+          "status": "evaluated",
+          "physical_complete": false,
+          "evaluation_id": 52,
+          "phase": "Phase 2",
+          "algorithm": "finite-grid enumeration",
+          "seed": null,
+          "dynamic_runs": 1,
+          "changes": {}
+        },
+        "evaluations": 10,
+        "complete_site_enumeration": false,
+        "share_grid": "equal only",
+        "ratio_grid": [
+          0.0,
+          0.5,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "global_continuous_optimum": false
+      },
+      {
+        "n": 3,
+        "dispersion": "Medium",
+        "best": {
+          "cell": {
+            "grid": "B",
+            "re": 0.4,
+            "d": 0.4,
+            "state": "islanded"
+          },
+          "design": {
+            "sites": [
+              9,
+              26,
+              24
+            ],
+            "shares": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "rho": 0.5
+          },
+          "evidence": {
+            "metrics": {
+              "nadir_hz": 59.98463572510413,
+              "rocof_hz_s": 0.030728549791746218,
+              "settling_hz": 59.99627004848936,
+              "voltage_deviation_pu": 0.036510945160693975,
+              "reserve_mw": 536.2,
+              "reserve_required_mw": 107.24000000000001,
+              "discharge_mwh": 1.6602468260297334,
+              "reserve_shortfall_mw": -428.96000000000004,
+              "spread_hz": 0.0
+            },
+            "static_pass": true,
+            "physical_limits_verified": false,
+            "unsupported_changes": [],
+            "displaced_sg_mw": 1072.4,
+            "total_mw": 536.2,
+            "total_mwh": 536.2,
+            "fault_status": "unavailable",
+            "emt_status": "unavailable",
+            "dynamic_runs": 22
+          },
+          "residuals": {
+            "g1": -4.846357251041269,
+            "g2": -9.692714502082538,
+            "g3": -2.9627004848935456,
+            "g4": -3.0372995151063975,
+            "g5": null,
+            "g6": -1.3489054839306027,
+            "g7": null,
+            "g8": null,
+            "g9": null,
+            "g10": -428.96000000000004
+          },
+          "missing_constraints": [
+            "g5",
+            "g7",
+            "g8",
+            "g9"
+          ],
+          "cv": 0.0,
+          "eligible": true,
+          "research_feasible": false,
+          "objectives": [
+            0.5,
+            0.0
+          ],
+          "status": "evaluated",
+          "physical_complete": false,
+          "evaluation_id": 62,
+          "phase": "Phase 2",
+          "algorithm": "finite-grid enumeration",
+          "seed": null,
+          "dynamic_runs": 0,
+          "changes": {}
+        },
+        "evaluations": 10,
+        "complete_site_enumeration": false,
+        "share_grid": "equal only",
+        "ratio_grid": [
+          0.0,
+          0.5,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "global_continuous_optimum": false
+      },
+      {
+        "n": 5,
+        "dispersion": "Medium",
+        "best": {
+          "cell": {
+            "grid": "B",
+            "re": 0.4,
+            "d": 0.4,
+            "state": "islanded"
+          },
+          "design": {
+            "sites": [
+              27,
+              26,
+              24,
+              16,
+              12
+            ],
+            "shares": [
+              0.2,
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "rho": 0.5
+          },
+          "evidence": {
+            "metrics": {
+              "nadir_hz": 59.98463572510413,
+              "rocof_hz_s": 0.030728549791746218,
+              "settling_hz": 59.99627004848936,
+              "voltage_deviation_pu": 0.036510945160693975,
+              "reserve_mw": 536.2,
+              "reserve_required_mw": 107.24000000000001,
+              "discharge_mwh": 1.6602468260297334,
+              "reserve_shortfall_mw": -428.96000000000004,
+              "spread_hz": 0.0
+            },
+            "static_pass": true,
+            "physical_limits_verified": false,
+            "unsupported_changes": [],
+            "displaced_sg_mw": 1072.4,
+            "total_mw": 536.2,
+            "total_mwh": 536.2,
+            "fault_status": "unavailable",
+            "emt_status": "unavailable",
+            "dynamic_runs": 22
+          },
+          "residuals": {
+            "g1": -4.846357251041269,
+            "g2": -9.692714502082538,
+            "g3": -2.9627004848935456,
+            "g4": -3.0372995151063975,
+            "g5": null,
+            "g6": -1.3489054839306027,
+            "g7": null,
+            "g8": null,
+            "g9": null,
+            "g10": -428.96000000000004
+          },
+          "missing_constraints": [
+            "g5",
+            "g7",
+            "g8",
+            "g9"
+          ],
+          "cv": 0.0,
+          "eligible": true,
+          "research_feasible": false,
+          "objectives": [
+            0.5,
+            0.0
+          ],
+          "status": "evaluated",
+          "physical_complete": false,
+          "evaluation_id": 72,
+          "phase": "Phase 2",
+          "algorithm": "finite-grid enumeration",
+          "seed": null,
+          "dynamic_runs": 0,
+          "changes": {}
+        },
+        "evaluations": 10,
+        "complete_site_enumeration": false,
+        "share_grid": "equal only",
+        "ratio_grid": [
+          0.0,
+          0.5,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "global_continuous_optimum": false
+      },
+      {
+        "n": 3,
+        "dispersion": "Low",
+        "best": {
+          "cell": {
+            "grid": "B",
+            "re": 0.4,
+            "d": 0.4,
+            "state": "islanded"
+          },
+          "design": {
+            "sites": [
+              25,
+              26,
+              16
+            ],
+            "shares": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "rho": 0.5
+          },
+          "evidence": {
+            "metrics": {
+              "nadir_hz": 59.98463572510413,
+              "rocof_hz_s": 0.030728549791746218,
+              "settling_hz": 59.99627004848936,
+              "voltage_deviation_pu": 0.036510945160693975,
+              "reserve_mw": 536.2,
+              "reserve_required_mw": 107.24000000000001,
+              "discharge_mwh": 1.6602468260297334,
+              "reserve_shortfall_mw": -428.96000000000004,
+              "spread_hz": 0.0
+            },
+            "static_pass": true,
+            "physical_limits_verified": false,
+            "unsupported_changes": [],
+            "displaced_sg_mw": 1072.4,
+            "total_mw": 536.2,
+            "total_mwh": 536.2,
+            "fault_status": "unavailable",
+            "emt_status": "unavailable",
+            "dynamic_runs": 22
+          },
+          "residuals": {
+            "g1": -4.846357251041269,
+            "g2": -9.692714502082538,
+            "g3": -2.9627004848935456,
+            "g4": -3.0372995151063975,
+            "g5": null,
+            "g6": -1.3489054839306027,
+            "g7": null,
+            "g8": null,
+            "g9": null,
+            "g10": -428.96000000000004
+          },
+          "missing_constraints": [
+            "g5",
+            "g7",
+            "g8",
+            "g9"
+          ],
+          "cv": 0.0,
+          "eligible": true,
+          "research_feasible": false,
+          "objectives": [
+            0.5,
+            0.0
+          ],
+          "status": "evaluated",
+          "physical_complete": false,
+          "evaluation_id": 82,
+          "phase": "Phase 2",
+          "algorithm": "finite-grid enumeration",
+          "seed": null,
+          "dynamic_runs": 0,
+          "changes": {}
+        },
+        "evaluations": 10,
+        "complete_site_enumeration": false,
+        "share_grid": "equal only",
+        "ratio_grid": [
+          0.0,
+          0.5,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "global_continuous_optimum": false
+      },
+      {
+        "n": 3,
+        "dispersion": "High",
+        "best": {
+          "cell": {
+            "grid": "B",
+            "re": 0.4,
+            "d": 0.4,
+            "state": "islanded"
+          },
+          "design": {
+            "sites": [
+              25,
+              27,
+              9
+            ],
+            "shares": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "rho": 0.5
+          },
+          "evidence": {
+            "metrics": {
+              "nadir_hz": 59.98463572510413,
+              "rocof_hz_s": 0.030728549791746218,
+              "settling_hz": 59.99627004848936,
+              "voltage_deviation_pu": 0.036510945160693975,
+              "reserve_mw": 536.2,
+              "reserve_required_mw": 107.24000000000001,
+              "discharge_mwh": 1.6602468260297334,
+              "reserve_shortfall_mw": -428.96000000000004,
+              "spread_hz": 0.0
+            },
+            "static_pass": true,
+            "physical_limits_verified": false,
+            "unsupported_changes": [],
+            "displaced_sg_mw": 1072.4,
+            "total_mw": 536.2,
+            "total_mwh": 536.2,
+            "fault_status": "unavailable",
+            "emt_status": "unavailable",
+            "dynamic_runs": 22
+          },
+          "residuals": {
+            "g1": -4.846357251041269,
+            "g2": -9.692714502082538,
+            "g3": -2.9627004848935456,
+            "g4": -3.0372995151063975,
+            "g5": null,
+            "g6": -1.3489054839306027,
+            "g7": null,
+            "g8": null,
+            "g9": null,
+            "g10": -428.96000000000004
+          },
+          "missing_constraints": [
+            "g5",
+            "g7",
+            "g8",
+            "g9"
+          ],
+          "cv": 0.0,
+          "eligible": true,
+          "research_feasible": false,
+          "objectives": [
+            0.5,
+            0.0
+          ],
+          "status": "evaluated",
+          "physical_complete": false,
+          "evaluation_id": 92,
+          "phase": "Phase 2",
+          "algorithm": "finite-grid enumeration",
+          "seed": null,
+          "dynamic_runs": 0,
+          "changes": {}
+        },
+        "evaluations": 10,
+        "complete_site_enumeration": false,
+        "share_grid": "equal only",
+        "ratio_grid": [
+          0.0,
+          0.5,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "global_continuous_optimum": false
+      }
+    ],
+    "relative_variation": 0.0,
+    "decisions": {
+      "0.01": {
+        "n": 3,
+        "dispersion": "Medium"
+      },
+      "0.02": {
+        "n": 3,
+        "dispersion": "Medium"
+      },
+      "0.05": {
+        "n": 3,
+        "dispersion": "Medium"
+      }
+    },
+    "all_configurations_pass": true
+  },
+  {
+    "grid": "C",
+    "options": [
+      {
+        "n": 1,
+        "dispersion": "none",
+        "best": {
+          "cell": {
+            "grid": "C",
+            "re": 0.4,
+            "d": 0.4,
+            "state": "islanded"
+          },
+          "design": {
+            "sites": [
+              18
+            ],
+            "shares": [
+              1.0
+            ],
+            "rho": 0.5
+          },
+          "evidence": {
+            "metrics": {
+              "nadir_hz": 59.984015668998424,
+              "rocof_hz_s": 0.03196866200315185,
+              "settling_hz": 59.99611951882035,
+              "voltage_deviation_pu": 0.03651094516069353,
+              "reserve_mw": 515.4,
+              "reserve_required_mw": 103.08,
+              "discharge_mwh": 1.6602468263460857,
+              "reserve_shortfall_mw": -412.32,
+              "spread_hz": 0.0
+            },
+            "static_pass": true,
+            "physical_limits_verified": false,
+            "unsupported_changes": [],
+            "displaced_sg_mw": 1030.8,
+            "total_mw": 515.4,
+            "total_mwh": 515.4,
+            "fault_status": "unavailable",
+            "emt_status": "unavailable",
+            "dynamic_runs": 24
+          },
+          "residuals": {
+            "g1": -4.840156689984241,
+            "g2": -9.680313379968482,
+            "g3": -2.961195188203476,
+            "g4": -3.038804811796467,
+            "g5": null,
+            "g6": -1.3489054839306471,
+            "g7": null,
+            "g8": null,
+            "g9": null,
+            "g10": -412.32
+          },
+          "missing_constraints": [
+            "g5",
+            "g7",
+            "g8",
+            "g9"
+          ],
+          "cv": 0.0,
+          "eligible": true,
+          "research_feasible": false,
+          "objectives": [
+            0.5,
+            0.0
+          ],
+          "status": "evaluated",
+          "physical_complete": false,
+          "evaluation_id": 102,
+          "phase": "Phase 2",
+          "algorithm": "finite-grid enumeration",
+          "seed": null,
+          "dynamic_runs": 1,
+          "changes": {}
+        },
+        "evaluations": 10,
+        "complete_site_enumeration": false,
+        "share_grid": "equal only",
+        "ratio_grid": [
+          0.0,
+          0.5,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "global_continuous_optimum": false
+      },
+      {
+        "n": 3,
+        "dispersion": "Medium",
+        "best": {
+          "cell": {
+            "grid": "C",
+            "re": 0.4,
+            "d": 0.4,
+            "state": "islanded"
+          },
+          "design": {
+            "sites": [
+              9,
+              26,
+              24
+            ],
+            "shares": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "rho": 0.5
+          },
+          "evidence": {
+            "metrics": {
+              "nadir_hz": 59.984015668998424,
+              "rocof_hz_s": 0.03196866200315185,
+              "settling_hz": 59.99611951882035,
+              "voltage_deviation_pu": 0.03651094516069353,
+              "reserve_mw": 515.4,
+              "reserve_required_mw": 103.08,
+              "discharge_mwh": 1.6602468263460857,
+              "reserve_shortfall_mw": -412.32,
+              "spread_hz": 0.0
+            },
+            "static_pass": true,
+            "physical_limits_verified": false,
+            "unsupported_changes": [],
+            "displaced_sg_mw": 1030.8,
+            "total_mw": 515.4,
+            "total_mwh": 515.4,
+            "fault_status": "unavailable",
+            "emt_status": "unavailable",
+            "dynamic_runs": 27
+          },
+          "residuals": {
+            "g1": -4.840156689984241,
+            "g2": -9.680313379968482,
+            "g3": -2.961195188203476,
+            "g4": -3.038804811796467,
+            "g5": null,
+            "g6": -1.3489054839306471,
+            "g7": null,
+            "g8": null,
+            "g9": null,
+            "g10": -412.32
+          },
+          "missing_constraints": [
+            "g5",
+            "g7",
+            "g8",
+            "g9"
+          ],
+          "cv": 0.0,
+          "eligible": true,
+          "research_feasible": false,
+          "objectives": [
+            0.5,
+            0.0
+          ],
+          "status": "evaluated",
+          "physical_complete": false,
+          "evaluation_id": 112,
+          "phase": "Phase 2",
+          "algorithm": "finite-grid enumeration",
+          "seed": null,
+          "dynamic_runs": 0,
+          "changes": {}
+        },
+        "evaluations": 10,
+        "complete_site_enumeration": false,
+        "share_grid": "equal only",
+        "ratio_grid": [
+          0.0,
+          0.5,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "global_continuous_optimum": false
+      },
+      {
+        "n": 5,
+        "dispersion": "Medium",
+        "best": {
+          "cell": {
+            "grid": "C",
+            "re": 0.4,
+            "d": 0.4,
+            "state": "islanded"
+          },
+          "design": {
+            "sites": [
+              27,
+              26,
+              24,
+              16,
+              12
+            ],
+            "shares": [
+              0.2,
+              0.2,
+              0.2,
+              0.2,
+              0.2
+            ],
+            "rho": 0.5
+          },
+          "evidence": {
+            "metrics": {
+              "nadir_hz": 59.984015668998424,
+              "rocof_hz_s": 0.03196866200315185,
+              "settling_hz": 59.99611951882035,
+              "voltage_deviation_pu": 0.03651094516069353,
+              "reserve_mw": 515.4,
+              "reserve_required_mw": 103.08,
+              "discharge_mwh": 1.6602468263460857,
+              "reserve_shortfall_mw": -412.32,
+              "spread_hz": 0.0
+            },
+            "static_pass": true,
+            "physical_limits_verified": false,
+            "unsupported_changes": [],
+            "displaced_sg_mw": 1030.8,
+            "total_mw": 515.4,
+            "total_mwh": 515.4,
+            "fault_status": "unavailable",
+            "emt_status": "unavailable",
+            "dynamic_runs": 27
+          },
+          "residuals": {
+            "g1": -4.840156689984241,
+            "g2": -9.680313379968482,
+            "g3": -2.961195188203476,
+            "g4": -3.038804811796467,
+            "g5": null,
+            "g6": -1.3489054839306471,
+            "g7": null,
+            "g8": null,
+            "g9": null,
+            "g10": -412.32
+          },
+          "missing_constraints": [
+            "g5",
+            "g7",
+            "g8",
+            "g9"
+          ],
+          "cv": 0.0,
+          "eligible": true,
+          "research_feasible": false,
+          "objectives": [
+            0.5,
+            0.0
+          ],
+          "status": "evaluated",
+          "physical_complete": false,
+          "evaluation_id": 122,
+          "phase": "Phase 2",
+          "algorithm": "finite-grid enumeration",
+          "seed": null,
+          "dynamic_runs": 0,
+          "changes": {}
+        },
+        "evaluations": 10,
+        "complete_site_enumeration": false,
+        "share_grid": "equal only",
+        "ratio_grid": [
+          0.0,
+          0.5,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "global_continuous_optimum": false
+      },
+      {
+        "n": 3,
+        "dispersion": "Low",
+        "best": {
+          "cell": {
+            "grid": "C",
+            "re": 0.4,
+            "d": 0.4,
+            "state": "islanded"
+          },
+          "design": {
+            "sites": [
+              25,
+              26,
+              16
+            ],
+            "shares": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "rho": 0.5
+          },
+          "evidence": {
+            "metrics": {
+              "nadir_hz": 59.984015668998424,
+              "rocof_hz_s": 0.03196866200315185,
+              "settling_hz": 59.99611951882035,
+              "voltage_deviation_pu": 0.03651094516069353,
+              "reserve_mw": 515.4,
+              "reserve_required_mw": 103.08,
+              "discharge_mwh": 1.6602468263460857,
+              "reserve_shortfall_mw": -412.32,
+              "spread_hz": 0.0
+            },
+            "static_pass": true,
+            "physical_limits_verified": false,
+            "unsupported_changes": [],
+            "displaced_sg_mw": 1030.8,
+            "total_mw": 515.4,
+            "total_mwh": 515.4,
+            "fault_status": "unavailable",
+            "emt_status": "unavailable",
+            "dynamic_runs": 27
+          },
+          "residuals": {
+            "g1": -4.840156689984241,
+            "g2": -9.680313379968482,
+            "g3": -2.961195188203476,
+            "g4": -3.038804811796467,
+            "g5": null,
+            "g6": -1.3489054839306471,
+            "g7": null,
+            "g8": null,
+            "g9": null,
+            "g10": -412.32
+          },
+          "missing_constraints": [
+            "g5",
+            "g7",
+            "g8",
+            "g9"
+          ],
+          "cv": 0.0,
+          "eligible": true,
+          "research_feasible": false,
+          "objectives": [
+            0.5,
+            0.0
+          ],
+          "status": "evaluated",
+          "physical_complete": false,
+          "evaluation_id": 132,
+          "phase": "Phase 2",
+          "algorithm": "finite-grid enumeration",
+          "seed": null,
+          "dynamic_runs": 0,
+          "changes": {}
+        },
+        "evaluations": 10,
+        "complete_site_enumeration": false,
+        "share_grid": "equal only",
+        "ratio_grid": [
+          0.0,
+          0.5,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "global_continuous_optimum": false
+      },
+      {
+        "n": 3,
+        "dispersion": "High",
+        "best": {
+          "cell": {
+            "grid": "C",
+            "re": 0.4,
+            "d": 0.4,
+            "state": "islanded"
+          },
+          "design": {
+            "sites": [
+              25,
+              27,
+              9
+            ],
+            "shares": [
+              0.3333333333333333,
+              0.3333333333333333,
+              0.3333333333333333
+            ],
+            "rho": 0.5
+          },
+          "evidence": {
+            "metrics": {
+              "nadir_hz": 59.984015668998424,
+              "rocof_hz_s": 0.03196866200315185,
+              "settling_hz": 59.99611951882035,
+              "voltage_deviation_pu": 0.03651094516069353,
+              "reserve_mw": 515.4,
+              "reserve_required_mw": 103.08,
+              "discharge_mwh": 1.6602468263460857,
+              "reserve_shortfall_mw": -412.32,
+              "spread_hz": 0.0
+            },
+            "static_pass": true,
+            "physical_limits_verified": false,
+            "unsupported_changes": [],
+            "displaced_sg_mw": 1030.8,
+            "total_mw": 515.4,
+            "total_mwh": 515.4,
+            "fault_status": "unavailable",
+            "emt_status": "unavailable",
+            "dynamic_runs": 27
+          },
+          "residuals": {
+            "g1": -4.840156689984241,
+            "g2": -9.680313379968482,
+            "g3": -2.961195188203476,
+            "g4": -3.038804811796467,
+            "g5": null,
+            "g6": -1.3489054839306471,
+            "g7": null,
+            "g8": null,
+            "g9": null,
+            "g10": -412.32
+          },
+          "missing_constraints": [
+            "g5",
+            "g7",
+            "g8",
+            "g9"
+          ],
+          "cv": 0.0,
+          "eligible": true,
+          "research_feasible": false,
+          "objectives": [
+            0.5,
+            0.0
+          ],
+          "status": "evaluated",
+          "physical_complete": false,
+          "evaluation_id": 142,
+          "phase": "Phase 2",
+          "algorithm": "finite-grid enumeration",
+          "seed": null,
+          "dynamic_runs": 0,
+          "changes": {}
+        },
+        "evaluations": 10,
+        "complete_site_enumeration": false,
+        "share_grid": "equal only",
+        "ratio_grid": [
+          0.0,
+          0.5,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "global_continuous_optimum": false
+      }
+    ],
+    "relative_variation": 0.0,
+    "decisions": {
+      "0.01": {
+        "n": 3,
+        "dispersion": "Medium"
+      },
+      "0.02": {
+        "n": 3,
+        "dispersion": "Medium"
+      },
+      "0.05": {
+        "n": 3,
+        "dispersion": "Medium"
+      }
+    },
+    "all_configurations_pass": true
+  }
+]

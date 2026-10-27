@@ -1,0 +1,10 @@
+{
+  "software_flow": "passed",
+  "core_cells": 50,
+  "evaluations": 2253,
+  "nominal_core_budget": "passed",
+  "matched_capacity": "passed",
+  "eleven_case_registry": "passed",
+  "missing_metrics": "correctly unmeasured",
+  "research_validation": "not performed"
+}
