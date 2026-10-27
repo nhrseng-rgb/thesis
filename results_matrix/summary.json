@@ -1,0 +1,9 @@
+{
+  "mode": "DEMONSTRATION",
+  "backend": "python",
+  "evaluations": 1158,
+  "dynamic_evaluations": 1158,
+  "pass_through_rate": 1.0,
+  "research_ready": false,
+  "cells": 50
+}

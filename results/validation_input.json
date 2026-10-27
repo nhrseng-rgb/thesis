@@ -1,0 +1,15 @@
+{
+  "load_mw": 14016.0,
+  "loss_mw": 668.0,
+  "capacity_mw": 5606.400000000001,
+  "h_s": 3.0,
+  "virtual_h_s": 5.0,
+  "damping": 1.0,
+  "governor_gain": 9.0,
+  "governor_tau": 1.0,
+  "bess_gain": 25.0,
+  "bess_tau": 0.08,
+  "event_s": 1.0,
+  "stop_s": 120.0,
+  "dt": 0.02
+}

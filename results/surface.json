@@ -1,0 +1,224 @@
+[
+  {
+    "cell": [
+      "A",
+      0.4,
+      0.4,
+      "islanded"
+    ],
+    "best": {
+      "grid": "A",
+      "re": 0.4,
+      "displacement": 0.4,
+      "state": "islanded",
+      "sites": [
+        19,
+        6,
+        11
+      ],
+      "rho": 0.25,
+      "research_feasible": false,
+      "stability_status": "not evaluated",
+      "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+      "status": "evaluated",
+      "metrics": {
+        "nadir_hz": 59.98277471861768,
+        "rocof_hz_s": 0.034450562764646975,
+        "settling_hz": 59.996187214611865,
+        "voltage_deviation_pu": 0.03651094516069375,
+        "reserve_mw": 1401.6000000000001,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 4.4402205076777115
+      },
+      "passes": {
+        "FFR": true,
+        "RoCoF": true,
+        "PR": true,
+        "Q": true,
+        "REG": true
+      },
+      "demo_pass": true
+    },
+    "decomposition": {
+      "groups": {
+        "FFR": {
+          "ratio": 0.0,
+          "method": "sampled monotonicity then bisection"
+        },
+        "RoCoF": {
+          "ratio": 0.0,
+          "method": "sampled monotonicity then bisection"
+        },
+        "PR": {
+          "ratio": 0.0,
+          "method": "sampled monotonicity then bisection"
+        },
+        "Q": {
+          "ratio": 0.0,
+          "method": "sampled monotonicity then bisection"
+        },
+        "REG": {
+          "ratio": 0.1005859375,
+          "method": "sampled monotonicity then bisection"
+        },
+        "STAB": {
+          "ratio": null,
+          "method": "unavailable: needs multimachine and converter models"
+        }
+      },
+      "partial_lower_bound": 0.1005859375,
+      "partial_binding_group": "REG",
+      "consistency_pass": true,
+      "partial_gap_percent": 59.765625,
+      "complete": false
+    }
+  },
+  {
+    "cell": [
+      "B",
+      0.4,
+      0.4,
+      "islanded"
+    ],
+    "best": {
+      "grid": "B",
+      "re": 0.4,
+      "displacement": 0.4,
+      "state": "islanded",
+      "sites": [
+        19,
+        6,
+        11
+      ],
+      "rho": 0.25,
+      "research_feasible": false,
+      "stability_status": "not evaluated",
+      "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+      "status": "evaluated",
+      "metrics": {
+        "nadir_hz": 59.97977873147793,
+        "rocof_hz_s": 0.04044253704414302,
+        "settling_hz": 59.99552405818724,
+        "voltage_deviation_pu": 0.036510945160693975,
+        "reserve_mw": 268.1,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.9970555031429404
+      },
+      "passes": {
+        "FFR": true,
+        "RoCoF": true,
+        "PR": true,
+        "Q": true,
+        "REG": true
+      },
+      "demo_pass": true
+    },
+    "decomposition": {
+      "groups": {
+        "FFR": {
+          "ratio": 0.0,
+          "method": "sampled monotonicity then bisection"
+        },
+        "RoCoF": {
+          "ratio": 0.0,
+          "method": "sampled monotonicity then bisection"
+        },
+        "PR": {
+          "ratio": 0.0,
+          "method": "sampled monotonicity then bisection"
+        },
+        "Q": {
+          "ratio": 0.0,
+          "method": "sampled monotonicity then bisection"
+        },
+        "REG": {
+          "ratio": 0.1005859375,
+          "method": "sampled monotonicity then bisection"
+        },
+        "STAB": {
+          "ratio": null,
+          "method": "unavailable: needs multimachine and converter models"
+        }
+      },
+      "partial_lower_bound": 0.1005859375,
+      "partial_binding_group": "REG",
+      "consistency_pass": true,
+      "partial_gap_percent": 59.765625,
+      "complete": false
+    }
+  },
+  {
+    "cell": [
+      "C",
+      0.4,
+      0.4,
+      "islanded"
+    ],
+    "best": {
+      "grid": "C",
+      "re": 0.4,
+      "displacement": 0.4,
+      "state": "islanded",
+      "sites": [
+        19,
+        6,
+        11
+      ],
+      "rho": 0.25,
+      "research_feasible": false,
+      "stability_status": "not evaluated",
+      "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+      "status": "evaluated",
+      "metrics": {
+        "nadir_hz": 59.97896266165967,
+        "rocof_hz_s": 0.0420746766806559,
+        "settling_hz": 59.99534342258438,
+        "voltage_deviation_pu": 0.03651094516069353,
+        "reserve_mw": 257.7,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.9970555030639838
+      },
+      "passes": {
+        "FFR": true,
+        "RoCoF": true,
+        "PR": true,
+        "Q": true,
+        "REG": true
+      },
+      "demo_pass": true
+    },
+    "decomposition": {
+      "groups": {
+        "FFR": {
+          "ratio": 0.0,
+          "method": "sampled monotonicity then bisection"
+        },
+        "RoCoF": {
+          "ratio": 0.0,
+          "method": "sampled monotonicity then bisection"
+        },
+        "PR": {
+          "ratio": 0.0,
+          "method": "sampled monotonicity then bisection"
+        },
+        "Q": {
+          "ratio": 0.0,
+          "method": "sampled monotonicity then bisection"
+        },
+        "REG": {
+          "ratio": 0.1005859375,
+          "method": "sampled monotonicity then bisection"
+        },
+        "STAB": {
+          "ratio": null,
+          "method": "unavailable: needs multimachine and converter models"
+        }
+      },
+      "partial_lower_bound": 0.1005859375,
+      "partial_binding_group": "REG",
+      "consistency_pass": true,
+      "partial_gap_percent": 59.765625,
+      "complete": false
+    }
+  }
+]

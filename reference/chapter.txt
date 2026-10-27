@@ -1,0 +1,1841 @@
+PDF PAGE 1
+3.1. Overview of the Chapter
+         Lorem ipsum dolor sit
+
+3.2. Research Design
+
+         The study will employ a quantitative, simulation-based optimization design with a staged
+screening    approach.     The   research    design    systematically     isolates   the   effects  of   site spacing,
+electrical  dispersion,     and  renewable      energy   (RE)    penetration    by   holding   total  GFM     capacity
+constant during spacing tests and establishing pre-retirement baselines for RE scenarios.
+
+         This study will be anchored on the principle that the replacement ratio (ρ) is not constant
+but  a  variable    that   depends    on:   (1)   ancillary   service    constraints    (frequency     nadir,  RoCoF,
+regulation   reserve,   and   reactive power      capability);   (2) displacement of synchronous generators
+(SG);   (3)   RE   penetration,     which    affects   the   net  load   ramps     and   baseline    inertia;  (4)  site
+configuration,    meaning the electrical        spacing   and   dispersion    of the Multi-BESS units; and (5)
+system stability requirements, namely small-signal damping (eigenvalue stability), transient rotor
+angle   stability,  and  system    strength    as  measured     by the SCR      and gSCR,      which can require       a
+higher   ratio than the ancillary service constraints alone. The output is a ratio surface, annotated
+with the binding constraint at each point.
+
+         The   study   will  not   be  a  case  study    of the   Philippine    grid;  however, it    will  inherit   its
+characteristics. The Luzon, Visayas, and Mindanao grids are coupled by HVDC links, so they are
+asynchronous. Each grid is therefore modeled as a frequency island in which frequency support
+is provided    only   by   its local  SGs    and   GFM     units.  An   HVDC      link  supplies    scheduled active
+power,    not   synchronous      inertia.   The    chain   is  Luzon(source),       Visayas    (first  receiver),   and
+Mindanao (second receiver). For simplicity, the characteristics of Luzon, Visayas, and Mindanao
+will be respectively, Grid A, Grid B, Grid C.
+
+         The   assessment follows       a  fixed  sequence:     (i) the  regulating-reserve assessment, (ii) the
+contingency     (N-1)assessment       of  each   configuration, (iii)     the  reactive-power and intermittency
+assessment, (iv) the stability assessment (small-signal damping, transient rotor angle, gSCR), and
+(v) the spatial-distribution step, which examines how site count and dispersion change the result
+when total GFM capacity is fixed.
+
+3.2.1. Research Variables
+          Variable Type                                Variable                         Description / Levels
+             Dependent                        Replacement Ratio (ρ)                MW of GFM-BESS required
+                                                                                     per MW of displaced SG
+             Dependent                          Binding Constraint                The specific ancillary service
+                                                                                   (RoCoF, FFR, REG, PR, Q,
+PDF PAGE 2
+                                                                                    STAB) driving the ratio
+                                                                                    Interconnected (HVDC
+            Independent                           Operating state                injection present) or islanded
+                                                                                (no injection); Grid A islanded
+                                                                                                only
+            Independent                      SG Displacement (%)                     20%, 40%, 60%, 80%
+                                                                                     20%, 40%, 60%, 80%
+            Independent                        RE Penetration (%)                   (energy-infeasible cells
+                                                                                    excluded, Section 3.4.5)
+        Screened (Phase 2)                        Site Count (N)                  1, 3, 5; reference value N*
+                                                                                    adopted from screening
+                                                                                 Low, Medium, High (defined
+        Screened (Phase 2)                  Electrical Dispersion (D)          only for N ≥ 2); reference value
+                                                                                  D* adopted from screening
+                                           POD Gain (Kd), Washout               Nominal values; adjusted only
+                Fixed                          Time Constant (Tw)                 if the damping constraint is
+                                                                                              violated
+
+                                         Table 3.1 Research Variables
+
+3.3 Research Instruments
+
+         Because this study uses a simulation-based research design, its research instruments will
+consist   of  software    tools   for  network     modeling,     computational      analysis,   optimization,     and
+validation. The proposed software environment comprises the following:
+
+(1) pandapower version 3.5.6 will be used to construct and calibrate the three IEEE 39-bus grid
+proxies,   perform    steady-state   power-flow      and   short-circuit   calculations,   screen   eligible BESS
+locations, and calculate electrical-distance measures for spatial classification. Python scripts will
+also   prepare      network      data    for   MATLAB          and    verify    capacity     consistency      during
+matched-capacity      spacing    tests. Candidate-site     screening    will  identify   eligible  locations;   final
+BESS placement and sizing will be determined through the optimization procedures.
+
+(2) Visual    Studio   Code    version    1.140 will serve as the development environment for writing,
+organizing, and     debugging the study’s       scripts.  These    scripts  will  coordinate Python–MATLAB
+data  exchange,    configure experimental cases, manage batch execution, and organize simulation
+outputs and reproducibility records.
+
+(3)  MATLAB        and    Simulink     Release    R2026b      will  be  used   for  RMS    dynamic     simulations,
+state-space modeling, eigenvalue and damping analysis, and detailed switching-model validation.
+PDF PAGE 3
+         MATLAB         scripts    will   implement       Real-Coded       Non-Dominated          Sorting    Genetic
+Algorithm      II  (NSGA-II)       as   the    primary     optimizer     for   the   core    experimental       cases.
+Multi-Objective      Particle    Swarm     Optimization      (MOPSO)        and   the   documented       constrained
+archived simulated-annealing adaptation will provide cross-checks on selected benchmark cases,
+following    Section 3.7.2.    The optimization will minimize the GFM-BESS replacement ratio and
+nodal frequency spread, subject to the specified operating and stability constraints. The smallest
+obtained jointly feasible replacement ratio will be reported for each case, while displacement and
+RE limits will be interpreted within the tested conditions.
+
+
+3.4. Test System: Three Calibrated IEEE 39-Bus Proxies
+
+3.4.1. Base System
+
+The   IEEE    39-bus   (New     England)    system    has   39  buses,   10  generators,    and   46  branches     and
+operates   at 60  Hz, which      matches    the  Philippine   system frequency. Three copies are used, one
+per grid, each preserving the full topology. The active- and reactive-power injections at each bus
+are
+
+
+
+                                                                                       (3.1)
+
+
+
+                                                                                       (3.2)
+
+with                     . The   unmodified base       case is  verified against     the published IEEE        39-bus
+solution before any modifications; the modified copies cannot match that solution and are instead
+checked for convergence and against their own calibration.
+
+3.4.2 Partition and External Injections
+
+In the standard New England IEEE 39-bus system, Generator 1, or G1, is the network equivalent
+of the  interconnected      system    that  supports   New     England.    In  this  study,  G1   is removed     from
+every copy of the grid characterizing the Philippine grid (Grid A, Grid B, Grid C):
+
+Grid A: G1 removed and not replaced. Luzon is the source grid and receives no external power.
+Bus 39 keeps its load and lines.
+Grid  B:  G1   replaced by     a controlled    active-power     injection           at bus 39, which models the
+Leyte-Luzon HVDC inverter terminal.
+PDF PAGE 4
+Grid   C:  G1   replaced by     a controlled active-power injection                    at bus 39, which models the
+Mindanao-Visayas (MVIP) HVDC inverter terminal.
+
+Each link has a single terminal at bus 39, where G1 stood, so that exactly one HVDC link joins
+each pair of grids.
+
+Removing      G1    reduces    the   standard-case      generation     by  approximately       16  percent,    computed
+directly   from   the modified      case data,    so  the  load for    each copy     is scaled   to  the  calibration    in
+Table   3.2.   Because     the   links   do  not   share   synchronous       inertia,  the   inertia   of  the  removed
+equivalent is excluded from every                   . The converter injects active power but not inertia, and
+it contributes fault current only up to its limit                 times its rating.
+
+To   accurately    assess    the  system     strength   at  a  given    bus,   the  short-circuit    capacity     used   to
+compute the SCR must reflect the strength of the surrounding grid, not the fault current injected
+by  the  converter     being   assessed.    Therefore,     the  converter     at bus      is  excluded    from    its own
+short-circuit calculation. The short-circuit capacity at each bus is:
+
+
+
+                                                                                    (3.3)
+
+where the first term       is computed from        the bus-impedance matrix of            the network with the nine
+physical   SGs    (shunt-modeled transient reactances, constant-impedance loads). The second term
+is the fault   current contribution from every other converter in the fleet (                          ). The converter
+injects                    of fault current at its own bus          , and the ratio                    is the fraction of
+that  current   that  reaches    bus     . Excluding     the   device   at  bus     ensures    that             measures
+whether the grid is strong enough to host that converter, rather than artificially self-satisfying the
+constraint.
+
+Because the second term in Eq. 3.3 retains the fault-current contributions of other converters, the
+resulting   quantity    is  a  study-defined      converter-assisted      strength    metric,   not   the  conventional
+Thevenin short-circuit strength          of the external network. The thesis therefore defines this metric
+explicitly, uses consistent per-unit and MVA bases throughout, and verifies in the SCR sensitivity
+check that the gSCR formulation does not double-count converter contributions.
+
+
+
+
+
+
+PDF PAGE 5
+       Parameter                  Grid A (Luzon)               Grid B (Visayas)           Grid C (Mindanao)
+
+                                  Largest demand               Smaller grid with           Grid with a distinct
+                                     center, with                  substantial                generation mix
+           Role                      substantial            geothermal and other           supported by hydro
+                                    synchronous             renewable generation                  and coal
+                                generation and load
+
+  Peak load, L (MW)                     14,016                        2,681                        2,577
+
+   Total SG capacity                Derived from                 Derived from                  Derived from
+          (MW)                 synchronous units in          synchronous units in         synchronous units in
+                                the calibrated proxy         the calibrated proxy          the calibrated proxy
+
+   Largest SG unit, U                     668                          150                           150
+          (MW)
+
+    Reserve margin,                Calculate after              Calculate after               Calculate after
+          k=S/L                       defining S                   defining S                    defining S
+
+     RE penetration                Approximately                Approximately                 Approximately
+                                        28.5%                        50.5%                         32.0%
+
+                                     No external
+    HVDC reference             replacement injection                    89                           23
+      injection, Pref             in the proposed
+                                    islanded case
+
+   Short-circuit ratio          Determine through             Determine through            Determine through
+          (SCR)                     short-circuit                 short-circuit                short-circuit
+                                     simulation                    simulation                    simulation
+
+ Aggregate SG inertia,             Calculate from               Calculate from                Calculate from
+    H (s, own rating)          retained synchronous         retained synchronous          retained synchronous
+                                      machines                      machines                     machines
+
+         Table 3.2 summarizes the operating characteristics of the Luzon, Visayas, and Mindanao
+grids  based   on  DOE     power    statistics  and  supporting     studies on   grid  operation and frequency
+stability  [77],  [81]–[84].     The   parameters,     including    peak   demand,     generation    capacity,   and
+renewable energy penetration, will provide the basis for calibrating the three grid proxies. These
+characteristics will support the assessment of the minimum GFM Multi-BESS capacity required
+PDF PAGE 6
+to  maintain    frequency      and   system    stability   under    varying    levels   of  synchronous      generator
+displacement.
+
+         Calibration disclaimer. The three            systems are calibrated proxies,          not  reproductions of
+the  actual  grids. They preserve the         full IEEE 39-bus topology and are calibrated to published
+aggregate characteristics (DOE Philippine Energy Plan, NGCP Transmission Development Plan,
+ERC    annual    reports) using    only public     data. SG is     treated  as one category. Because          the  three
+copies   share   a  single  topology     and differ only in calibration        constants, differences       among    the
+three surfaces reflect differences in scale, reserve margin, RE level, inertia, and HVDC schedule,
+not differences in network structure. The results indicate what a system with those characteristics
+would require, not what an actual grid will require.
+
+3.4.3. Operation
+         The   Luzon    → Visayas → Mindanao chain is served by scheduled HVDC power. Luzon
+generates its own load plus the export 𝑃𝐿𝑉. Visayas imports 𝑃𝐿𝑉 and exports 𝑃𝑉𝑀 , and Mindanao
+imports 𝑃𝑉𝑀. The powers 𝑃𝐿𝑉 and 𝑃𝑉𝑀 are fixed per grid in Table 3.2 and are identical in every
+cell,  so  the   three   grids   are  solved    independently      and   the  cell  count    of  Section    3.8  is  not
+multiplied by     cross-grid coupling.      The   power balance       of Visayas     is evaluated once, at its base
+dispatch, to confirm that Visayas can supply 𝑃𝑉𝑀:
+
+                                       𝑃𝑉𝑀   =  𝑃𝑔𝑒𝑛,𝑉   +  𝑃𝐿𝑉   −  𝑃𝑙𝑜𝑎𝑑,𝑉  −  𝑃𝑙𝑜𝑠𝑠𝑒𝑠,𝑉
+
+         The chain is modeled in the forward direction only (𝑃𝐿𝑉                  ≥  0, 𝑃𝑉𝑀   ≥   0). If 𝑃𝑉𝑀    <  0, at
+base dispatch,     Mindanao     will be    studied as an isolated grid. Reverse power flow will not be in
+the scope of this study.
+
+         Two operating states are defined for the receiver grids:
+
+              ●   Interconnected:       the    grid   receives     HVDC       power                   .  The     design
+                  contingencies      are the N-1 loss      of the largest    online local SG and the loss of the
+                  HVDC import; the larger lost power governs.
+              ●   Islanded:    the  injection   is  zero,  and   the  grid   covers   its  entire  load.   The   design
+                  contingency      is the N-1 loss of the largest online local SG. There is no import to
+                  lose.
+
+         The only difference between these two states is the power balance. In the Interconnected
+state,  the  HVDC      import    will   be  able   to reduce    the  local   SG   loading,    which    provides    more
+headroom for primary reserve during a contingency. Whether this lighter loading actually allows
+the receiver    grids to safely retire more generators           than  the source grid is a hypothesis that this
+PDF PAGE 7
+study   tests,  not  an   assumption.      The   physical    separation     transient   of  the   HVDC      link   itself is
+outside the scope of this study.
+
+         The    HVDC      schedules (P_LV = 89           MW for      Grid B,    P_VM =       23 MW      for Grid    C) are
+derived from actual Philippine grid data [77]. Because these values are small relative to the local
+load, the interconnected-versus-islanded contrast is modest. This is a feature of the real grid, not
+a limitation of the model; the sensitivity case at 1.5×P_ref (Section 3.8.5) bounds the effect of a
+larger import.
+
+3.4.4. Displacement Level and Replacement Ratio
+         We    retire synchronous       generators starting      with the    units that    provide the lowest inertia
+(H⋅S). Because this results in the smallest initial drop in grid stability, it provides an optimistic
+(best-case) lower bound for the replacement ratio ρ. To ensure our results are robust, we also run
+a  sensitivity   case   using    the  reverse    retirement    order    to capture    the   worst-case     scenario.    The
+displacement      level   d  is  defined    as   the  ratio   of  the  decommissioned         synchronous       generator
+capacity to the grid's initial baseline SG capacity.
+
+
+                                                                ∑𝑆𝑆𝐺,𝑑𝑖𝑠𝑝𝑙𝑎𝑐𝑒𝑑,𝑖
+                                                                𝑖
+                                                        𝑑   =
+                                                                 ∑𝑆𝑆𝐺,𝑡𝑜𝑡𝑎𝑙,𝑖
+                                                                  𝑖
+
+         Because     actual    unit  ratings    rarely   align   exactly    with   the  20%,    40%,     60%,    and   80%
+targets, the final unit in each stage is partially retired by proportionally reducing its rating (while
+keeping    its  per-unit    inertia  and    droop    constant).    To   ensure    the  center-of-inertia     calculations
+remain valid, a minimum of two SG units are kept online at all stages.
+
+         The replacement ratio is:
+                                                                    𝑃𝐺𝐹𝑀(𝑑)
+                                                      ρ(𝑑)   =   𝑃          (𝑑)
+                                                                   𝑆𝐺,𝑑𝑖𝑠𝑝𝑙𝑎𝑐𝑒𝑑
+
+         Values of        above 1 are possible because the GFM fleet may need to replace lost inertia
+and system strength in addition to lost active power. At a power factor of 0.95,
+
+
+
+
+         and
+
+
+
+PDF PAGE 8
+         Values of       above 1 are possible because the GFM units may have to replace lost inertia
+and system strength in addition to lost active power. The replacement ratio is defined in MW of
+GFM      active-power      rating    per    MW      of   retired   SG     capacity.    The    apparent-power        and
+reactive-power     requirements of      the  converter    are handled separately: at a power factor of 0.95,
+the required reactive      power relative to active power is                               and the apparent-power
+requirement     is                     ,  and   these   must    be   satisfied   by   the  shared    apparent-power
+constraint   (Section    3.5.2.1)   and  the   reactive-power and voltage constraints            (     and      ). The
+GFM fleet     is sited freely    among the pre-screened candidate buses and is not constrained to the
+retired SG buses.
+
+3.4.5. Renewable Energy and Pre-Retirement Baselines
+
+         RE   (PV)   is  modeled     as  non-synchronous       grid-following injection,       distributed    over  the
+load buses in proportion to load. The RE penetration is
+
+
+                                                                                  (3.7)
+
+         The   Grid-Forming       (GFM)     BESS     is held   idle  at 0  MW     active   power    at  the pre-event
+operating point. This is a deliberate modeling choice to ensure that the GFM-BESS is evaluated
+purely as a contingency reserve device, rather than as a steady-state energy source. Although it is
+injecting   0  MW,     the   GFM     inverters    remain    online   to  establish    the  voltage    and   frequency
+reference.   By keeping      the  active  power output      at  zero,  100% of     the GFM      BESS active power
+capability    and    energy    buffer    are   available    to   provide    Fast   Frequency       Response      (FFR)
+immediately following the N-1 contingency.
+
+         To isolate the impact of generator retirement, a control baseline is first established at RE
+penetrations    of 20%,    40%, 60%, and 80% with 100% of the synchronous generation (SG) fleet
+retained.   Because    the  RE    is modeled     as  non-synchronous        Grid-Following       (GFL)    injection, it
+provides no physical inertia to the grid. Therefore, to maintain stability during this baseline, the
+SGs are redispatched: their active power output is reduced to accommodate the GFL renewable
+generation,    but the   units remain physically online and spinning to provide synchronous inertia.
+This baseline serves as a scientific control. It captures the frequency response degradation caused
+solely  by GFL renewables         displacing    SG active power. When synchronous generators are later
+retired, the additional     degradation reflects the combined effect of lost inertia, reduced governor
+headroom,     changes     in  the  size  of   the  largest  online   unit,  and   reduced    system    strength.   The
+reported   replacement      ratio  therefore    captures    the  total  BESS     capacity    needed    to  restore  the
+frequency    response to acceptable limits under combined RE and displacement stress, not solely
+the inertia-replacement component.
+PDF PAGE 9
+         The GFM-BESS is modeled as a reserve device, not as a sustained energy source. A cell
+(RE, d) is therefore energy-feasible only if the remaining synchronous generators can supply the
+non-renewable load while retaining sufficient headroom to survive an N-1 contingency:
+
+
+                                                                                (3.8)
+
+         where                   is the   reserve   margin    and                    is the   maximum      allowable
+steady-state SG loading. The                 limit is critical because it ensures the system retains at least
+10% governor headroom. When the N-1 contingency occurs (the sudden loss of the largest online
+generator),   the  remaining generators        must have     this headroom      to rapidly increase their      output
+(Primary Reserve) and arrest the frequency nadir. If the remaining generators were dispatched at
+100%    capacity,   they   would    have   no   room   to  ramp    up,  and   the  N-1   event   would    result  in  a
+frequency collapse.
+
+         With                 and                  , the feasible cells are those of Table 3.3. The same set
+is used in the interconnected state, although the HVDC import would relax the condition, so that
+the  two   states  are   compared     on  identical   cells.  A   simpler   rule  of                would    load   the
+remaining    SG to 100% and leave no primary-reserve headroom for the N-1 contingency, and is
+therefore not used.
+
+
+     RE Penetration Level                 Feasible SG Displacement                     Number of Feasible
+                                                       Levels                             Combinations
+
+                 20%                                     20%                                       1
+
+                 40%                                 20%, 40%                                      2
+
+                 60%                             20%, 40%, 60%                                     3
+
+                 80%                          20%, 40%, 60%, 80%                                   4
+
+                Total                                     —                                       10
+
+         Table    3.3   presents    the   energy-feasible      combinations       of   RE    penetration     and   SG
+displacement     at  the  test  hour.   It acts   as  a  static  filter to  eliminate    combinations      where   the
+remaining SG cannot serve the non-renewable load with adequate governor headroom during the
+contingency.     It does   not  guarantee     night-time    capacity   adequacy;     that  is a  separate   planning
+question outside the scope of this study (Section 3.11, item 6).
+PDF PAGE 10
+The net load, the regulating reserve, and the hourly ramp are:
+
+                                             𝑃𝑛𝑒𝑡(ℎ)    =  𝑃𝑙𝑜𝑎𝑑(ℎ)    −  𝑃𝑅𝐸(ℎ)
+
+                      𝑅𝑅𝐸𝐺(ℎ)     =  0. 04𝑃𝑑𝑒𝑚𝑎𝑛𝑑(ℎ),      ∆𝑃𝑟𝑎𝑚𝑝(ℎ)      =  𝑃𝑛𝑒𝑡(ℎ   +   1)  −  𝑃𝑛𝑒𝑡(ℎ)
+
+         For the scope of this study, the GFM-BESS fleet is assumed to be the sole provider of the
+4% regulating reserve. While actual grids may share this reserve among conventional generators
+and  demand     response,    assuming     the  GFM      bears  the full requirement       provides a conservative
+sizing estimate for the replacement ratio.
+
+         The   4%   requirement      is based   on hourly demand,        per   DOE    Circular   DC2019-12-0018,
+§2.2.1.1   (4% of    total demand, per trading        interval,  per   grid) [CITE].     RE variability is handled
+through the ramp and the energy rating, not by changing the reserve basis. RE intermittency. RE
+is held constant     over the   120 s dynamic simulation window,              which    is short  relative   to the RE
+timescale. A 24-hour demand and PV profile, scaled so that its peak RE share equals the scenario
+level, is  used for   the  regulating-reserve      constraint,   which is evaluated hourly, and for selecting
+the  test hour.   The   dynamic     contingency     tests  are  run at the    hour of    maximum      RE   share (the
+lowest-inertia    hour).    A   sensitivity   case   for  the   highest-RE      cell  of  one   grid   adds   a  ramp
+requirement     𝑅𝑅𝐸𝐺   =   max   (0. 04𝑃𝑑𝑒𝑚𝑎𝑛𝑑,     |∆𝑃𝑟𝑎𝑚𝑝|)    to  bound the effect of holding RE constant
+
+during the event.
+
+         To maintain     tractability,  short-term weather       transients (e.g.,    passing clouds) are outside
+the  scope   of   the  simulation.    Because     weather    changes     are  slow   compared      to the  frequency
+dynamics     of a generator     trip, this  variability  is compensated for        by the 4%     regulating reserve
+constraint. The BESS must hold at least 0.           04𝑃𝑑𝑒𝑚𝑎𝑛𝑑 in reserve to absorb or inject power during
+RE fluctuations.
+
+3.5. Dynamic Models
+         This   section    defines   the   mathematical      models     used   to  simulate     the  grid's   physical
+behavior    during   a  120-second      N-1   contingency.     The   models     are  divided   into  four   parts:  the
+synchronous      generators,    the   GFM-BESS,        the   frequency     metrics,    and   the  stability   metrics.
+Standard    equations    (swing equation,      droop, center-of-inertia)      follow established power         system
+conventions     [CITE:    Kundur,     1994],   while    study-specific    parameters     (like  the  1.5   pu  current
+limit) are justified in the text.
+
+3.5.1. Synchronous Generators
+PDF PAGE 11
+         Synchronous       generators    (SGs)    provide    the  physical    inertia  that  keeps    the  grid  stable.
+When     a generator     trips  offline,  the   remaining     generators    physically    slow    down,    causing    the
+frequency    to  drop.   We    model    this  using   the  standard swing equation and           the governor     droop
+equation:
+
+
+                                                                                                       (3.12)
+
+
+                                                                            (3.13)
+
+         The   first equation calculates how fast the generator slows                down (RoCoF) based on the
+difference    between     mechanical      power    in  (     )  and   electrical   power     out  (    ).  The   second
+equation    models    the   governor,    which    acts  as  an   automatic    throttle:   if the  frequency     drops   (
+             ), the generator pushes more power into the grid to help arrest the fall.
+
+         These    equations    generate     the  initial  Rate   of  Change      of  Frequency     (RoCoF)      and   the
+frequency    Nadir, which are strictly evaluated           in constraints         and       . The   rotor  angle       is
+used to check transient stability in constraint             .
+
+3.5.2 The GFM-BESS Inertia And VSM equation
+         To make the battery behave like a generator, we use a Virtual Synchronous Machine
+(VSM) controller. This software emulates physical inertia. The per-unit VSM swing equation is:
+
+
+                                                                                                           (3.14)
+
+where         is the virtual inertia constant,           is the virtual damping,             and       are the virtual
+mechanical and measured electrical power, and                     and       are the virtual rotor and grid
+angular frequencies. The conversion between physical and virtual inertia is:
+
+
+
+                                                                  (3.15)
+
+A physical rotor has mass (          ). To use this in our per-unit power system equations, we
+mathematically convert that physical mass into a time constant (                     ) based on the machine's
+MVA rating (         ).
+
+PDF PAGE 12
+The virtual inertia          calculated here is added to the total system inertia in Section 3.5.3. This
+directly improves the RoCoF and Nadir, which are evaluated in constraints                          and      .
+         .
+
+3.5.2.1.The Shared Apparent-Power Limit (Why                              )
+
+         An inverter has a finite hardware limit (its MVA rating). It must split this rating between
+active power (MW, for frequency) and reactive power (MVAR, for voltage):
+
+                                                                                (3.16)
+
+         For   a  power    factor   of  0.95,   the   required    reactive   power     relative   to  active   power    is
+                                                 .  The     corresponding       apparent-power        requirement       is
+                                 . Reactive power is therefore approximately 32.9% of active power at
+this operating point; it is not correct to say that 33% of the inverter's total capacity is reserved for
+reactive   power.    The   shared    capability   constraint    is  Eq.  3.16,   subject   to  the  current   limit and
+voltage-dependent       converter capability. Since        the  replacement      ratio is defined as MW of GFM
+active-power     rating   per  MW      of  retired SG capacity, this       MVA     relationship    does not by      itself
+impose                   . The reactive-power        and  voltage requirements are tested explicitly through
+constraints        and      .
+
+         The P-f and Q-V droop gains are set so that steady-state sharing is proportional to rating:
+
+                                                                                                                 (3.17)
+
+         These equations ensure that multiple batteries share the load in proportion to their sizes.
+A  100 MVA battery         will inject twice     as much power as a 50 MVA battery to correct the same
+frequency    drop.   This   proportional     sharing ensures      that the   settling frequency      (     ) is reached
+smoothly     without     one   battery   overloading      another.    The    settling   frequency     is  evaluated     in
+constraints        and      .
+
+3.5.2.2. Hardware Limits (Current Saturation)
+         Semiconductors melt if you push too much current through them. During a severe fault,
+the GFM wants to push 5× its rated current to save the grid, but the hardware physically caps it at
+                 pu.  To   prevent    the  simulation     from   crashing    when     this limit   is hit,  we   apply a
+virtual impedance:
+
+
+
+                                                                                                         (3.18)
+PDF PAGE 13
+         When the battery hits its 1.5 pu limit, it stops acting like a voltage source and acts like a
+current source behind a virtual resistor and reactor. This artificially drops the voltage to keep the
+math stable during the fault.
+
+         RRL Note: The 1.5 pu limit is a study assumption grounded in the grid-forming literature.
+The   semiconductor        switches     in   GFM      inverters    have    low   thermal     inertia,   restricting   their
+overcurrent capability to        the 1.2–1.5     pu range [Baeckeland          et al., 2024]. Industry practice also
+adopts a rule of thumb of 1.2 to 1.5 times rated current for fault current contribution [Baeckeland
+et al., 2024]. The value        of 1.5   pu is the chosen model parameter for this study, not a universal
+limit.
+
+         The    current    cap            is  enforced    structurally     by  the   saturation    block    in  Eq.   3.18.
+Because the saturation prevents the current from ever exceeding                            , the cap is not formulated
+as  a numbered       optimization     constraint.    The   voltage    drop   caused     by  the   virtual  impedance is
+captured in the voltage constraint             .
+
+3.5.3. Frequency Metrics
+         To evaluate if the grid survives the N-1 contingency, we measure the following quantities.
+All powers are in per unit on the system base                   .
+
+3.5.3.1. System Inertia (              )
+         The    total   inertia   of  the   grid   is  the   physical    inertia   of   the  remaining      synchronous
+generators plus the virtual inertia of the GFM units:
+
+
+
+                                                                                            (3.19)
+
+         This   is  the   total  "shock    absorber"     of   the  grid.   It adds    up  the   spinning     mass   of  the
+remaining generators and the virtual mass of the batteries.
+
+         This aggregate inertia is the critical input for the analytical RoCoF verification in Section
+3.10, and it is used to calculate the COI frequency below.
+
+3.5.3.2. Center of Inertia Frequency (                    )
+         During    a transient, the frequencies at different buses do not move in perfect unison. If a
+fault  occurs   near   one   generator, its local frequency will drop faster than a generator located far
+away. Evaluating the constraint metrics (Nadir, RoCoF, Settling) on a single bus could therefore
+PDF PAGE 14
+yield  misleading results,       depending on      whether that      bus  is electrically close to or far from the
+disturbance.
+
+         To   represent    the   overall   dynamic      state  of  the   grid,  a  single   Center    of  Inertia   (COI)
+frequency is used. The COI frequency is the inertia-weighted average of the individual machine
+frequencies. It acts as      a  "balance    point"   for the system: a large 1,000 MW generator with high
+inertia will pull the COI strongly toward its own frequency, while a small 10 MW generator will
+barely influence it.
+
+         Because     the   GFM-BESS         units   emulate    physical    rotors   via   the  VSM     controller,    their
+virtual inertia is mathematically equivalent to physical inertia in this calculation. Therefore, the
+COI   is weighted     by             over the    exact same     set of   units  used to calculate the total system
+inertia (        ), including both the remaining synchronous generators and the GFM units:
+
+
+
+                                                                                          (3.20)
+
+         Crucially,    this   equation     converts     the   39   individual     bus   frequencies      into   a  single,
+representative time-series curve,                    . This curve acts as the "global frequency" of the grid.
+As  shown     in  the  subsequent      sections,   this  single                curve   is  the exact variable that       is
+plugged into the Nadir, RoCoF, and Settling constraints. Therefore, when the methodology later
+refers to the "frequency nadir" or the "maximum RoCoF," it is explicitly referring to the lowest
+point and the steepest slope of this COI curve.
+
+3.5.3.3. Analytical Initial RoCoF (                      )
+         The analytical initial rate of change of frequency is used for verification:
+
+
+
+                                                                               (3.21)
+
+         where           is the lost power in per unit on              , and               Hz.
+
+         This is the physics prediction of how steep the frequency drop will be in the first instant
+of the fault. This equation is used exclusively in the Verification section (Section 3.10) to prove
+the simulation is running correctly.
+
+3.5.3.4. Simulated RoCoF, Nadir, and Settling Frequency
+         The constraint metrics are extracted from the simulated                             over the 120 s window:
+PDF PAGE 15
+                                                                                                                   (3.22)
+
+
+                                                                                                  (3.23)
+
+
+
+                                                                                                              (3.24)
+
+         These    are  the  actual metrics     we grade     the   grid  on. The RoCoF is         the slope of the COI
+curve   measured over       a  500 ms    window. The Nadir is          the  absolute lowest point the COI curve
+reaches.   The Settling     Frequency is      where the COI curve flattens out. The time                    at which the
+nadir occurs is recorded as a diagnostic.
+
+         These     metrics    are   the   direct   inputs    for  the   frequency     constraints:     the  nadir    feeds
+constraint        , the  windowed       RoCoF      feeds   constraint         , and   the   settling   frequency     feeds
+constraint        (lower bound) and constraint              (upper bound).
+
+         Note:   The   constraint    uses   the simulated settling frequency                (the mean of              over
+the  last  10   s  of  the   horizon),    so  that   governor     and   converter     saturation    are  captured.    The
+analytical            from Eq. 3.24 is used only for verification, not for the constraint check.
+
+3.5.3.5. Nodal Frequency Spread (                       )
+         While    the  constraints are      evaluated on     the  COI,    we also track      the  local  frequencies     to
+ensure the grid isn't tearing itself apart.
+
+
+                                                                               (3.25)
+
+
+
+                                                                                                 (3.26)
+
+         Even if the COI frequency is stable, some buses might be oscillating wildly against each
+other. The frequency spread measures the gap between the fastest bus and the slowest bus.
+
+         This spread is not a hard constraint, but it is used as the secondary objective (tie-breaker)
+in the optimization model of Section 3.7.1.
+
+PDF PAGE 16
+3.5.4. Stability Metrics
+         Beyond frequency, we          must ensure the grid doesn't tear           itself apart with oscillations or
+lose synchronization.
+
+3.5.4.1. Eigenvalues and Damping
+         When     generators or     batteries   oscillate against     each other,    they create "modes."        We use
+eigenvalues (                         ) to find the damping ratio            .
+
+
+
+                                                                                                            (3.27)
+
+         Damping      is  the  grid's  ability   to  absorb    oscillations.   A   high   damping     ratio   means    the
+oscillations die out quickly. A low damping ratio means the oscillations will grow until the grid
+collapses. The participation factor (              ) identifies which generators or batteries are causing the
+oscillation. The minimum damping ratio                     is directly enforced as constraint            .t
+
+3.5.4.2. Short-Circuit Ratio (SCR/gSCR)
+         This measures how "stiff" the grid is. A low SCR means the grid is weak, and the GFM
+inverters might lose synchronization.
+
+
+
+                                                                                           (3.28)
+
+          is the ratio of the converter-assisted short-circuit strength at bus                  (       , defined in Eq.
+3.3, excluding only the contribution of the converter at bus                   itself) to the rating of the inverter (
+      ). Because Eq. 3.3 retains the fault-current contributions of other converters, this quantity is
+a study-defined      converter-assisted strength metric,           not the   conventional     Thevenin      short-circuit
+strength of the external network. The gSCR is the generalized version of this metric for multiple
+inverters   connected     close   together.   The   system    strength    is strictly enforced     as constraint          (
+              ).
+
+It is important    to  note   a limitation    of the   RMS simulation        methodology:       because the model is
+based   on   RMS     (phasor)    dynamics,     it inherently    averages     out  high-frequency       electromagnetic
+transients.   As    a  result,  fast   converter-network        interaction    modes     (such   as  sub-synchronous
+oscillations    caused     by   inverter    control    loops)     are  outside    the   scope     of  the   main    RMS
+optimization.     To  ensure    the  results   are  physically     valid, these high-frequency interactions            are
+explicitly   examined      using   detailed    Electromagnetic       Transient     (EMT)     models    in  the   Phase   5
+validation (Section 3.8.5).
+PDF PAGE 17
+3.6 Constraints Formulation
+
+         The   optimization     problem    is  bounded    by   hard   constraints   derived from the Philippine
+Grid   Code    (PGC)     and   physical   hardware     limits.   To  make    the   mathematical      decomposition
+possible, these constraints are grouped into six physical functional groups (FFR, RoCoF, PR, Q,
+STAB,    and   REG). A candidate        BESS    design   is deemed feasible       only   if all ten constraints    are
+simultaneously satisfied. The constraints are evaluated according to the test windows specified in
+Table 3.5.
+
+
+ Group           Constraint            Definition                                      Physical Meaning
+
+
+ FFR                       g1                                                                   Prevents frequency from
+                                                                                       dropping into the load-shedding
+
+                                                                                       zone.
+
+
+ RoCoF                     g2                                                                   Prevents frequency from
+                                                                                       dropping      too   fast    (500    ms
+
+                                                                                       window).
+
+
+ PR                        g3                                                                   Ensures       the    settling
+                                                                                       frequency does not stabilize too
+
+                                                                                       low.
+
+
+ PR                        g4                   f_ss - 60.3 ≤ 0                                 Ensures       the    settling
+                                                                                       frequency     does   not   settle   too
+                                                                                       high
+
+
+ Q                         g5                                                                   Ensures    the inverter can
+                                                                                       provide enough reactive power.
+
+
+ Q                         g6                                                                   Keeps                voltage
+PDF PAGE 18
+                                                                                        deviations within 5%.
+
+
+ STAB                      g7                                                                    Ensures         oscillations
+                                                                                        have at least 5% damping.
+
+
+ STAB                      g8                                                                    Prevents          generators
+                                                                                        from losing synchronization.
+
+
+ STAB                      g9                                                                    Ensures    the  grid  is  stiff
+                                                                                        enough for inverters.
+
+
+ REG                       g10                                                                   Ensures       the     battery
+                                                                                        holds 4% of demand as reserve.
+
+
+
+Note on threshold sources. The 59.7-60.3 Hz settling band is consistent with the Philippine Grid
+Code's   normal    operating    frequency range [CITE:          PGC,    Grid Operations §7.2.1].        The   59.5 Hz
+nadir  limit,  the  1.0 Hz/s    RoCoF limit, and the gSCR_min = 1.5 threshold are study parameters
+chosen conservatively for the reasons stated in the text; they are not direct PGC requirements and
+are varied in the sensitivity analysis.
+
+A  design    is  feasible   only    if all  ten   constraints    are  satisfied.   The    inverter   current   limit   (
+                 pu) and the BESS energy buffer (1-hour duration, 10-90% SoC window, initial 50%
+SoC)   are  fixed   physical    parameters     of the  converter    and battery models (Table 3.4).          Because
+these   limits  are   structurally    enforced    by   the  dynamic     simulation,    they   are   not  included    as
+optimization    constraints; they     determine how the converter behaves, not whether the design is
+feasible.
+
+The constraint-to-group mapping used in the decomposition is: REG ← {g10}; RoCoF ← {g2};
+FFR ← {g1}; PR ← {g3, g4}; Q ← {g5, g6}; STAB ← {g7, g8, g9}. The regulating power of
+g10 is a bidirectional reserve inside the GFM rating and is released to the contingency response,
+so ρ_REG is a stand-alone requirement and is not added to the other components.
+
+PDF PAGE 19
+The   gSCR_min       =  1.5 threshold is      a study parameter       chosen    conservatively, because         the GFM
+units are specified for operation in weaker grids than grid-following units, and it is varied in the
+sensitivity analysis.
+
+3.6.1 Constraint Violation Handling
+         Because these constraints have different units (Hz, per-unit, and degrees), the algorithms
+cannot    simply    sum    them.    A   violation    must    be  normalized      using    a  scaling   factor,         (the
+constraint's allowed tolerance band), to compute the Total Constraint Violation (CV):
+
+
+
+                                                                                        (3.31)
+
+A design with                        is fully feasible. To ensure the optimizer knows when a design has
+failed,  it  prioritizes   designs    with   lower   CV    values.    For  single-objective      algorithms     that  lack
+built-in constraint handling, the violation is added directly to the objective function as a penalty:
+
+                                                                                              (3.32)
+
+where            is  the  normalized      objective,                , and         is a  large  constant chosen to be
+larger than every feasible objective value.
+
+A  log-barrier is    not  used:   the  smallest    feasible ratio lies on the boundary of the feasible set by
+definition,   so an interior barrier would bias             upward, and a barrier on the violation                        is
+undefined for               .
+
+This equation turns every constraint into a dimensionless number. If a design violates the Nadir
+by  0.1  Hz,   it gets  a  normalized score of        1. If  it violates   the  RoCoF     by 0.1 Hz/s, it also gets a
+normalized score of 1. The CV simply adds up these scores. If a design violates any constraint,
+the  massive    penalty    (     ) is  added    to its objective    score,   forcing   the algorithm to abandon it
+immediately.      The   linear   multiplier                  ensures    that  even    a tiny   constraint    violation   is
+heavily punished during the search.
+
+The   three   metaheuristic      algorithms     use   this  CV    score   to  rank    designs.    A  feasible    design   (
+            ) always ranks      ahead of an infeasible design. This penalty function is what forces the
+optimizer    to  search   strictly   within   the   physical    boundaries     of the problem,      ensuring     the  final
+answer is feasible.
+
+3.7 Mathematical Optimization Model
+         Lorem ipsum dolor sit
+PDF PAGE 20
+3.7.1 Formulation
+         In   the  context     of  this   study,   a  cell  is  defined     as  a  unique    experimental       scenario
+representing a specific combination of the independent variables: a specific grid proxy (Grid A,
+Grid   B,   or  Grid    C),   an  operating     state   (Interconnected      or  Islanded),     a  renewable      energy
+penetration level (RE%), and a synchronous generator displacement level (d). Mathematically, a
+cell represents a specific coordinate in the parameter space:
+
+                                                     (3.33)
+
+         For    each    cell  of   the   experimental       design,    the   optimization      seeks    the   minimum
+replacement ratio and, in the same run, the minimum nodal frequency spread. Let                              denote the
+decision vector containing the site locations, capacity shares, and total ratio. The problem is:
+
+
+                                                                                                             (3.34)
+
+         The   result   reported    for  a  cell  is the  smallest-      feasible    design   returned    by   the  three
+independent     RNSGA-II       seeds, together with its                    and its binding group; no full Pareto
+front  is reported.    The   non-dominated        set  represents the designs       returned by     the  search where
+neither   objective    can  be   improved     without    degrading the      other, forming the      trade-off    frontier
+between     physical    capacity    requirement     (   ) and   frequency     stability   (            ). Because     the
+primary engineering objective is to determine the minimum GFM capacity required to support a
+given   displacement, only the single design with the lowest feasible                     is extracted from this set
+for reporting. Whether this design           is the  global optimum is established separately for the three
+benchmark cells       (Section 3.10) and stated as a scope condition for the remaining cells (Section
+3.11).
+
+         The   engineering     objectives     are  (i) the  maximum       SG    displacement             , and   (ii) the
+maximum RE penetration. Both are evaluated only within the tested bounds (20-80% for each),
+using the full energy-feasible matrix from Table 3.3.
+
+         The   replacement-ratio       cap          is a planning     threshold    used to classify tested       cells as
+feasible   or  infeasible    under    a  chosen    capacity    budget.    The   base-case     value   is  1.5,  and   the
+post-processing sensitivity values are 1.0,            1.25, and 2.0. These values are study thresholds, not
+Grid Code requirements.
+
+         The   value    1.0  is  a  test  case   that  examines      whether    a  strict  1:1  MW     replacement      is
+achievable under the modelled constraints. It is not declared physically impossible from the 0.95
+power-factor     calculation    alone,   because     the  replacement     ratio is   defined in    MW/MW        and   the
+PDF PAGE 21
+apparent-power       relationship     (Q/P    ≈   0.329,    S/P    ≈  1.053)    is   enforced    separately     through
+constraints g5 and g6. The value 1.25 is a moderate margin above 1.0; it is not derived from the
+reserve margin κ = S/L, because κ is total generation capacity divided by peak load, whereas ρ is
+GFM     active-power      rating   divided     by  retired   SG    capacity.    The    value   1.5   is  the  base-case
+threshold    used   to  define   the  primary    maximum-displacement            objective           .  The   value   2.0
+represents    an  extreme     overbuild     case  for  the   weakest    tested   cells.  Feasibility   at  each   cap   is
+determined     by   the  explicitly   modelled     constraints and     the tested    search   space,   not  by the cap
+value itself.
+
+         The maximum displacement at the base-case cap is therefore defined as the highest tested
+displacement where the required ratio remains at or below the cap:
+
+                                                       (3.35)
+
+         To diagnose why a specific ratio is required, the optimization output is decomposed into
+six ancillary-service-specific components (                     ,         ,         ,      ,      ,          ). The first
+five are the ancillary service components, and                        is the smallest ratio that also satisfies the
+small-signal, gSCR, and transient criteria. Each component is the minimum ratio that satisfies its
+own constraint group in isolation. The governing ratio is the maximum of these six components:
+
+                                                                              (3.36)
+
+         The   specific   component       that  equals        is defined    as the   binding    group of    the  cell.  A
+binding   group identifies the single physical bottleneck (e.g., frequency nadir, RoCoF, or system
+strength) that dictates the minimum required BESS capacity.
+
+3.7.2 Metaheuristic Algorithm
+         The   problem     contains    integer   variables (site buses)      and continuous       variables (capacity
+shares and total ratio), and its constraints are evaluated by non-linear simulations that provide no
+gradients. RNSGA-II is the primary optimizer and is run on all 50 core cells defined in Phase 3.
+MOPSO and AMOSA are cross-checks on three benchmark cells, compared with an enumerated
+optimum and not with each other.
+
+         All three algorithms share one real-coded chromosome, one integer-repair rule, and Deb's
+constrained-domination         rule (handling     all 10 constraints), so the cross-check is not confounded
+by different constraint handling. The search space is reduced before optimization begins to keep
+the  problem tractable.      First, the   physical search space is        reduced in Phase       1 and Phase 2. The
+candidate    buses   of  each   grid   (Grid A, Grid      B, and Grid      C) are pre-screened to        ten candidate
+buses out of the 39 available buses based on short-circuit capacity and participation factor. Phase
+2 then establishes the reference site count (              ) and dispersion class (           ) from this ten-bus set.
+PDF PAGE 22
+Second, the temporal        search   space   is restricted    to the  ten energy-feasible (RE, d) cells derived
+from   Eq.   3.8   (Table   3.3).  Phase    3  maps    the  50  core   cells  using    these  parameters.     All   three
+algorithms and the enumeration search operate strictly within this ten-bus set and the feasible cell
+matrix.
+
+3.7.2.1. Real-Coded NSGA II
+         Each   individual encodes (a) the buses of the                   sites, restricted to the candidate set of
+the dispersion class          , (b) the capacity share of each site, and (c) the total ratio             :
+
+                                                         (3.37)
+
+         After every operation, real-coded bus             genes are    rounded to the nearest valid candidate,
+and   duplicate    buses   are   repaired    by  moving     to  the   next   unused    candidate     within   the  class.
+Designs are ranked by Pareto dominance with Deb's rule, crowding distance keeps diversity, and
+simulated     binary    crossover     and    polynomial       mutation     generate     offspring.    Elitist   survival
+combines parents and offspring.
+
+3.7.2.2. MOPSO
+         MOPSO uses         an external archive of       non-dominated       designs and crowding-based leader
+selection, and updates each particle by:
+
+
+                                                         (3.38)
+
+         To balance     global exploration and local          exploitation,    the  inertia weight         is decreased
+linearly  from 0.9     to 0.4 over the course of        the  iterations, following the standard PSO heuristic
+established in Chapter       2. A high initial      weight   encourages the particles         to explore the broader
+search    space    early   on,   while     the   lower    final   weight    encourages      local   exploitation     and
+convergence in later iterations. The bus genes are rounded after each update.
+
+3.7.2.3. AMOSA
+AMOSA is a single chain with an archive of non-dominated designs. A worse design is accepted
+with probability:
+
+
+                                                                           (3.39)
+
+where          is the domination amount in objectives normalized by the archive range, and                           falls
+geometrically,                     , from a value giving an initial acceptance probability of about 0.7.
+3.7.3 Decomposition and Consistency Check
+PDF PAGE 23
+         Table 9: Algorithm settings and scope
+ Algorithm               Scope                    Seeds                   Evaluations/ru           Reporting
+                                                                          n
+
+ RNSGA-II                All 20 core cells        3                       2,000                    Run-level           ,
+                                                                                                   binding group
+
+ MOPSO                   3       benchmark        3                       2,000                    Agreement       with
+                         cells                                                                     enumerated
+                                                                                                   optimum
+
+ AMOSA                   3       benchmark        3                       2,000                    Agreement       with
+                         cells                                                                     enumerated
+                                                                                                   optimum
+
+Evaluation.     One   evaluation     is one   candidate     vector   passed    through    the  pipeline:   decode     and
+repair,  pandapower        load   flow,    static  screening,     one   dynamic      Simulink     run   of   the  design
+contingency     (and    of  the  fault   test  when    the  frequency      checks    pass),   metric   extraction,    and
+constraint    evaluation.    A   candidate     that  fails  the  load   flow    or  a  static  screen   counts    as  one
+evaluation but uses no Simulink run, and the pass-through rate is reported so that the number of
+Simulink runs is distinguished from the nominal budget.
+
+For  every   evaluation, the pipeline        records the    cell identifier, seed, candidate identifier, site set,
+capacity   shares,   total  ratio     , all  constraint metrics,     the normalized       total constraint violation,
+feasibility  status,   and   any   load-flow    or simulation failure status.        This   per-evaluation record is
+retained   for all  2,000 evaluations per seed.          Only the    best feasible candidate        is reported    as the
+cell's solution; the remaining records are retained as diagnostic data and are used in Section 3.9
+to construct the constraint failure heat maps.
+
+Seed protocol.     Each cell is     run with three independent seeds, generated as seed = hash(cell_id,
+run_id). The same seed set is used for all three algorithms on the same cell. Because three seeds
+cannot   support    a  reliable   standard    deviation,    a mean    and   standard    deviation are not reported.
+Instead, the results are reported as run-level values (the exact                  result from each individual run),
+the  range   (the  difference    between the      highest   and   lowest run-level values), and an           agreement
+count   (the  number     of  runs   that  successfully returned       the  identical optimal      site  configuration).
+This   approach     transparently     reports    the   raw   stochastic    variation    of  the   three   runs   without
+implying a false statistical confidence.
+
+3.7.3 Decomposition and Consistency Check
+
+         After the optimizer returns a final site configuration for a cell, that configuration is fixed.
+PDF PAGE 24
+The   total  replacement      ratio  (      ) satisfies   all  10  constraints    simultaneously,      but   it does   not
+reveal which specific constraint caused the BESS to be sized that way. To diagnose the physical
+bottleneck,    the optimization output is decomposed into its six constituent groups (FFR, RoCoF,
+PR, Q, REG, and STAB).
+
+Before    using   bisection    for  any group,     feasibility is   tested for    monotonicity with increasing
+over the specified bracket. The implementation samples the ratio                      interval, records the relevant
+metric    and   feasibility    status   at  each    sample,    and    checks    whether     the   feasibility   status   is
+monotone.     If  feasibility   is  monotone,     bisection    is  used;   if not,   a ratio grid search or       another
+method that does not require monotonicity is used.
+
+For the five monotone groups (FFR, RoCoF, PR, Q, REG), the minimum required ratio for each
+group   is  found    by  bisection.    Because     the  simulation     provides    no mathematical gradients,           the
+bisection compares        the  simulated physical       metric (e.g., the actual frequency nadir outputted by
+Simulink) directly against         the  hard  constraint threshold       (e.g., 59.5    Hz). The goal is to find the
+root where the simulated metric equals the threshold, within the numerical tolerance.
+
+The search is bracketed between a lower bound of                                (where the constraint fails) and an
+upper    bound    of                      (where     the  optimizer     guarantees     the   constraint    passes).   The
+interval is halved repeatedly:
+
+
+                                                                         (3.40)
+
+If  the   simulated     metric    at            satisfies   the   constraint,    the   upper    bound     is  lowered     (
+                   ). If the   constraint    is violated,   the   lower bound      is raised   (                   ). This
+continues    until  the   interval   is less  than   or equal    to 0.001. The converged          ratio is  a  numerical
+estimate of the minimum required for that specific constraint group, accurate to within the stated
+ratio resolution. It is not an exact analytical root.
+
+For   the  stability   group,    bisection    is assumed      to  be   invalid   by  default    because    the  gSCR     is
+expected    to fall  as the BESS rating increases, meaning the feasible region for stability may not
+be a continuous interval. Therefore, a grid search over                   at a resolution of 0.01 is used, starting
+from   0  up   to        . The    simulated     gSCR     at  each   step   is  compared      against    the  threshold    (
+                   ) to  find  the  lowest   valid            . Monotonicity is       not   assumed     for the stability
+group    in  either   direction;    the   grid   search   captures     any   non-monotone         behavior    within    its
+resolution.
+
+Once all six components are found, the governing analytical ratio                        (Eq. 3.36) is the maximum
+of these components.        The    component      that equals         is the binding      group for that cell. As the
+PDF PAGE 25
+displacement level (        )  increases, the binding group may change. The handover displacement (
+    ) is defined    as the minimum displacement where the binding group differs from the binding
+group at the previous tested displacement level:
+
+
+                                                                          (3.41)
+
+One-sided consistency         check. The decomposed           ratio (     )  is calculated    by activating     only one
+constraint group at a time at the selected configuration, making it much easier to satisfy than the
+joint problem. Because              is the maximum of the six individual components, it represents the
+single most demanding constraint at that configuration. It forms a numerical lower bound for the
+joint  problem.     This   decomposition       is  a  diagnostic     of  the   constraints    governing     the  selected
+configuration; it is not a set of global isolated minima over all possible site configurations.
+
+To illustrate this, suppose the RoCoF constraint alone requires                             , the PR constraint alone
+requires              , and the FFR constraint alone requires                         . In this case,                . The
+optimizer's    returned     answer    (      )  is  required    to   satisfy   all 10   constraints    simultaneously.
+Therefore, it is mathematically impossible for the optimizer to return a valid joint answer of 1.0,
+because    doing   so  would violate      the  RoCoF      constraint. The returned answer must be at least as
+large as the most demanding single constraint:
+
+               (3.42)
+
+If the optimizer returns a result smaller than this lower bound (                                         ), it indicates
+an implementation error, because            it is physically impossible         to satisfy   all constraints with less
+capacity than it takes to satisfy just one of them. The interaction gap is calculated for every cell:
+
+
+
+                           (3.43)
+
+A   gap   above    5%    indicates    a  cell  in  which    the   constraints    are   highly    interdependent.      This
+indicates   that   satisfying    one   physical    limit   forces   the  system     to oversize    in  order   to  satisfy
+another, meaning the constraint groups cannot be solved in isolation. This decomposition step is
+where the bisection method is applied to each constraint group in isolation to identify the binding
+group.
+
+3.8 Experimental Procedure
+         To keep the simulation tractable, a staged screening design is employed:
+
+PDF PAGE 26
+Fig. 3.1. Overall Experimental Procedure Flowchart
+
+
+3.8.1. Phase 1: Model Development and Baseline Characterization
+
+PDF PAGE 27
+         Fig. 3.2. Phase 1 Experimental Procedure Flowchart
+
+         This phase constructs the physical test systems described in Section 3.4 and performs the
+spatial pre-screening required for the optimization. Build the unmodified IEEE 39-bus system in
+pandapower and MATLAB and verify it against the published solution. Build the three calibrated
+copies:  remove G1       from each,     install the controlled injection at bus 39 for Grid B and Grid C,
+scale  the loads    to Table   3.2, and check      that each    copy converges. Establish         the pre-retirement
+baselines at 20%, 40%, 60%, and 80% RE with 100% of the SG fleet retained (redispatched but
+online).  Pre-screen     the ten candidate      BESS    buses per    grid  based on     short-circuit capacity      and
+participation    factor  (Section    3.7.2).  Compute      the  dispersion    classes   and   verify   that the  nodal
+frequency    spread    (            )  exceeds    numerical     noise;   if  it does   not,  it is demoted     from    a
+tie-breaker to a diagnostic. Finally, measure the average run time of one Simulink simulation to
+confirm the computational budget of Section 3.8.6.
+
+    ●    Build   the  unmodified IEEE        39-bus    system    in pandapower       and MATLAB and verify it
+         against the published solution.
+PDF PAGE 28
+    ●    Build the three calibrated copies: remove G1 from each, install the injection at bus 39 for
+         Grid B and Grid C, scale the loads to Table 3.2, and check that each copy converges.
+    ●    Establish    the pre-retirement baselines        at  20%, 40%,      60%, and 80%        RE   with 100% SG
+         retained.
+    ●    Pre-screen    the  ten  candidate buses      per grid, compute the dispersion classes,             and   verify
+         that ∆fspread exceeds numerical noise; if it does not, it is demoted from a tie-breaker to a
+         diagnostic.
+    ●    Measure     the   average    run   time   of  one   Simulink     simulation     to confirm     the  budget    of
+         Section 3.8.
+
+
+3.8.2. Phase 2: Reference Screening
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         Fig. 3.3. Phase 2 Experimental Procedure Flowchart
+
+         This   phase    operationalizes     the   screened    variables   from    Table   3.1  by   determining     the
+reference site count (          ) and dispersion class (           ) that will be used for the main experiment.
+Five configurations are run         on one representative       cell  per  grid (islanded     state, RE = 40%, d =
+PDF PAGE 29
+40%): N = 1, N = 3, and N = 5 at Medium dispersion; and Low and High dispersion at N = 3 (N
+= 1 has no dispersion class). The configurations are solved by enumeration over the pre-screened
+candidate    set (Section 3.7.3),     which    is deterministic, so that       the decision    rule is not hidden by
+stochastic noise.
+
+Decision    rule.  The   2% threshold is      the chosen     engineering decision threshold           for determining
+whether variations in BESS site configuration significantly impact the required capacity. It is not
+derived   from   a  physical law     and   it is not automatically "a few MW"; the capacity difference it
+represents    scales  with   the   grid  size  and   the  total  GFM      fleet. For   the  tested   cells,  2%   of the
+required   GFM capacity        corresponds to a difference of          the  order of    10^1-10^2 MW on Grid A
+and  10^0-10^1      MW     on   Grids   B   and   C.  Because     this  scale  is  comparable      to  modular    BESS
+procurement      increments, the 2% threshold is used to separate spatial sensitivity from numerical
+noise, and the results are also reported at 1% and 5% so that the reference configuration is not an
+artifact of the specific threshold chosen.
+
+If    varies by less than 2% across both sweeps, the spatial configuration does not meaningfully
+affect  the   result,  and   N   =  3  and   Medium      dispersion     are  adopted    as  the  reference,    with   the
+insensitivity stated. If it varies by more than 2%, the configuration is a genuine design driver, and
+the configuration with the highest             is adopted as the conservative reference, with the variation
+reported alongside the core results.
+
+3.8.3. Phase 3: Ratio Surface Generation
+
+PDF PAGE 30
+         Fig. 3.4. Phase 3 Experimental Procedure Flowchart
+         This phase generates        the replacement ratio surface by running the primary optimizer on
+every   energy-feasible      cell  defined    in  Table   3.3.   The   core   cells  are   the  complete     set  of  10
+energy-feasible      (RE,   d)   combinations,       evaluated     across   each    grid's   operating    states.   This
+produces 10 cells for Grid A (islanded only) and 20 each for Grid B and Grid C (interconnected
+and islanded), for a total of 50 cells.
+
+         Table 10: Core cells
+ Grid                          States                         Energy-feasible cells         Total
+                                                              per state
+
+ Grid A                        Islanded only                  10                            10
+
+ Grid B                        Interconnected,                         10                   20
+                               Islanded
+
+ Grid C                        Interconnected,                         10                   20
+                               Islanded
+
+ Total                                                                                      50
+PDF PAGE 31
+         Because every cell in the set is already proven energy-feasible by Eq. 3.8 (Table 3.3), no
+additional static screening is required. The full matrix includes the diagonal severity path (20,20)
+through (80,80),      as well as    off-diagonal    cells that   isolate the effects of RE penetration and SG
+displacement.     At   fixed  displacement      (e.g., d  = 20%),     the  RE   effect is   observed    by comparing
+(20,20),   (40,20), (60,20), and (80,20). At fixed RE (e.g., RE = 80%), the displacement effect is
+observed by comparing (80,20), (80,40), (80,60), and (80,80). This allows the handover (                           ) and
+the maximum displacement (                 ) to be attributed to the correct independent variable.
+
+         For each cell, RNSGA-II is executed with three independent seeds and a budget of 2,000
+evaluations per seed (Section 3.7.2). The optimizer searches within the pre-screened ten-bus set
+and the reference dispersion class (              ,      ) established in Phase 2. Once the optimizer returns
+the  lowest-      feasible   site  configuration,      that  configuration     is  fixed,   and   the  decomposition
+algorithm     (Section    3.7.3)   is  applied.    The   decomposition       isolates    each   constraint    group    to
+calculate its individual minimum ratio, and the maximum of these components is recorded as                               ,
+with the corresponding component identified as the binding group.
+
+         Benchmark       cell   selection.    For   the  three   benchmark       cells   used   in  the   enumeration
+cross-check (Section 3.7.3) and the EMT validation (Phase 5), the islanded cell at RE = d = 60%
+is selected for each grid. This selection is based on the discrete generator count and the physical
+dynamics     of  constraint    handover    (Section 3.9).     After   the  removal of     G1, each     proxy contains
+nine  physical synchronous generators.            At the 80% displacement level, the system is reduced to
+the  absolute    minimum      of  two   online   units   required    by  the  methodology, oversimplifying the
+multi-machine       interactions.     At   20%    and    40%,    the   grid   retains   a   strong    majority    of   its
+synchronous      fleet  and   frequency    constraints    typically    dominate. At      60%, the    system operates
+with three to four physical units online, which is the most severe test case that still retains a true
+multi-machine system.
+
+3.8.4. Phase 4: Spacing Refinement
+
+PDF PAGE 32
+         Fig. 3.5. Phase 4 Experimental Procedure Flowchart
+
+         This    phase     isolates    the   spatial    effect   of   the   GFM-BESS          configuration.      If   the
+computational budget permits, the analysis is performed on the highest-                        cell of each grid. This
+specific   cell  is  selected   because     it represents     the  most    severe   stability   condition,    where    the
+system is most sensitive to the spatial distribution of inverter-based resources.
+
+The phase consists of two distinct sweeps.
+
+Free capacity     sweep:    The   site  count is   varied over                              while   allowing the total
+GFM capacity (        ) to vary freely. This evaluates the relationship between site count and capacity
+requirement, yielding the saturation site count                  , which is defined as the smallest N where the
+marginal improvement in             falls below 2% (Section 3.9).
+
+Fixed   capacity    sweep:     The   total  GFM      MW     and   MWh      are   held   strictly  constant    across    all
+
+configurations (enforced by                                            ), while the electrical dispersion is varied
+over                                            . This isolates the effect of spatial distribution on the nodal
+frequency     spread   (             ), the  system    strength    (gSCR),     and   the  local RoCoF      spread. The
+PDF PAGE 33
+saturation counts                 and                are computed      separately using      the  same    2% marginal
+improvement rule.
+
+The Phase 4 results are reported separately and are not part of the core ratio surface. If Phase 4 is
+not run, the dispersion analysis is explicitly stated as a limitation in Section 3.11.
+
+Fig. 3.5. Phase 4 Experimental Procedure Flowchart
+
+3.8.5 Phase 5: Validation and Sensitivity
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         Fig. 3.6. Phase 5 Experimental Procedure Flowchart
+
+         This   phase   validates    the  dynamic     models (Section       3.5) and tests     the robustness of      the
+final results. It consists of two distinct parts: EMT validation and parameter sensitivity.
+
+         EMT     validation.    The    RMS     simulations     used   in  Phases    1  through    4  average    out  fast
+electromagnetic transients, meaning converter-network interaction modes are outside their scope
+(as stated in Section 3.5). To ensure the results are physically valid, the most critical cells of each
+grid (defined as the cell with the highest              and the lowest gSCR margin) are re-run in Simulink
+using   detailed   switching     (EMT)     models.    The   acceptance     criteria   are  that the EMT frequency
+nadir  and RoCoF       are  within   5% of     the RMS result, and the optimal site configuration remains
+PDF PAGE 34
+unchanged.     This    5%   threshold     is consistent     with   the  model     validation    tolerance    defined    in
+Section 3.10.
+
+         Sensitivity analysis. The base-case results are conditional on the parameters of Tables 3.2
+and 3.4. To bound this dependence, exactly eleven sensitivity cases are run on the critical cell of
+each  grid   using a single seed. Each         case   is designed to isolate a       specific   assumption     or scope
+limitation:
+
+         1. Virtual inertia                s. Tests the low-inertia extreme, which produces the worst-case
+RoCoF, since RoCoF is inversely proportional to system inertia (Eq. 3.21).
+         2.  Virtual   inertia              s.  Tests  a  moderate     increase   in virtual inertia above       the  5 s
+baseline.
+         3. Virtual inertia                  s. Tests the high-inertia extreme, bounding the upper end of
+the typical VSM range (Table 3.4).
+         4.  Converter     current limit                     pu.  Tests   the lower    bound of     the current limit,
+which reduces the converter fault current contribution (Eq. 3.3) and weakens the gSCR, directly
+stressing the system strength constraint (             ).
+         5.  System     strength    threshold                    at  the  small-signal     stability   boundary.     The
+small-signal    boundary      is  defined    as  the  gSCR     value   at  which    the  critical  electromechanical
+eigenvalue crosses the imaginary axis (                       ) under the study's linearized model. This value
+is determined once in Phase 1 by sweeping gSCR and tracking the eigenvalue with the smallest
+damping     ratio. The case tests the minimum gSCR at which the GFM fleet remains small-signal
+stable.
+         6.  System     strength   threshold                    one   step  above    the  boundary.     "One    step"   is
+defined   as +0.1    in gSCR     units  above the boundary determined in Case 5. This verifies that the
+result remains stable just above the critical limit.
+         7.  HVDC       scheduled     power            at  0.5   times   base.   Tests   a  reduced     import,   which
+increases   local   SG   loading    in  the  receiver    grids, reducing headroom          for the   N-1   contingency
+(Section 3.4.3).
+         8.  HVDC      scheduled     power            at 1.5   times   base.   Tests  an   increased    import, which
+lightens local SG loading and increases headroom.
+         9.  HVDC       reverse    flow   at                     . Bounds     the   explicit   scope    limitation   that
+reverse flow is out of scope (Section 3.4.3).
+         10.       The        RE        ramp-bound            case.       Adds         a      ramp         requirement
+                                                       , bounding     the  assumption that       RE   is held constant
+during the 120-second simulation window (Section 3.4.5).
+         11. The opposite inertia-retirement order. Tests the worst-case retirement path, bounding
+the optimistic assumption that the lowest-inertia units are displaced first (Section 3.4.4).
+
+PDF PAGE 35
+         Finally, the capacity cap               is varied over 1.0, 1.25, 1.5, and 2.0 by post-processing the
+stored ratios, as defined in Section 3.7.1. This does not require additional dynamic simulations.
+
+
+
+3.8.6. Planned Number of Evaluation
+
+ Item                                                           Evaluations
+
+ Phase 2 enumeration (about 5,000 per grid × 3                  15,000
+ grids)
+
+ RNSGA-II core (50 cells × 3 seeds × 2,000)                     300000
+
+ MOPSO        cross-check      (3   cells   ×  3   seeds   ×    18,000
+ 2,000)
+
+ AMOSA        cross-check       (3  cells   ×   3  seeds   ×    18,000
+ 2,000)
+
+ Benchmark        enumeration        (3   cells   ×   about     3,000
+ 1,000 runs)
+
+ Decomposition (50 cells × about 340 runs)                      17,000
+
+ Sensitivity (11 cases × 3 grids × 2,000)                       66,000
+
+ Core total                                                     About 437000
+
+
+
+3.8.7. Subroutines
+                                       Table 12: Subroutine Flowchart Allocations
+ Subroutine                Figure                    Used     under     /   calling     Applications
+ Name                                                figures
+
+ Shared      Evaluation                              3.8,  3.9,  3.10,  3.12,  3.14,    Evaluating     candidate    designs
+ Constraint                 Figure 3.7               3.15, 3.17                         during   optimization,    reference
+                                                                                        searches, and verification
+
+ Real-Coded                                          3.15,       3.17;      existing    Primary        sizing,      spacing
+ NSGA-II                    Figure 3.8               benchmark     runs   reused   in   refinement,      sensitivity,   and
+                                                     3.13                               redesign
+
+ MOPSO      Benchmark       Figure 3.9               Figure 3.13                        Phase 3 benchmark cells
+ Cross-Check
+PDF PAGE 36
+AMOSA Benchmark               Figure 3.10                 Figure 3.13                             Phase 3 benchmark cells
+Cross-Check
+
+Decomposition                                                                                     Diagnosing           constraint-group
+Diagnostic                    Figure 3.11                 Figure 3.15                            requirements        for    a    selected
+                                                                                                 free-capacity design
+
+Verified                                                                                          Searching one verified monotone
+Monotone-Group                Figure 3.12                 Figure 3.11                            constraint group
+Bisection
+
+Benchmark                     Figure 3.13                 Figure 3.4                              Phase   3  comparison      against   the
+Cross-check                                                                                      finite-grid reference
+
+Joint       Finite-Grid       Figure 3.14                 Phase 2 reference screening;            Deterministic     reference    searches
+Reference Search                                          3.13                                   over sites, shares, and ratios
+
+                                                                                                  Core       sizing,       free-capacity
+Size and Verify Cell          Figure 3.15                 3.4, 3.16, 3.19, 3.27                  spacing,    sensitivity, and    physical
+                                                                                                 redesign
+
+Free-Capacity                                                                                     Phase 4: obtain replacement ratio
+Site-Count            (N)     Figure 3.16                 Figure 3.5                             versus site count
+Sweep
+
+Matched-Capacity              Figure 3.17                 Figure 3.5                              Phase      4:     compare        spatial
+Spatial Sweep                                                                                    performance at fixed fleet ratings
+
+Run Validation Case           Figure 3.18                 3.6, 3.27                               Initial  validation     and   repeated
+                                                                                                 validation after corrections
+
+Execute      Applicable       Figure 3.19                 Figure 3.6                              Phase     5    parameter-sensitivity
+Sensitivities                                                                                    cases
+
+Decode     And    Repair                                  3.7;   also   referenced    during      Checking      and    repairing     sites,
+Candidate                     Figure 3.20                 optimizer        variation        in   shares,           bounds,            and
+                                                          3.8–3.10                               fixed-capacity requirements
+
+Bounded      Numerical        Figure 3.21                 3.14; Phase 2 correction path           Investigating        failures       and
+Recovery                                                                                         authorizing limited retries
+
+Annealing                     Figure 3.22                 Figure 3.10                             Choosing whether        a neighboring
+Acceptance Decision                                                                              design replaces the current design
+
+Detailed      Switching                                                                           Phase         5       detailed-model
+Model                         Figure 3.23                 Figure 3.18                            construction        and      parameter
+                                                                                                 mapping
+
+Initialize      Detailed      Figure 3.24                 Figure 3.18                             Phase         5       pre-disturbance
+Model                                                                                            operating-point checks
+
+Detailed Simulations                                                                              Phase    5  event    simulations    and
+And          Time-Step        Figure 3.25                 Figure 3.18                            numerical-convergence checks
+Check
+PDF PAGE 37
+Compare         Models                                                                       Comparing      RMS     and    detailed
+And            Classify     Figure 3.26                Figure 3.18                          results     and     checking       hard
+Validation                                                                                  constraints
+
+Discrepancy Routing                                                                          Correcting      model     errors    or
+And Revalidation            Figure 3.27                Figure 3.6                           redesigning        and       repeating
+                                                                                            validation
+
+RMS Event Loop              Figure 3.28                Figure 3.7                            Running      the    required     RMS
+                                                                                            contingency and fault tests
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Fig. 3.7. Shared Evaluation Constraint
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Fig. 3.8. Real-Coded NSGA-II
+PDF PAGE 38
+Fig. 3.9. MOPSO Benchmark Cross-Check
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fig. 3.10. AMOSA Benchmark Cross-Check
+PDF PAGE 39
+Fig. 3.11. Decomposition Diagnostic
+PDF PAGE 40
+Fig. 3.12. Verified Monotone-Group Bisection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fig. 3.13. Benchmark Cross-check
+PDF PAGE 41
+Fig. 3.14. Joint Finite-Grid Reference Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fig. 3.15. Size and Verify Cell
+PDF PAGE 42
+Fig. 3.16. Free-Capacity Site-Count (N) Sweep
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fig. 3.17. Matched-Capacity Spatial Sweep
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fig. 3.18. Run Validation Case
+PDF PAGE 43
+Fig. 3.19. Execute Applicable Sensitivities
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fig. 3.20. Decode And Repair Candidate
+PDF PAGE 44
+Fig. 3.21. Bounded Numerical Recovery
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fig. 3.22. Annealing Acceptance Decision
+PDF PAGE 45
+Fig. 3.23. Detailed Switching Model
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fig. 3.24. Initialize Detailed Model
+PDF PAGE 46
+Fig. 3.25. Detailed Simulations And Time-Step Check
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fig. 3.26. Compare Models And Classify Validation
+PDF PAGE 47
+Fig. 3.27. Discrepancy Routing And Revalidation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fig. 3.28. RMS Event Loop
+
+PDF PAGE 48
+3.9. Data Analysis Plan
+         The   results   from   the   optimization,    decomposition,       and   sensitivity runs    are  analyzed     to
+determine the binding constraints, the constraint handover, and the spatial saturation limits. The
+analysis   is structured    into  six parts: the    constraint handover, the maximum displacement limit,
+the  ratio  matrix    generation,     the  constraint    feasibility    maps,    the  spacing    sensitivity,   and   the
+cross-check statistics.
+
+         Constraint handover. The decomposition step (Section 3.7.3) yields the binding group for
+each cell. The sequence of binding groups is plotted against the displacement level (                         ) for each
+grid  and   operating    state.  The    handover     displacement      (    ) is  the  specific   displacement      level
+where the binding group switches from the previous stage, as defined in Eq. 3.41. Identifying
+is the primary physical diagnostic of the study, as it indicates exactly when the system transitions
+from    being   limited    by   one   constraint     (e.g.,  frequency     dynamics)      to  another    (e.g.,   system
+strength).
+
+         Maximum        displacement      limit.  For   each   fixed    RE   level,  the  maximum        allowable    SG
+displacement (           ) is the highest tested displacement level for which the governing ratio (                      )
+remains    within   the   base-case    capacity    cap   (               ,  defined   in  Section    3.7.1,   Eq. 3.35).
+Because    the full energy-feasible       matrix is    evaluated, each      RE   level has    multiple displacement
+values, so this is a true per-RE maximum rather than a combined-stress limit.
+
+         The   same    logic,   applied at   fixed   displacement,      yields  the  maximum       RE    penetration at
+fixed  d. Because     RE penetration       affects the system inertia (higher RE means less synchronous
+generation and lower inertia), the required ratio increases with RE. The maximum RE at a fixed
+d is the highest RE level that keeps the ratio within the cap:
+
+
+(3.42)
+
+         This   metric   answers     the  question:    "At   a  fixed  retirement     level,  how    much    renewable
+energy can I integrate before the required GFM capacity exceeds the planning cap?"
+
+         Ratio matrix. The results are compiled into a three-dimensional ratio matrix for each grid
+proxy (Grid A, Grid B, and Grid C). The matrix elements are defined as:
+
+                                                  (3.43)
+
+         where    the  indices    represent   the   RE   penetration     level,  the  displacement      level,  and   the
+operating state. Cells that are energy-infeasible, strength-limited, or algorithmically infeasible are
+PDF PAGE 49
+explicitly   marked     as  such.   Each   feasible    cell is  annotated     with   its binding    group,    creating   a
+binding-constraint map which serves as the principal diagnostic output.
+
+         Constraint    feasibility maps. For every          evaluated candidate,       the  data pipeline retains the
+constraint metrics and pass/fail status for each constraint group, using the per-evaluation record
+described in Section 3.7.2. Failure heat maps are calculated from the recorded evaluations, using
+a clearly    defined    denominator      (all  attempted     candidates     that  reach   dynamic     simulation)     and
+reporting   the denominator in each          panel. The six      failure  rates  (one   per constraint group: FFR,
+RoCoF,    PR,   Q, STAB, REG)          are  plotted   as a set of small-multiple heat maps over the (RE, d)
+grid,  one   per   constraint   group.    This   preserves    the  full  tally  of  failures   by   group   rather   than
+collapsing    to  a  single   dominant     label.  Stacked     bars  show    the   count   of  failed   evaluations    by
+constraint group; because         a candidate     may violate multiple        constraints, stacked      counts   are  not
+interpreted   as mutually      exclusive failure causes unless          each candidate      is assigned one primary
+failure  label   by  a  stated   rule.  The binding-constraint map           is generated from the final         feasible
+solution and the corrected decomposition.
+
+         Spacing sensitivity. If the supplementary Phase 4 is executed, the spatial distribution data
+is analyzed.    Using    the   free-capacity    results,   the  saturation    site  count   (      ) is defined    as the
+smallest number of sites whose marginal improvement in                      falls below 2%:
+
+
+
+                                                                                             (3.44)
+
+         where          is the next larger site count in the set                        . If no such N exists within
+the  set,             . The 2%     threshold    matches     the  decision rule established in Phase 2 (Section
+3.8.2). The counts for system strength (                     ) and local RoCoF spread (                    ) are defined
+using the same equation applied to the marginal relative improvement of the gSCR and the local
+RoCoF     spread,   respectively.     The   2%    threshold    is also   reported   at  1%    and   5%   to  ensure    the
+saturation count is not an artifact of the specific threshold chosen.
+
+         Small-signal      tracking.     As    synchronous        generators     are    displaced,     the   eigenvalue
+trajectories    (         )  and    the   minimum       damping      ratio   (           )  are   tracked    across    the
+displacement stages. If       a design falls below the 5% damping threshold (constraint                        , Section
+3.6),  a corrective    action   is triggered    by adjusting     the GFM      controller    gains  (      ,      ) or the
+BESS spatial location. This corrective action is recorded as a finding rather than searched for by
+the optimizer.
+
+         Cross-check       statistics.   For   the   three    benchmark       cells,   the   run-level    results   from
+RNSGA-II,      MOPSO,       and AMOSA are compared against the enumerated optimum (                                  ). A
+PDF PAGE 50
+run  is defined    as  an  agreement      if its returned ratio     is within 1%     of            and  it returns   the
+identical site set. The agreement count, the range of results, and the number of feasible runs are
+reported   (as defined    in  Section 3.7.2). No mean or standard deviation is reported because three
+seeds   cannot    support    a  reliable   statistical   variance.    This   1%    threshold    establishes    that  the
+metaheuristic converges to the enumerated optimum within the pre-screened search space on the
+benchmark cells; it does        not  prove global optimality on the remaining cells (Section 3.11, item
+9).
+
+3.10. Quality Control and Validation
+         Verification    confirms    that the equations      and   implementation behave         as intended, while
+validation confirms that the model adequately represents the real system. The verification checks
+are performed before any optimization runs, and the validation checks are performed on the final
+results of Phase 5.
+
+         Verification.     The    following     checks     are   used    to  confirm     the   simulation      code    is
+mathematically correct:
+
+         Power flow benchmark. The unmodified base case reproduces the published IEEE 39-bus
+solution   within   1%    on all  bus   voltages and line      flows,   and  pandapower       and  MATLAB agree.
+This  confirms     that  the  network     model    and   the  power    flow   solver   (Eq.   3.1-3.2)   are correctly
+implemented before any modifications.
+
+         Initial RoCoF. The simulated instantaneous rate of change of frequency over the first 100
+ms is compared with the analytical                         from Eq. 3.21. This is the only quantity for which
+a closed-form     analytical    solution exists. For the SG-only baseline, the tolerance is 5%, because
+the  analytical   formula    is exact at the instant      of the   contingency     (the  physical rotor's inertia is
+immediately     available)    and  the  only   error comes     from the     numerical ODE solver. When GFM
+units are present, the tolerance is widened to 10%. This tolerance is a study acceptance criterion
+chosen to accommodate the finite response time of the implemented VSM controller, which the
+analytical   formula    does   not   capture.   The   specific   controller    dynamics     are  those   of  the  VSM
+model    in  Section    3.5.2.1.   The   simulated     initial RoCoF      is therefore    slightly  steeper   than   the
+analytical prediction, and the 10% tolerance reflects this known difference. The error is defined
+as:
+
+
+
+                                                   (3.45)
+
+         Windowed RoCoF. The constraint                   does not use the instantaneous derivative. It uses a
+500   ms   rolling  window      (Eq.  3.22)   to  average    out  solver   noise and     high-frequency      switching
+ripple. Because governors and VSM controllers react during this 500 ms window, no closed-form
+PDF PAGE 51
+analytical   solution   exists  for this   quantity; it is   strictly  a simulation     output.   The verification is
+therefore performed by checking that the windowed RoCoF correctly converges to the analytical
+              as  the   window     size   shrinks   toward     zero,  confirming      that  the  extraction    script  is
+correctly reading the underlying COI curve.
+
+         Baseline nadir. The pre-retirement nadir is reported across RE levels by finite differences,
+as a  diagnostic    and not as    a  pass/fail gate.    This is because less-loaded synchronous generators
+also  mean     a   smaller    lost  power     and   more    governor     headroom,      so   the  nadir   can   behave
+non-monotonically. The trend is recorded, not enforced.
+
+         Capacity control. In the fixed-capacity part of Phase 4, the total installed GFM capacity (
+
+                ) is verified to be constant across all site counts (N) and dispersion classes (D). This
+confirms that the spatial sweeps isolate the effect of distribution and do not inadvertently change
+the total capacity.
+
+         Benchmark cells.       RNSGA-II recovers the enumerated optimum (                           ) within 1% and
+returns   the  same    site  set  on   all three   benchmark      cells.  This   confirms    that  the  metaheuristic
+converges    to  the  enumerated      optimum      over   the  pre-screened     candidate     set; it does   not  prove
+global optimality on the remaining 47 cells (Section 3.11, item 9).
+
+         Eigenvalue check. The linearized model reproduces the small-disturbance response of the
+non-linear Simulink       model for     the  electromechanical       modes. This confirms that the eigenvalue
+analysis (Eq. 3.27) is consistent with the time-domain simulation.
+
+         Validation.    The   following     checks    confirm     that  the  model     represents    the  real   system
+adequately:
+
+         EMT comparison. The Phase 5 detailed switching (EMT) models are compared with the
+RMS simulations on the critical cells. The acceptance criteria are nadir and RoCoF within 5% of
+the RMS     result  and an unchanged         site set.  This   is the principal validation because it confirms
+that the RMS averaging          used in the optimization does          not  obscure    any fast converter-network
+interactions    that   would    invalidate    the   results.   RMS-EMT         agreement     on   the   selected    cells
+validates   consistency between        the  two model      representations     for the compared outputs; it does
+not by itself validate the calibrated IEEE 39-bus proxy against the actual Philippine grids.
+
+         Event plausibility check. The Grid A proxy (representing the Luzon grid) is scaled to the
+DOE-reported       loss  of two   267 MW       units,  after which     the frequency     fell to  58.915 Hz [CITE:
+DOE System Disturbance Report, exact date to be verified]. Because this is a single nadir value
+and the dispatch and inertia at the time of the event are unknown, and because under-frequency
+load  shedding may have         acted, this comparison        is treated as    a  plausibility check     and not as     a
+PDF PAGE 52
+strict validation. Because 58.915 Hz is below the study's 59.5 Hz nadir threshold, the event does
+not demonstrate compliance with that              threshold; it only indicates that         the  simulated frequency
+response    is  of  a  comparable      order   of   magnitude     for  a  real  Philippine     grid  disturbance.     The
+original   DOE     disturbance     report,  event    date,  and   lost-unit   details   must   be   verified   and   cited
+before this comparison is relied upon.
+

@@ -1,0 +1,5645 @@
+[
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19
+    ],
+    "rho": 0.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97307335366316,
+      "rocof_hz_s": 0.05385329267367922,
+      "settling_hz": 59.99523401826483,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 0.0,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 0.0
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": false
+    },
+    "demo_pass": false
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19
+    ],
+    "rho": 0.25,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.98277471861768,
+      "rocof_hz_s": 0.034450562764646975,
+      "settling_hz": 59.996187214611865,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 1401.6000000000001,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 4.4402205076777115
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19
+    ],
+    "rho": 0.5,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.986912099108636,
+      "rocof_hz_s": 0.026175801782727603,
+      "settling_hz": 59.99682267884324,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 2803.2000000000003,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 7.393632535117661
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19
+    ],
+    "rho": 0.75,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.989132487802586,
+      "rocof_hz_s": 0.021735024394828883,
+      "settling_hz": 59.99727658186562,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 4204.8,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 9.499913792366371
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19
+    ],
+    "rho": 1.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99068946315656,
+      "rocof_hz_s": 0.018621073686873046,
+      "settling_hz": 59.997617009132426,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 5606.400000000001,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 11.077820721137229
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19
+    ],
+    "rho": 1.25,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99188109925174,
+      "rocof_hz_s": 0.016237801496515658,
+      "settling_hz": 59.99788178589551,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 7008.000000000001,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 12.304012621209703
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19
+    ],
+    "rho": 1.5,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99281852120292,
+      "rocof_hz_s": 0.014362957594158843,
+      "settling_hz": 59.998093607305925,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 8409.6,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 13.284292648484536
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19
+    ],
+    "rho": 1.75,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99357279684834,
+      "rocof_hz_s": 0.01285440630331891,
+      "settling_hz": 59.99826691573264,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 9811.2,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 14.085894659365307
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19
+    ],
+    "rho": 2.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99419126239688,
+      "rocof_hz_s": 0.01161747520623635,
+      "settling_hz": 59.99841133942163,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 11212.800000000001,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 14.75359019774999
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97307335366316,
+      "rocof_hz_s": 0.05385329267367922,
+      "settling_hz": 59.99523401826483,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 0.0,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 0.0
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": false
+    },
+    "demo_pass": false
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.25,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.98277471861768,
+      "rocof_hz_s": 0.034450562764646975,
+      "settling_hz": 59.996187214611865,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 1401.6000000000001,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 4.4402205076777115
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.5,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.986912099108636,
+      "rocof_hz_s": 0.026175801782727603,
+      "settling_hz": 59.99682267884324,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 2803.2000000000003,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 7.393632535117661
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.75,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.989132487802586,
+      "rocof_hz_s": 0.021735024394828883,
+      "settling_hz": 59.99727658186562,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 4204.8,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 9.499913792366371
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 1.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99068946315656,
+      "rocof_hz_s": 0.018621073686873046,
+      "settling_hz": 59.997617009132426,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 5606.400000000001,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 11.077820721137229
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 1.25,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99188109925174,
+      "rocof_hz_s": 0.016237801496515658,
+      "settling_hz": 59.99788178589551,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 7008.000000000001,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 12.304012621209703
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 1.5,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99281852120292,
+      "rocof_hz_s": 0.014362957594158843,
+      "settling_hz": 59.998093607305925,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 8409.6,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 13.284292648484536
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 1.75,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99357279684834,
+      "rocof_hz_s": 0.01285440630331891,
+      "settling_hz": 59.99826691573264,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 9811.2,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 14.085894659365307
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 2.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99419126239688,
+      "rocof_hz_s": 0.01161747520623635,
+      "settling_hz": 59.99841133942163,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 11212.800000000001,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 14.75359019774999
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      3,
+      14,
+      11,
+      4
+    ],
+    "rho": 0.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97307335366316,
+      "rocof_hz_s": 0.05385329267367922,
+      "settling_hz": 59.99523401826483,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 0.0,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 0.0
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": false
+    },
+    "demo_pass": false
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      3,
+      14,
+      11,
+      4
+    ],
+    "rho": 0.25,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.98277471861768,
+      "rocof_hz_s": 0.034450562764646975,
+      "settling_hz": 59.996187214611865,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 1401.6000000000001,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 4.4402205076777115
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      3,
+      14,
+      11,
+      4
+    ],
+    "rho": 0.5,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.986912099108636,
+      "rocof_hz_s": 0.026175801782727603,
+      "settling_hz": 59.99682267884324,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 2803.2000000000003,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 7.393632535117661
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      3,
+      14,
+      11,
+      4
+    ],
+    "rho": 0.75,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.989132487802586,
+      "rocof_hz_s": 0.021735024394828883,
+      "settling_hz": 59.99727658186562,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 4204.8,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 9.499913792366371
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      3,
+      14,
+      11,
+      4
+    ],
+    "rho": 1.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99068946315656,
+      "rocof_hz_s": 0.018621073686873046,
+      "settling_hz": 59.997617009132426,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 5606.400000000001,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 11.077820721137229
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      3,
+      14,
+      11,
+      4
+    ],
+    "rho": 1.25,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99188109925174,
+      "rocof_hz_s": 0.016237801496515658,
+      "settling_hz": 59.99788178589551,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 7008.000000000001,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 12.304012621209703
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      3,
+      14,
+      11,
+      4
+    ],
+    "rho": 1.5,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99281852120292,
+      "rocof_hz_s": 0.014362957594158843,
+      "settling_hz": 59.998093607305925,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 8409.6,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 13.284292648484536
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      3,
+      14,
+      11,
+      4
+    ],
+    "rho": 1.75,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99357279684834,
+      "rocof_hz_s": 0.01285440630331891,
+      "settling_hz": 59.99826691573264,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 9811.2,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 14.085894659365307
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      3,
+      14,
+      11,
+      4
+    ],
+    "rho": 2.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99419126239688,
+      "rocof_hz_s": 0.01161747520623635,
+      "settling_hz": 59.99841133942163,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 11212.800000000001,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 14.75359019774999
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      7,
+      3
+    ],
+    "rho": 0.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97307335366316,
+      "rocof_hz_s": 0.05385329267367922,
+      "settling_hz": 59.99523401826483,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 0.0,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 0.0
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": false
+    },
+    "demo_pass": false
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      7,
+      3
+    ],
+    "rho": 0.25,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.98277471861768,
+      "rocof_hz_s": 0.034450562764646975,
+      "settling_hz": 59.996187214611865,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 1401.6000000000001,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 4.4402205076777115
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      7,
+      3
+    ],
+    "rho": 0.5,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.986912099108636,
+      "rocof_hz_s": 0.026175801782727603,
+      "settling_hz": 59.99682267884324,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 2803.2000000000003,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 7.393632535117661
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      7,
+      3
+    ],
+    "rho": 0.75,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.989132487802586,
+      "rocof_hz_s": 0.021735024394828883,
+      "settling_hz": 59.99727658186562,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 4204.8,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 9.499913792366371
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      7,
+      3
+    ],
+    "rho": 1.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99068946315656,
+      "rocof_hz_s": 0.018621073686873046,
+      "settling_hz": 59.997617009132426,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 5606.400000000001,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 11.077820721137229
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      7,
+      3
+    ],
+    "rho": 1.25,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99188109925174,
+      "rocof_hz_s": 0.016237801496515658,
+      "settling_hz": 59.99788178589551,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 7008.000000000001,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 12.304012621209703
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      7,
+      3
+    ],
+    "rho": 1.5,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99281852120292,
+      "rocof_hz_s": 0.014362957594158843,
+      "settling_hz": 59.998093607305925,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 8409.6,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 13.284292648484536
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      7,
+      3
+    ],
+    "rho": 1.75,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99357279684834,
+      "rocof_hz_s": 0.01285440630331891,
+      "settling_hz": 59.99826691573264,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 9811.2,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 14.085894659365307
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      7,
+      3
+    ],
+    "rho": 2.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99419126239688,
+      "rocof_hz_s": 0.01161747520623635,
+      "settling_hz": 59.99841133942163,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 11212.800000000001,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 14.75359019774999
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      14,
+      13
+    ],
+    "rho": 0.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97307335366316,
+      "rocof_hz_s": 0.05385329267367922,
+      "settling_hz": 59.99523401826483,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 0.0,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 0.0
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": false
+    },
+    "demo_pass": false
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      14,
+      13
+    ],
+    "rho": 0.25,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.98277471861768,
+      "rocof_hz_s": 0.034450562764646975,
+      "settling_hz": 59.996187214611865,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 1401.6000000000001,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 4.4402205076777115
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      14,
+      13
+    ],
+    "rho": 0.5,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.986912099108636,
+      "rocof_hz_s": 0.026175801782727603,
+      "settling_hz": 59.99682267884324,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 2803.2000000000003,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 7.393632535117661
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      14,
+      13
+    ],
+    "rho": 0.75,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.989132487802586,
+      "rocof_hz_s": 0.021735024394828883,
+      "settling_hz": 59.99727658186562,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 4204.8,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 9.499913792366371
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      14,
+      13
+    ],
+    "rho": 1.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99068946315656,
+      "rocof_hz_s": 0.018621073686873046,
+      "settling_hz": 59.997617009132426,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 5606.400000000001,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 11.077820721137229
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      14,
+      13
+    ],
+    "rho": 1.25,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99188109925174,
+      "rocof_hz_s": 0.016237801496515658,
+      "settling_hz": 59.99788178589551,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 7008.000000000001,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 12.304012621209703
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      14,
+      13
+    ],
+    "rho": 1.5,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99281852120292,
+      "rocof_hz_s": 0.014362957594158843,
+      "settling_hz": 59.998093607305925,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 8409.6,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 13.284292648484536
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      14,
+      13
+    ],
+    "rho": 1.75,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99357279684834,
+      "rocof_hz_s": 0.01285440630331891,
+      "settling_hz": 59.99826691573264,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 9811.2,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 14.085894659365307
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      14,
+      13
+    ],
+    "rho": 2.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99419126239688,
+      "rocof_hz_s": 0.01161747520623635,
+      "settling_hz": 59.99841133942163,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 11212.800000000001,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 14.75359019774999
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19
+    ],
+    "rho": 0.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.96839001151612,
+      "rocof_hz_s": 0.06321997696775838,
+      "settling_hz": 59.99440507273404,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 0.0,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 0.0
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": false
+    },
+    "demo_pass": false
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19
+    ],
+    "rho": 0.25,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97977873147793,
+      "rocof_hz_s": 0.04044253704414302,
+      "settling_hz": 59.99552405818724,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 268.1,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 0.9970555031429404
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19
+    ],
+    "rho": 0.5,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.98463572510413,
+      "rocof_hz_s": 0.030728549791746218,
+      "settling_hz": 59.99627004848936,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 536.2,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 1.6602468260297334
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19
+    ],
+    "rho": 0.75,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.987242305240194,
+      "rocof_hz_s": 0.02551538951961163,
+      "settling_hz": 59.99680289870517,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 804.3000000000001,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 2.1332141749030638
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19
+    ],
+    "rho": 1.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.98907008475218,
+      "rocof_hz_s": 0.021859830495642996,
+      "settling_hz": 59.99720253636702,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 1072.4,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 2.487534592681594
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19
+    ],
+    "rho": 1.25,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99046898169437,
+      "rocof_hz_s": 0.019062036611259714,
+      "settling_hz": 59.997513365659564,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 1340.5,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 2.762877086290326
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19
+    ],
+    "rho": 1.5,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.991569449115346,
+      "rocof_hz_s": 0.016861101769308107,
+      "settling_hz": 59.99776202909361,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 1608.6000000000001,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 2.982999846038964
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19
+    ],
+    "rho": 1.75,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.992454915664,
+      "rocof_hz_s": 0.015090168672003301,
+      "settling_hz": 59.99796548099422,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 1876.7000000000003,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 3.163000297618935
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19
+    ],
+    "rho": 2.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99318095070369,
+      "rocof_hz_s": 0.013638098592622327,
+      "settling_hz": 59.99813502424468,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 2144.8,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 3.312931928214265
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.96839001151612,
+      "rocof_hz_s": 0.06321997696775838,
+      "settling_hz": 59.99440507273404,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 0.0,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 0.0
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": false
+    },
+    "demo_pass": false
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.25,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97977873147793,
+      "rocof_hz_s": 0.04044253704414302,
+      "settling_hz": 59.99552405818724,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 268.1,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 0.9970555031429404
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.5,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.98463572510413,
+      "rocof_hz_s": 0.030728549791746218,
+      "settling_hz": 59.99627004848936,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 536.2,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 1.6602468260297334
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.75,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.987242305240194,
+      "rocof_hz_s": 0.02551538951961163,
+      "settling_hz": 59.99680289870517,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 804.3000000000001,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 2.1332141749030638
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 1.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.98907008475218,
+      "rocof_hz_s": 0.021859830495642996,
+      "settling_hz": 59.99720253636702,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 1072.4,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 2.487534592681594
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 1.25,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99046898169437,
+      "rocof_hz_s": 0.019062036611259714,
+      "settling_hz": 59.997513365659564,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 1340.5,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 2.762877086290326
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 1.5,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.991569449115346,
+      "rocof_hz_s": 0.016861101769308107,
+      "settling_hz": 59.99776202909361,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 1608.6000000000001,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 2.982999846038964
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 1.75,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.992454915664,
+      "rocof_hz_s": 0.015090168672003301,
+      "settling_hz": 59.99796548099422,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 1876.7000000000003,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 3.163000297618935
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 2.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99318095070369,
+      "rocof_hz_s": 0.013638098592622327,
+      "settling_hz": 59.99813502424468,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 2144.8,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 3.312931928214265
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      3,
+      14,
+      11,
+      4
+    ],
+    "rho": 0.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.96839001151612,
+      "rocof_hz_s": 0.06321997696775838,
+      "settling_hz": 59.99440507273404,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 0.0,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 0.0
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": false
+    },
+    "demo_pass": false
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      3,
+      14,
+      11,
+      4
+    ],
+    "rho": 0.25,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97977873147793,
+      "rocof_hz_s": 0.04044253704414302,
+      "settling_hz": 59.99552405818724,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 268.1,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 0.9970555031429404
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      3,
+      14,
+      11,
+      4
+    ],
+    "rho": 0.5,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.98463572510413,
+      "rocof_hz_s": 0.030728549791746218,
+      "settling_hz": 59.99627004848936,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 536.2,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 1.6602468260297334
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      3,
+      14,
+      11,
+      4
+    ],
+    "rho": 0.75,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.987242305240194,
+      "rocof_hz_s": 0.02551538951961163,
+      "settling_hz": 59.99680289870517,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 804.3000000000001,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 2.1332141749030638
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      3,
+      14,
+      11,
+      4
+    ],
+    "rho": 1.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.98907008475218,
+      "rocof_hz_s": 0.021859830495642996,
+      "settling_hz": 59.99720253636702,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 1072.4,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 2.487534592681594
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      3,
+      14,
+      11,
+      4
+    ],
+    "rho": 1.25,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99046898169437,
+      "rocof_hz_s": 0.019062036611259714,
+      "settling_hz": 59.997513365659564,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 1340.5,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 2.762877086290326
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      3,
+      14,
+      11,
+      4
+    ],
+    "rho": 1.5,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.991569449115346,
+      "rocof_hz_s": 0.016861101769308107,
+      "settling_hz": 59.99776202909361,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 1608.6000000000001,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 2.982999846038964
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      3,
+      14,
+      11,
+      4
+    ],
+    "rho": 1.75,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.992454915664,
+      "rocof_hz_s": 0.015090168672003301,
+      "settling_hz": 59.99796548099422,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 1876.7000000000003,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 3.163000297618935
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      3,
+      14,
+      11,
+      4
+    ],
+    "rho": 2.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99318095070369,
+      "rocof_hz_s": 0.013638098592622327,
+      "settling_hz": 59.99813502424468,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 2144.8,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 3.312931928214265
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      7,
+      3
+    ],
+    "rho": 0.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.96839001151612,
+      "rocof_hz_s": 0.06321997696775838,
+      "settling_hz": 59.99440507273404,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 0.0,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 0.0
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": false
+    },
+    "demo_pass": false
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      7,
+      3
+    ],
+    "rho": 0.25,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97977873147793,
+      "rocof_hz_s": 0.04044253704414302,
+      "settling_hz": 59.99552405818724,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 268.1,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 0.9970555031429404
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      7,
+      3
+    ],
+    "rho": 0.5,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.98463572510413,
+      "rocof_hz_s": 0.030728549791746218,
+      "settling_hz": 59.99627004848936,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 536.2,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 1.6602468260297334
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      7,
+      3
+    ],
+    "rho": 0.75,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.987242305240194,
+      "rocof_hz_s": 0.02551538951961163,
+      "settling_hz": 59.99680289870517,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 804.3000000000001,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 2.1332141749030638
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      7,
+      3
+    ],
+    "rho": 1.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.98907008475218,
+      "rocof_hz_s": 0.021859830495642996,
+      "settling_hz": 59.99720253636702,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 1072.4,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 2.487534592681594
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      7,
+      3
+    ],
+    "rho": 1.25,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99046898169437,
+      "rocof_hz_s": 0.019062036611259714,
+      "settling_hz": 59.997513365659564,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 1340.5,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 2.762877086290326
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      7,
+      3
+    ],
+    "rho": 1.5,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.991569449115346,
+      "rocof_hz_s": 0.016861101769308107,
+      "settling_hz": 59.99776202909361,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 1608.6000000000001,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 2.982999846038964
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      7,
+      3
+    ],
+    "rho": 1.75,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.992454915664,
+      "rocof_hz_s": 0.015090168672003301,
+      "settling_hz": 59.99796548099422,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 1876.7000000000003,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 3.163000297618935
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      7,
+      3
+    ],
+    "rho": 2.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99318095070369,
+      "rocof_hz_s": 0.013638098592622327,
+      "settling_hz": 59.99813502424468,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 2144.8,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 3.312931928214265
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      14,
+      13
+    ],
+    "rho": 0.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.96839001151612,
+      "rocof_hz_s": 0.06321997696775838,
+      "settling_hz": 59.99440507273404,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 0.0,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 0.0
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": false
+    },
+    "demo_pass": false
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      14,
+      13
+    ],
+    "rho": 0.25,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97977873147793,
+      "rocof_hz_s": 0.04044253704414302,
+      "settling_hz": 59.99552405818724,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 268.1,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 0.9970555031429404
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      14,
+      13
+    ],
+    "rho": 0.5,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.98463572510413,
+      "rocof_hz_s": 0.030728549791746218,
+      "settling_hz": 59.99627004848936,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 536.2,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 1.6602468260297334
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      14,
+      13
+    ],
+    "rho": 0.75,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.987242305240194,
+      "rocof_hz_s": 0.02551538951961163,
+      "settling_hz": 59.99680289870517,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 804.3000000000001,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 2.1332141749030638
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      14,
+      13
+    ],
+    "rho": 1.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.98907008475218,
+      "rocof_hz_s": 0.021859830495642996,
+      "settling_hz": 59.99720253636702,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 1072.4,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 2.487534592681594
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      14,
+      13
+    ],
+    "rho": 1.25,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99046898169437,
+      "rocof_hz_s": 0.019062036611259714,
+      "settling_hz": 59.997513365659564,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 1340.5,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 2.762877086290326
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      14,
+      13
+    ],
+    "rho": 1.5,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.991569449115346,
+      "rocof_hz_s": 0.016861101769308107,
+      "settling_hz": 59.99776202909361,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 1608.6000000000001,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 2.982999846038964
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      14,
+      13
+    ],
+    "rho": 1.75,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.992454915664,
+      "rocof_hz_s": 0.015090168672003301,
+      "settling_hz": 59.99796548099422,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 1876.7000000000003,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 3.163000297618935
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      14,
+      13
+    ],
+    "rho": 2.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99318095070369,
+      "rocof_hz_s": 0.013638098592622327,
+      "settling_hz": 59.99813502424468,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 2144.8,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 3.312931928214265
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19
+    ],
+    "rho": 0.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.96711432707614,
+      "rocof_hz_s": 0.06577134584772182,
+      "settling_hz": 59.994179278230504,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 0.0,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 0.0
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": false
+    },
+    "demo_pass": false
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19
+    ],
+    "rho": 0.25,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97896266165967,
+      "rocof_hz_s": 0.0420746766806559,
+      "settling_hz": 59.99534342258438,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 257.7,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 0.9970555030639838
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19
+    ],
+    "rho": 0.5,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.984015668998424,
+      "rocof_hz_s": 0.03196866200315185,
+      "settling_hz": 59.99611951882035,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 515.4,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 1.6602468263460857
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19
+    ],
+    "rho": 0.75,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.9867274429019,
+      "rocof_hz_s": 0.026545114196196096,
+      "settling_hz": 59.99667387327459,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 773.0999999999999,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 2.1332141741618393
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19
+    ],
+    "rho": 1.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.988628986116716,
+      "rocof_hz_s": 0.02274202776656864,
+      "settling_hz": 59.997089639115266,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 1030.8,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 2.4875345924886076
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19
+    ],
+    "rho": 1.25,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99008433834823,
+      "rocof_hz_s": 0.019831323303534987,
+      "settling_hz": 59.997413012546886,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 1288.5,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 2.7628770867270225
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19
+    ],
+    "rho": 1.5,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99122921733716,
+      "rocof_hz_s": 0.017541565325686292,
+      "settling_hz": 59.99767171129221,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 1546.1999999999998,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 2.98299984689225
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19
+    ],
+    "rho": 1.75,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99215041866386,
+      "rocof_hz_s": 0.01569916267227711,
+      "settling_hz": 59.99788337390201,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 1803.8999999999999,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 3.1630002975324847
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19
+    ],
+    "rho": 2.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99290575430216,
+      "rocof_hz_s": 0.014188491395685787,
+      "settling_hz": 59.99805975941016,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 2061.6,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 3.31293192909657
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.96711432707614,
+      "rocof_hz_s": 0.06577134584772182,
+      "settling_hz": 59.994179278230504,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 0.0,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 0.0
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": false
+    },
+    "demo_pass": false
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.25,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97896266165967,
+      "rocof_hz_s": 0.0420746766806559,
+      "settling_hz": 59.99534342258438,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 257.7,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 0.9970555030639838
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.5,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.984015668998424,
+      "rocof_hz_s": 0.03196866200315185,
+      "settling_hz": 59.99611951882035,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 515.4,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 1.6602468263460857
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.75,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.9867274429019,
+      "rocof_hz_s": 0.026545114196196096,
+      "settling_hz": 59.99667387327459,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 773.0999999999999,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 2.1332141741618393
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 1.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.988628986116716,
+      "rocof_hz_s": 0.02274202776656864,
+      "settling_hz": 59.997089639115266,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 1030.8,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 2.4875345924886076
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 1.25,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99008433834823,
+      "rocof_hz_s": 0.019831323303534987,
+      "settling_hz": 59.997413012546886,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 1288.5,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 2.7628770867270225
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 1.5,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99122921733716,
+      "rocof_hz_s": 0.017541565325686292,
+      "settling_hz": 59.99767171129221,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 1546.1999999999998,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 2.98299984689225
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 1.75,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99215041866386,
+      "rocof_hz_s": 0.01569916267227711,
+      "settling_hz": 59.99788337390201,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 1803.8999999999999,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 3.1630002975324847
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 2.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99290575430216,
+      "rocof_hz_s": 0.014188491395685787,
+      "settling_hz": 59.99805975941016,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 2061.6,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 3.31293192909657
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      3,
+      14,
+      11,
+      4
+    ],
+    "rho": 0.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.96711432707614,
+      "rocof_hz_s": 0.06577134584772182,
+      "settling_hz": 59.994179278230504,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 0.0,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 0.0
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": false
+    },
+    "demo_pass": false
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      3,
+      14,
+      11,
+      4
+    ],
+    "rho": 0.25,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97896266165967,
+      "rocof_hz_s": 0.0420746766806559,
+      "settling_hz": 59.99534342258438,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 257.7,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 0.9970555030639838
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      3,
+      14,
+      11,
+      4
+    ],
+    "rho": 0.5,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.984015668998424,
+      "rocof_hz_s": 0.03196866200315185,
+      "settling_hz": 59.99611951882035,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 515.4,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 1.6602468263460857
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      3,
+      14,
+      11,
+      4
+    ],
+    "rho": 0.75,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.9867274429019,
+      "rocof_hz_s": 0.026545114196196096,
+      "settling_hz": 59.99667387327459,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 773.0999999999999,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 2.1332141741618393
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      3,
+      14,
+      11,
+      4
+    ],
+    "rho": 1.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.988628986116716,
+      "rocof_hz_s": 0.02274202776656864,
+      "settling_hz": 59.997089639115266,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 1030.8,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 2.4875345924886076
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      3,
+      14,
+      11,
+      4
+    ],
+    "rho": 1.25,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99008433834823,
+      "rocof_hz_s": 0.019831323303534987,
+      "settling_hz": 59.997413012546886,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 1288.5,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 2.7628770867270225
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      3,
+      14,
+      11,
+      4
+    ],
+    "rho": 1.5,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99122921733716,
+      "rocof_hz_s": 0.017541565325686292,
+      "settling_hz": 59.99767171129221,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 1546.1999999999998,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 2.98299984689225
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      3,
+      14,
+      11,
+      4
+    ],
+    "rho": 1.75,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99215041866386,
+      "rocof_hz_s": 0.01569916267227711,
+      "settling_hz": 59.99788337390201,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 1803.8999999999999,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 3.1630002975324847
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      3,
+      14,
+      11,
+      4
+    ],
+    "rho": 2.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99290575430216,
+      "rocof_hz_s": 0.014188491395685787,
+      "settling_hz": 59.99805975941016,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 2061.6,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 3.31293192909657
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      7,
+      3
+    ],
+    "rho": 0.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.96711432707614,
+      "rocof_hz_s": 0.06577134584772182,
+      "settling_hz": 59.994179278230504,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 0.0,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 0.0
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": false
+    },
+    "demo_pass": false
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      7,
+      3
+    ],
+    "rho": 0.25,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97896266165967,
+      "rocof_hz_s": 0.0420746766806559,
+      "settling_hz": 59.99534342258438,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 257.7,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 0.9970555030639838
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      7,
+      3
+    ],
+    "rho": 0.5,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.984015668998424,
+      "rocof_hz_s": 0.03196866200315185,
+      "settling_hz": 59.99611951882035,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 515.4,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 1.6602468263460857
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      7,
+      3
+    ],
+    "rho": 0.75,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.9867274429019,
+      "rocof_hz_s": 0.026545114196196096,
+      "settling_hz": 59.99667387327459,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 773.0999999999999,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 2.1332141741618393
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      7,
+      3
+    ],
+    "rho": 1.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.988628986116716,
+      "rocof_hz_s": 0.02274202776656864,
+      "settling_hz": 59.997089639115266,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 1030.8,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 2.4875345924886076
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      7,
+      3
+    ],
+    "rho": 1.25,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99008433834823,
+      "rocof_hz_s": 0.019831323303534987,
+      "settling_hz": 59.997413012546886,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 1288.5,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 2.7628770867270225
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      7,
+      3
+    ],
+    "rho": 1.5,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99122921733716,
+      "rocof_hz_s": 0.017541565325686292,
+      "settling_hz": 59.99767171129221,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 1546.1999999999998,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 2.98299984689225
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      7,
+      3
+    ],
+    "rho": 1.75,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99215041866386,
+      "rocof_hz_s": 0.01569916267227711,
+      "settling_hz": 59.99788337390201,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 1803.8999999999999,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 3.1630002975324847
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      7,
+      3
+    ],
+    "rho": 2.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99290575430216,
+      "rocof_hz_s": 0.014188491395685787,
+      "settling_hz": 59.99805975941016,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 2061.6,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 3.31293192909657
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      14,
+      13
+    ],
+    "rho": 0.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.96711432707614,
+      "rocof_hz_s": 0.06577134584772182,
+      "settling_hz": 59.994179278230504,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 0.0,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 0.0
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": false
+    },
+    "demo_pass": false
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      14,
+      13
+    ],
+    "rho": 0.25,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97896266165967,
+      "rocof_hz_s": 0.0420746766806559,
+      "settling_hz": 59.99534342258438,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 257.7,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 0.9970555030639838
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      14,
+      13
+    ],
+    "rho": 0.5,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.984015668998424,
+      "rocof_hz_s": 0.03196866200315185,
+      "settling_hz": 59.99611951882035,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 515.4,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 1.6602468263460857
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      14,
+      13
+    ],
+    "rho": 0.75,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.9867274429019,
+      "rocof_hz_s": 0.026545114196196096,
+      "settling_hz": 59.99667387327459,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 773.0999999999999,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 2.1332141741618393
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      14,
+      13
+    ],
+    "rho": 1.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.988628986116716,
+      "rocof_hz_s": 0.02274202776656864,
+      "settling_hz": 59.997089639115266,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 1030.8,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 2.4875345924886076
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      14,
+      13
+    ],
+    "rho": 1.25,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99008433834823,
+      "rocof_hz_s": 0.019831323303534987,
+      "settling_hz": 59.997413012546886,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 1288.5,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 2.7628770867270225
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      14,
+      13
+    ],
+    "rho": 1.5,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99122921733716,
+      "rocof_hz_s": 0.017541565325686292,
+      "settling_hz": 59.99767171129221,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 1546.1999999999998,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 2.98299984689225
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      14,
+      13
+    ],
+    "rho": 1.75,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99215041866386,
+      "rocof_hz_s": 0.01569916267227711,
+      "settling_hz": 59.99788337390201,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 1803.8999999999999,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 3.1630002975324847
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      14,
+      13
+    ],
+    "rho": 2.0,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.99290575430216,
+      "rocof_hz_s": 0.014188491395685787,
+      "settling_hz": 59.99805975941016,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 2061.6,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 3.31293192909657
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.03125,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.974966070835734,
+      "rocof_hz_s": 0.05006785832853211,
+      "settling_hz": 59.99537844195378,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 175.20000000000002,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 0.6735399368911467
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": false
+    },
+    "demo_pass": false
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.0625,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97669182011892,
+      "rocof_hz_s": 0.0466163597621545,
+      "settling_hz": 59.995514370131595,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 350.40000000000003,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 1.3072056474977192
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": false
+    },
+    "demo_pass": false
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.09375,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97805008003084,
+      "rocof_hz_s": 0.043899839938319474,
+      "settling_hz": 59.995642530985,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 525.6,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 1.9044360904695143
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": false
+    },
+    "demo_pass": false
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.125,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97920126696617,
+      "rocof_hz_s": 0.041597466067656796,
+      "settling_hz": 59.99576357179095,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 700.8000000000001,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 2.468285832864954
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.15625,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.980269825822134,
+      "rocof_hz_s": 0.03946034835573187,
+      "settling_hz": 59.9958780698507,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 876.0000000000001,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 3.001477293278764
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.1875,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.981263221424086,
+      "rocof_hz_s": 0.03747355715182721,
+      "settling_hz": 59.99598654169673,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 1051.2,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 3.5064446902388386
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.21875,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.98211409207114,
+      "rocof_hz_s": 0.03577181585771427,
+      "settling_hz": 59.99608945088399,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 1226.4,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 3.9853712031245907
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.109375,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.978636503116796,
+      "rocof_hz_s": 0.04272699376640787,
+      "settling_hz": 59.99570390378802,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 613.2,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 2.1903561649539163
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.1015625,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.978346064873264,
+      "rocof_hz_s": 0.04330787025347149,
+      "settling_hz": 59.99567343502055,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 569.4000000000001,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 2.0484163106125517
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.09765625,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97819877422794,
+      "rocof_hz_s": 0.04360245154411757,
+      "settling_hz": 59.99565803799216,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 547.5,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 1.9766839856283605
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": false
+    },
+    "demo_pass": false
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.099609375,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97827259392841,
+      "rocof_hz_s": 0.0434548121431817,
+      "settling_hz": 59.99566575018047,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 558.45,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 2.0126142492779797
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": false
+    },
+    "demo_pass": false
+  },
+  {
+    "grid": "A",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.1005859375,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97830937286288,
+      "rocof_hz_s": 0.043381254274237335,
+      "settling_hz": 59.99566959600994,
+      "voltage_deviation_pu": 0.03651094516069375,
+      "reserve_mw": 563.9250000000001,
+      "reserve_required_mw": 560.64,
+      "discharge_mwh": 2.030531261736989
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.03125,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.970611928310795,
+      "rocof_hz_s": 0.05877614337840953,
+      "settling_hz": 59.994574615984554,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 33.5125,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 0.15124399780572725
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": false
+    },
+    "demo_pass": false
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.0625,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97263783655944,
+      "rocof_hz_s": 0.054724326881114393,
+      "settling_hz": 59.994734186102626,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 67.025,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 0.29353420229124855
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": false
+    },
+    "demo_pass": false
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.09375,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97423233815307,
+      "rocof_hz_s": 0.05153532369385516,
+      "settling_hz": 59.99488463792829,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 100.53750000000001,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 0.42764283468317527
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": false
+    },
+    "demo_pass": false
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.125,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97558375062682,
+      "rocof_hz_s": 0.048832498746364195,
+      "settling_hz": 59.99502673131917,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 134.05,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 0.5542558007160884
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.15625,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97683816354581,
+      "rocof_hz_s": 0.046323672908386015,
+      "settling_hz": 59.99516114398621,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 167.5625,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 0.6739844221664951
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.1875,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.978004340097144,
+      "rocof_hz_s": 0.04399131980571269,
+      "settling_hz": 59.99528848230237,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 201.07500000000002,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 0.7873753048552593
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.21875,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.979003202391965,
+      "rocof_hz_s": 0.041993595216069934,
+      "settling_hz": 59.995409290448464,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 234.58750000000003,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 0.8949186830324334
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.109375,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.974920757598326,
+      "rocof_hz_s": 0.05015848480334739,
+      "settling_hz": 59.9949566852814,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 117.29375000000002,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 0.49184644426374985
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.1015625,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.974579803534404,
+      "rocof_hz_s": 0.05084039293119247,
+      "settling_hz": 59.99492091709191,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 108.915625,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 0.45997372240985834
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.09765625,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97440689467952,
+      "rocof_hz_s": 0.051186210640963736,
+      "settling_hz": 59.994902842063766,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 104.72656250000001,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 0.443866164532043
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": false
+    },
+    "demo_pass": false
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.099609375,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97449355381432,
+      "rocof_hz_s": 0.05101289237136086,
+      "settling_hz": 59.99491189563026,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 106.82109375,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 0.4519343374082505
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": false
+    },
+    "demo_pass": false
+  },
+  {
+    "grid": "B",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.1005859375,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.974536729695764,
+      "rocof_hz_s": 0.05092654060847224,
+      "settling_hz": 59.99491641036352,
+      "voltage_deviation_pu": 0.036510945160693975,
+      "reserve_mw": 107.86835937500001,
+      "reserve_required_mw": 107.24000000000001,
+      "discharge_mwh": 0.455957618727481
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.03125,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.96942591377408,
+      "rocof_hz_s": 0.06114817245183701,
+      "settling_hz": 59.99435566373867,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 32.2125,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 0.1512439978042985
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": false
+    },
+    "demo_pass": false
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.0625,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.971533581610146,
+      "rocof_hz_s": 0.056932836779708396,
+      "settling_hz": 59.994521673628704,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 64.425,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 0.29353420229083105
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": false
+    },
+    "demo_pass": false
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.09375,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97319243251403,
+      "rocof_hz_s": 0.05361513497193471,
+      "settling_hz": 59.99467819723931,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 96.63749999999999,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 0.42764283472037223
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": false
+    },
+    "demo_pass": false
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.125,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97459838394659,
+      "rocof_hz_s": 0.0508032321068157,
+      "settling_hz": 59.99482602509377,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 128.85,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 0.5542558007821937
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.15625,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97590342121259,
+      "rocof_hz_s": 0.048193157574814904,
+      "settling_hz": 59.994965862253395,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 161.0625,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 0.6739844220114358
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.1875,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.977116661155506,
+      "rocof_hz_s": 0.04576667768898801,
+      "settling_hz": 59.99509833956253,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 193.27499999999998,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 0.7873753048650638
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.21875,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97815583454308,
+      "rocof_hz_s": 0.04368833091383806,
+      "settling_hz": 59.99522402316348,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 225.48749999999998,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 0.8949186828900823
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.109375,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97390863450537,
+      "rocof_hz_s": 0.05218273098925863,
+      "settling_hz": 59.99475315220776,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 112.74374999999999,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 0.49184644420975693
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.1015625,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.9735539205567,
+      "rocof_hz_s": 0.05289215888660692,
+      "settling_hz": 59.99471594052129,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 104.690625,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 0.4599737223425388
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.09765625,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.97337403361872,
+      "rocof_hz_s": 0.05325193276256357,
+      "settling_hz": 59.99469713603916,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 100.6640625,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 0.443866164487899
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": false
+    },
+    "demo_pass": false
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.099609375,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.9734641900564,
+      "rocof_hz_s": 0.05307161988720566,
+      "settling_hz": 59.99470655498048,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 102.67734374999999,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 0.45193433737484895
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": false
+    },
+    "demo_pass": false
+  },
+  {
+    "grid": "C",
+    "re": 0.4,
+    "displacement": 0.4,
+    "state": "islanded",
+    "sites": [
+      19,
+      6,
+      11
+    ],
+    "rho": 0.1005859375,
+    "research_feasible": false,
+    "stability_status": "not evaluated",
+    "model": "DEMONSTRATION: aggregate dynamics, incomplete constraint coverage",
+    "status": "evaluated",
+    "metrics": {
+      "nadir_hz": 59.973509108387,
+      "rocof_hz_s": 0.05298178322600222,
+      "settling_hz": 59.99471125191485,
+      "voltage_deviation_pu": 0.03651094516069353,
+      "reserve_mw": 103.683984375,
+      "reserve_required_mw": 103.08,
+      "discharge_mwh": 0.45595761874195007
+    },
+    "passes": {
+      "FFR": true,
+      "RoCoF": true,
+      "PR": true,
+      "Q": true,
+      "REG": true
+    },
+    "demo_pass": true
+  }
+]

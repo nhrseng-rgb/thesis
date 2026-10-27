@@ -1,0 +1,169 @@
+{
+  "emt_status": "NOT PERFORMED",
+  "research_validation_pass": false,
+  "sensitivity": [
+    {
+      "cell": [
+        "A",
+        0.4,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.982236111895276,
+        "rocof_hz_s": 0.0355277762094488,
+        "settling_hz": 59.996187214611865,
+        "voltage_deviation_pu": 0.03651094516069375,
+        "reserve_mw": 1401.6000000000001,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 4.4402501643774555
+      }
+    },
+    {
+      "cell": [
+        "A",
+        0.4,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.98314181648529,
+        "rocof_hz_s": 0.03371636702941316,
+        "settling_hz": 59.996187214611865,
+        "voltage_deviation_pu": 0.03651094516069375,
+        "reserve_mw": 1401.6000000000001,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 4.440200731359858
+      }
+    },
+    {
+      "cell": [
+        "A",
+        0.4,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.98347131117976,
+        "rocof_hz_s": 0.03305737764047478,
+        "settling_hz": 59.996187214611865,
+        "voltage_deviation_pu": 0.03651094516069375,
+        "reserve_mw": 1401.6000000000001,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 4.440171065496977
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.4,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.97914644508021,
+        "rocof_hz_s": 0.04170710983957804,
+        "settling_hz": 59.99552405818724,
+        "voltage_deviation_pu": 0.036510945160693975,
+        "reserve_mw": 268.1,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.9970621626001522
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.4,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.980209678558175,
+        "rocof_hz_s": 0.039580642883649375,
+        "settling_hz": 59.99552405818724,
+        "voltage_deviation_pu": 0.036510945160693975,
+        "reserve_mw": 268.1,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.9970510621783724
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.4,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.98059648216971,
+        "rocof_hz_s": 0.0388070356605823,
+        "settling_hz": 59.99552405818724,
+        "voltage_deviation_pu": 0.036510945160693975,
+        "reserve_mw": 268.1,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.9970444010979291
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.4,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.978304858076164,
+        "rocof_hz_s": 0.043390283847671185,
+        "settling_hz": 59.99534342258438,
+        "voltage_deviation_pu": 0.03651094516069353,
+        "reserve_mw": 257.7,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.9970621625784102
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.4,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.979411000474094,
+        "rocof_hz_s": 0.0411779990518113,
+        "settling_hz": 59.99534342258438,
+        "voltage_deviation_pu": 0.03651094516069353,
+        "reserve_mw": 257.7,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.9970510627483443
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.4,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.97981341432661,
+        "rocof_hz_s": 0.04037317134678631,
+        "settling_hz": 59.99534342258438,
+        "voltage_deviation_pu": 0.03651094516069353,
+        "reserve_mw": 257.7,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.9970444009161463
+      }
+    }
+  ],
+  "limitation": "Three virtual-inertia demonstrations only; not the eleven study cases"
+}

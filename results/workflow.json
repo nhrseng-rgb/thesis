@@ -1,0 +1,42 @@
+[
+  {
+    "phase": "START",
+    "status": "running",
+    "detail": ""
+  },
+  {
+    "phase": "Phase 1",
+    "status": "passed",
+    "detail": "Attempt 1: three converged scaled IEEE39 baselines saved"
+  },
+  {
+    "phase": "Phase 2",
+    "status": "completed",
+    "detail": "Five demo configurations per grid; sampled search, not study enumeration"
+  },
+  {
+    "phase": "Phase 3",
+    "status": "completed",
+    "detail": "3 demo cells; no RNSGA-II or research feasibility claim"
+  },
+  {
+    "phase": "Phase 4",
+    "status": "skipped",
+    "detail": "Spacing branch disabled by run configuration"
+  },
+  {
+    "phase": "Phase 5",
+    "status": "partial",
+    "detail": "Inertia sensitivity complete; EMT and full research validation pending"
+  },
+  {
+    "phase": "Data Analysis",
+    "status": "completed",
+    "detail": "Charts and per-evaluation records saved"
+  },
+  {
+    "phase": "END",
+    "status": "demo completed",
+    "detail": "Research validation remains incomplete"
+  }
+]

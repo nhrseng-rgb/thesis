@@ -1,0 +1,10 @@
+{
+  "python_workflow": "passed",
+  "matched_capacity": "passed",
+  "research_claims": "correctly disabled",
+  "matlab_equation_comparison": "passed",
+  "max_frequency_difference_hz": 3.7834979593753815e-10,
+  "max_power_difference_mw": 2.219359680566413e-05,
+  "simulink_execution": "blocked: incomplete installation",
+  "fifty_cell_matrix_and_spacing_skip": "passed"
+}

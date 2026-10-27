@@ -1,0 +1,2707 @@
+{
+  "emt_status": "NOT PERFORMED",
+  "research_validation_pass": false,
+  "sensitivity": [
+    {
+      "cell": [
+        "A",
+        0.2,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.98157724597282,
+        "rocof_hz_s": 0.03684550805435549,
+        "settling_hz": 59.996655451413936,
+        "voltage_deviation_pu": 0.0324101568053039,
+        "reserve_mw": 700.8000000000001,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 1.9493022329600413
+      }
+    },
+    {
+      "cell": [
+        "A",
+        0.2,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.98187161922362,
+        "rocof_hz_s": 0.036256761552763805,
+        "settling_hz": 59.996655451413936,
+        "voltage_deviation_pu": 0.0324101568053039,
+        "reserve_mw": 700.8000000000001,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 1.949292721673927
+      }
+    },
+    {
+      "cell": [
+        "A",
+        0.2,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.98202607991876,
+        "rocof_hz_s": 0.03594784016247843,
+        "settling_hz": 59.996655451413936,
+        "voltage_deviation_pu": 0.0324101568053039,
+        "reserve_mw": 700.8000000000001,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 1.9492870143910908
+      }
+    },
+    {
+      "cell": [
+        "A",
+        0.4,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.98157724597282,
+        "rocof_hz_s": 0.03684550805435549,
+        "settling_hz": 59.996655451413936,
+        "voltage_deviation_pu": 0.03651094516069375,
+        "reserve_mw": 700.8000000000001,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 1.9493022329600413
+      }
+    },
+    {
+      "cell": [
+        "A",
+        0.4,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.98187161922362,
+        "rocof_hz_s": 0.036256761552763805,
+        "settling_hz": 59.996655451413936,
+        "voltage_deviation_pu": 0.03651094516069375,
+        "reserve_mw": 700.8000000000001,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 1.949292721673927
+      }
+    },
+    {
+      "cell": [
+        "A",
+        0.4,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.98202607991876,
+        "rocof_hz_s": 0.03594784016247843,
+        "settling_hz": 59.996655451413936,
+        "voltage_deviation_pu": 0.03651094516069375,
+        "reserve_mw": 700.8000000000001,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 1.9492870143910908
+      }
+    },
+    {
+      "cell": [
+        "A",
+        0.4,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.982236111895276,
+        "rocof_hz_s": 0.0355277762094488,
+        "settling_hz": 59.996187214611865,
+        "voltage_deviation_pu": 0.03651094516069375,
+        "reserve_mw": 1401.6000000000001,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 4.4402501643774555
+      }
+    },
+    {
+      "cell": [
+        "A",
+        0.4,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.98314181648529,
+        "rocof_hz_s": 0.03371636702941316,
+        "settling_hz": 59.996187214611865,
+        "voltage_deviation_pu": 0.03651094516069375,
+        "reserve_mw": 1401.6000000000001,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 4.440200731359858
+      }
+    },
+    {
+      "cell": [
+        "A",
+        0.4,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.98347131117976,
+        "rocof_hz_s": 0.03305737764047478,
+        "settling_hz": 59.996187214611865,
+        "voltage_deviation_pu": 0.03651094516069375,
+        "reserve_mw": 1401.6000000000001,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 4.440171065496977
+      }
+    },
+    {
+      "cell": [
+        "A",
+        0.6,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.98157724597282,
+        "rocof_hz_s": 0.03684550805435549,
+        "settling_hz": 59.996655451413936,
+        "voltage_deviation_pu": 0.039563372189565404,
+        "reserve_mw": 700.8000000000001,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 1.9493022329600413
+      }
+    },
+    {
+      "cell": [
+        "A",
+        0.6,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.98187161922362,
+        "rocof_hz_s": 0.036256761552763805,
+        "settling_hz": 59.996655451413936,
+        "voltage_deviation_pu": 0.039563372189565404,
+        "reserve_mw": 700.8000000000001,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 1.949292721673927
+      }
+    },
+    {
+      "cell": [
+        "A",
+        0.6,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.98202607991876,
+        "rocof_hz_s": 0.03594784016247843,
+        "settling_hz": 59.996655451413936,
+        "voltage_deviation_pu": 0.039563372189565404,
+        "reserve_mw": 700.8000000000001,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 1.9492870143910908
+      }
+    },
+    {
+      "cell": [
+        "A",
+        0.6,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.982236111895276,
+        "rocof_hz_s": 0.0355277762094488,
+        "settling_hz": 59.996187214611865,
+        "voltage_deviation_pu": 0.039563372189565404,
+        "reserve_mw": 1401.6000000000001,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 4.4402501643774555
+      }
+    },
+    {
+      "cell": [
+        "A",
+        0.6,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.98314181648529,
+        "rocof_hz_s": 0.03371636702941316,
+        "settling_hz": 59.996187214611865,
+        "voltage_deviation_pu": 0.039563372189565404,
+        "reserve_mw": 1401.6000000000001,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 4.440200731359858
+      }
+    },
+    {
+      "cell": [
+        "A",
+        0.6,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.98347131117976,
+        "rocof_hz_s": 0.03305737764047478,
+        "settling_hz": 59.996187214611865,
+        "voltage_deviation_pu": 0.039563372189565404,
+        "reserve_mw": 1401.6000000000001,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 4.440171065496977
+      }
+    },
+    {
+      "cell": [
+        "A",
+        0.6,
+        0.6,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.98208804921269,
+        "rocof_hz_s": 0.03582390157461646,
+        "settling_hz": 59.99556652861847,
+        "voltage_deviation_pu": 0.039563372189565404,
+        "reserve_mw": 2102.4,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 7.735006627240489
+      }
+    },
+    {
+      "cell": [
+        "A",
+        0.6,
+        0.6,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.983835382030286,
+        "rocof_hz_s": 0.03232923593942871,
+        "settling_hz": 59.99556652861847,
+        "voltage_deviation_pu": 0.039563372189565404,
+        "reserve_mw": 2102.4,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 7.7348563130642045
+      }
+    },
+    {
+      "cell": [
+        "A",
+        0.6,
+        0.6,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.98431533836325,
+        "rocof_hz_s": 0.03136932327349484,
+        "settling_hz": 59.99556652861847,
+        "voltage_deviation_pu": 0.039563372189565404,
+        "reserve_mw": 2102.4,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 7.734766070241375
+      }
+    },
+    {
+      "cell": [
+        "A",
+        0.8,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.98157724597282,
+        "rocof_hz_s": 0.03684550805435549,
+        "settling_hz": 59.996655451413936,
+        "voltage_deviation_pu": 0.04162147114915005,
+        "reserve_mw": 700.8000000000001,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 1.9493022329600413
+      }
+    },
+    {
+      "cell": [
+        "A",
+        0.8,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.98187161922362,
+        "rocof_hz_s": 0.036256761552763805,
+        "settling_hz": 59.996655451413936,
+        "voltage_deviation_pu": 0.04162147114915005,
+        "reserve_mw": 700.8000000000001,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 1.949292721673927
+      }
+    },
+    {
+      "cell": [
+        "A",
+        0.8,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.98202607991876,
+        "rocof_hz_s": 0.03594784016247843,
+        "settling_hz": 59.996655451413936,
+        "voltage_deviation_pu": 0.04162147114915005,
+        "reserve_mw": 700.8000000000001,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 1.9492870143910908
+      }
+    },
+    {
+      "cell": [
+        "A",
+        0.8,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.982236111895276,
+        "rocof_hz_s": 0.0355277762094488,
+        "settling_hz": 59.996187214611865,
+        "voltage_deviation_pu": 0.04162147114915005,
+        "reserve_mw": 1401.6000000000001,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 4.4402501643774555
+      }
+    },
+    {
+      "cell": [
+        "A",
+        0.8,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.98314181648529,
+        "rocof_hz_s": 0.03371636702941316,
+        "settling_hz": 59.996187214611865,
+        "voltage_deviation_pu": 0.04162147114915005,
+        "reserve_mw": 1401.6000000000001,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 4.440200731359858
+      }
+    },
+    {
+      "cell": [
+        "A",
+        0.8,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.98347131117976,
+        "rocof_hz_s": 0.03305737764047478,
+        "settling_hz": 59.996187214611865,
+        "voltage_deviation_pu": 0.04162147114915005,
+        "reserve_mw": 1401.6000000000001,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 4.440171065496977
+      }
+    },
+    {
+      "cell": [
+        "A",
+        0.8,
+        0.6,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.98208804921269,
+        "rocof_hz_s": 0.03582390157461646,
+        "settling_hz": 59.99556652861847,
+        "voltage_deviation_pu": 0.04162147114915005,
+        "reserve_mw": 2102.4,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 7.735006627240489
+      }
+    },
+    {
+      "cell": [
+        "A",
+        0.8,
+        0.6,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.983835382030286,
+        "rocof_hz_s": 0.03232923593942871,
+        "settling_hz": 59.99556652861847,
+        "voltage_deviation_pu": 0.04162147114915005,
+        "reserve_mw": 2102.4,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 7.7348563130642045
+      }
+    },
+    {
+      "cell": [
+        "A",
+        0.8,
+        0.6,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.98431533836325,
+        "rocof_hz_s": 0.03136932327349484,
+        "settling_hz": 59.99556652861847,
+        "voltage_deviation_pu": 0.04162147114915005,
+        "reserve_mw": 2102.4,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 7.734766070241375
+      }
+    },
+    {
+      "cell": [
+        "A",
+        0.8,
+        0.8,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.98060769128931,
+        "rocof_hz_s": 0.03878461742138484,
+        "settling_hz": 59.99470446473871,
+        "voltage_deviation_pu": 0.04162147114915005,
+        "reserve_mw": 2803.2000000000003,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 12.297444362677485
+      }
+    },
+    {
+      "cell": [
+        "A",
+        0.8,
+        0.8,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.98373992656372,
+        "rocof_hz_s": 0.032520146872556666,
+        "settling_hz": 59.99470446473871,
+        "voltage_deviation_pu": 0.04162147114915005,
+        "reserve_mw": 2803.2000000000003,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 12.297063660868448
+      }
+    },
+    {
+      "cell": [
+        "A",
+        0.8,
+        0.8,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.984781796127464,
+        "rocof_hz_s": 0.030436407745071392,
+        "settling_hz": 59.99470446473871,
+        "voltage_deviation_pu": 0.04162147114915005,
+        "reserve_mw": 2803.2000000000003,
+        "reserve_required_mw": 560.64,
+        "discharge_mwh": 12.296834813126491
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.2,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.97837298282748,
+        "rocof_hz_s": 0.04325403434503983,
+        "settling_hz": 59.99607373525195,
+        "voltage_deviation_pu": 0.032410156805304124,
+        "reserve_mw": 134.05,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.43771756730185263
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.2,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.978718556315634,
+        "rocof_hz_s": 0.042562887368731595,
+        "settling_hz": 59.99607373525195,
+        "voltage_deviation_pu": 0.032410156805304124,
+        "reserve_mw": 134.05,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.43771543152591724
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.2,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.97889988230304,
+        "rocof_hz_s": 0.04220023539392059,
+        "settling_hz": 59.99607373525195,
+        "voltage_deviation_pu": 0.032410156805304124,
+        "reserve_mw": 134.05,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.43771414990927326
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.4,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.97837298282748,
+        "rocof_hz_s": 0.04325403434503983,
+        "settling_hz": 59.99607373525195,
+        "voltage_deviation_pu": 0.036510945160693975,
+        "reserve_mw": 134.05,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.43771756730185263
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.4,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.978718556315634,
+        "rocof_hz_s": 0.042562887368731595,
+        "settling_hz": 59.99607373525195,
+        "voltage_deviation_pu": 0.036510945160693975,
+        "reserve_mw": 134.05,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.43771543152591724
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.4,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.97889988230304,
+        "rocof_hz_s": 0.04220023539392059,
+        "settling_hz": 59.99607373525195,
+        "voltage_deviation_pu": 0.036510945160693975,
+        "reserve_mw": 134.05,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.43771414990927326
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.4,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.97914644508021,
+        "rocof_hz_s": 0.04170710983957804,
+        "settling_hz": 59.99552405818724,
+        "voltage_deviation_pu": 0.036510945160693975,
+        "reserve_mw": 268.1,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.9970621626001522
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.4,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.980209678558175,
+        "rocof_hz_s": 0.039580642883649375,
+        "settling_hz": 59.99552405818724,
+        "voltage_deviation_pu": 0.036510945160693975,
+        "reserve_mw": 268.1,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.9970510621783724
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.4,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.98059648216971,
+        "rocof_hz_s": 0.0388070356605823,
+        "settling_hz": 59.99552405818724,
+        "voltage_deviation_pu": 0.036510945160693975,
+        "reserve_mw": 268.1,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.9970444010979291
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.6,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.97837298282748,
+        "rocof_hz_s": 0.04325403434503983,
+        "settling_hz": 59.99607373525195,
+        "voltage_deviation_pu": 0.03956337218956585,
+        "reserve_mw": 134.05,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.43771756730185263
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.6,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.978718556315634,
+        "rocof_hz_s": 0.042562887368731595,
+        "settling_hz": 59.99607373525195,
+        "voltage_deviation_pu": 0.03956337218956585,
+        "reserve_mw": 134.05,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.43771543152591724
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.6,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.97889988230304,
+        "rocof_hz_s": 0.04220023539392059,
+        "settling_hz": 59.99607373525195,
+        "voltage_deviation_pu": 0.03956337218956585,
+        "reserve_mw": 134.05,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.43771414990927326
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.6,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.97914644508021,
+        "rocof_hz_s": 0.04170710983957804,
+        "settling_hz": 59.99552405818724,
+        "voltage_deviation_pu": 0.03956337218956585,
+        "reserve_mw": 268.1,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.9970621626001522
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.6,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.980209678558175,
+        "rocof_hz_s": 0.039580642883649375,
+        "settling_hz": 59.99552405818724,
+        "voltage_deviation_pu": 0.03956337218956585,
+        "reserve_mw": 268.1,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.9970510621783724
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.6,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.98059648216971,
+        "rocof_hz_s": 0.0388070356605823,
+        "settling_hz": 59.99552405818724,
+        "voltage_deviation_pu": 0.03956337218956585,
+        "reserve_mw": 268.1,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.9970444010979291
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.6,
+        0.6,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.978972629917145,
+        "rocof_hz_s": 0.042054740165710314,
+        "settling_hz": 59.99479541649679,
+        "voltage_deviation_pu": 0.03956337218956585,
+        "reserve_mw": 402.15,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 1.7369026837161357
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.6,
+        0.6,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.98102387570667,
+        "rocof_hz_s": 0.03795224858666302,
+        "settling_hz": 59.99479541649679,
+        "voltage_deviation_pu": 0.03956337218956585,
+        "reserve_mw": 402.15,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 1.7368689322111008
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.6,
+        0.6,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.9815873106718,
+        "rocof_hz_s": 0.03682537865640256,
+        "settling_hz": 59.99479541649679,
+        "voltage_deviation_pu": 0.03956337218956585,
+        "reserve_mw": 402.15,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 1.7368486673240418
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.8,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.97837298282748,
+        "rocof_hz_s": 0.04325403434503983,
+        "settling_hz": 59.99607373525195,
+        "voltage_deviation_pu": 0.04162147114915027,
+        "reserve_mw": 134.05,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.43771756730185263
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.8,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.978718556315634,
+        "rocof_hz_s": 0.042562887368731595,
+        "settling_hz": 59.99607373525195,
+        "voltage_deviation_pu": 0.04162147114915027,
+        "reserve_mw": 134.05,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.43771543152591724
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.8,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.97889988230304,
+        "rocof_hz_s": 0.04220023539392059,
+        "settling_hz": 59.99607373525195,
+        "voltage_deviation_pu": 0.04162147114915027,
+        "reserve_mw": 134.05,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.43771414990927326
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.8,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.97914644508021,
+        "rocof_hz_s": 0.04170710983957804,
+        "settling_hz": 59.99552405818724,
+        "voltage_deviation_pu": 0.04162147114915027,
+        "reserve_mw": 268.1,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.9970621626001522
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.8,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.980209678558175,
+        "rocof_hz_s": 0.039580642883649375,
+        "settling_hz": 59.99552405818724,
+        "voltage_deviation_pu": 0.04162147114915027,
+        "reserve_mw": 268.1,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.9970510621783724
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.8,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.98059648216971,
+        "rocof_hz_s": 0.0388070356605823,
+        "settling_hz": 59.99552405818724,
+        "voltage_deviation_pu": 0.04162147114915027,
+        "reserve_mw": 268.1,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.9970444010979291
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.8,
+        0.6,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.978972629917145,
+        "rocof_hz_s": 0.042054740165710314,
+        "settling_hz": 59.99479541649679,
+        "voltage_deviation_pu": 0.04162147114915027,
+        "reserve_mw": 402.15,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 1.7369026837161357
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.8,
+        0.6,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.98102387570667,
+        "rocof_hz_s": 0.03795224858666302,
+        "settling_hz": 59.99479541649679,
+        "voltage_deviation_pu": 0.04162147114915027,
+        "reserve_mw": 402.15,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 1.7368689322111008
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.8,
+        0.6,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.9815873106718,
+        "rocof_hz_s": 0.03682537865640256,
+        "settling_hz": 59.99479541649679,
+        "voltage_deviation_pu": 0.04162147114915027,
+        "reserve_mw": 402.15,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 1.7368486673240418
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.8,
+        0.8,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.97723479388445,
+        "rocof_hz_s": 0.04553041223110199,
+        "settling_hz": 59.99378341414895,
+        "voltage_deviation_pu": 0.04162147114915027,
+        "reserve_mw": 536.2,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 2.7614021763455874
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.8,
+        0.8,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.98091181771847,
+        "rocof_hz_s": 0.038176364563057064,
+        "settling_hz": 59.99378341414895,
+        "voltage_deviation_pu": 0.04162147114915027,
+        "reserve_mw": 536.2,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 2.761316690072663
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.8,
+        0.8,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.98213489927034,
+        "rocof_hz_s": 0.035730201459315936,
+        "settling_hz": 59.99378341414895,
+        "voltage_deviation_pu": 0.04162147114915027,
+        "reserve_mw": 536.2,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 2.761265301259684
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.2,
+        0.2,
+        "interconnected"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.97837298282748,
+        "rocof_hz_s": 0.04325403434503983,
+        "settling_hz": 59.99607373525195,
+        "voltage_deviation_pu": 0.03311478411389834,
+        "reserve_mw": 134.05,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.43771756730185263
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.2,
+        0.2,
+        "interconnected"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.978718556315634,
+        "rocof_hz_s": 0.042562887368731595,
+        "settling_hz": 59.99607373525195,
+        "voltage_deviation_pu": 0.03311478411389834,
+        "reserve_mw": 134.05,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.43771543152591724
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.2,
+        0.2,
+        "interconnected"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.97889988230304,
+        "rocof_hz_s": 0.04220023539392059,
+        "settling_hz": 59.99607373525195,
+        "voltage_deviation_pu": 0.03311478411389834,
+        "reserve_mw": 134.05,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.43771414990927326
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.4,
+        0.2,
+        "interconnected"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.97837298282748,
+        "rocof_hz_s": 0.04325403434503983,
+        "settling_hz": 59.99607373525195,
+        "voltage_deviation_pu": 0.03696131312743334,
+        "reserve_mw": 134.05,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.43771756730185263
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.4,
+        0.2,
+        "interconnected"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.978718556315634,
+        "rocof_hz_s": 0.042562887368731595,
+        "settling_hz": 59.99607373525195,
+        "voltage_deviation_pu": 0.03696131312743334,
+        "reserve_mw": 134.05,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.43771543152591724
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.4,
+        0.2,
+        "interconnected"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.97889988230304,
+        "rocof_hz_s": 0.04220023539392059,
+        "settling_hz": 59.99607373525195,
+        "voltage_deviation_pu": 0.03696131312743334,
+        "reserve_mw": 134.05,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.43771414990927326
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.4,
+        0.4,
+        "interconnected"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.97914644508021,
+        "rocof_hz_s": 0.04170710983957804,
+        "settling_hz": 59.99552405818724,
+        "voltage_deviation_pu": 0.03696131312743334,
+        "reserve_mw": 268.1,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.9970621626001522
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.4,
+        0.4,
+        "interconnected"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.980209678558175,
+        "rocof_hz_s": 0.039580642883649375,
+        "settling_hz": 59.99552405818724,
+        "voltage_deviation_pu": 0.03696131312743334,
+        "reserve_mw": 268.1,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.9970510621783724
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.4,
+        0.4,
+        "interconnected"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.98059648216971,
+        "rocof_hz_s": 0.0388070356605823,
+        "settling_hz": 59.99552405818724,
+        "voltage_deviation_pu": 0.03696131312743334,
+        "reserve_mw": 268.1,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.9970444010979291
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.6,
+        0.2,
+        "interconnected"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.97837298282748,
+        "rocof_hz_s": 0.04325403434503983,
+        "settling_hz": 59.99607373525195,
+        "voltage_deviation_pu": 0.03977262310875096,
+        "reserve_mw": 134.05,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.43771756730185263
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.6,
+        0.2,
+        "interconnected"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.978718556315634,
+        "rocof_hz_s": 0.042562887368731595,
+        "settling_hz": 59.99607373525195,
+        "voltage_deviation_pu": 0.03977262310875096,
+        "reserve_mw": 134.05,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.43771543152591724
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.6,
+        0.2,
+        "interconnected"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.97889988230304,
+        "rocof_hz_s": 0.04220023539392059,
+        "settling_hz": 59.99607373525195,
+        "voltage_deviation_pu": 0.03977262310875096,
+        "reserve_mw": 134.05,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.43771414990927326
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.6,
+        0.4,
+        "interconnected"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.97914644508021,
+        "rocof_hz_s": 0.04170710983957804,
+        "settling_hz": 59.99552405818724,
+        "voltage_deviation_pu": 0.03977262310875096,
+        "reserve_mw": 268.1,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.9970621626001522
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.6,
+        0.4,
+        "interconnected"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.980209678558175,
+        "rocof_hz_s": 0.039580642883649375,
+        "settling_hz": 59.99552405818724,
+        "voltage_deviation_pu": 0.03977262310875096,
+        "reserve_mw": 268.1,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.9970510621783724
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.6,
+        0.4,
+        "interconnected"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.98059648216971,
+        "rocof_hz_s": 0.0388070356605823,
+        "settling_hz": 59.99552405818724,
+        "voltage_deviation_pu": 0.03977262310875096,
+        "reserve_mw": 268.1,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.9970444010979291
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.6,
+        0.6,
+        "interconnected"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.978972629917145,
+        "rocof_hz_s": 0.042054740165710314,
+        "settling_hz": 59.99479541649679,
+        "voltage_deviation_pu": 0.03977262310875096,
+        "reserve_mw": 402.15,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 1.7369026837161357
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.6,
+        0.6,
+        "interconnected"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.98102387570667,
+        "rocof_hz_s": 0.03795224858666302,
+        "settling_hz": 59.99479541649679,
+        "voltage_deviation_pu": 0.03977262310875096,
+        "reserve_mw": 402.15,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 1.7368689322111008
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.6,
+        0.6,
+        "interconnected"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.9815873106718,
+        "rocof_hz_s": 0.03682537865640256,
+        "settling_hz": 59.99479541649679,
+        "voltage_deviation_pu": 0.03977262310875096,
+        "reserve_mw": 402.15,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 1.7368486673240418
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.8,
+        0.2,
+        "interconnected"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.97837298282748,
+        "rocof_hz_s": 0.04325403434503983,
+        "settling_hz": 59.99607373525195,
+        "voltage_deviation_pu": 0.04159654221200393,
+        "reserve_mw": 134.05,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.43771756730185263
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.8,
+        0.2,
+        "interconnected"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.978718556315634,
+        "rocof_hz_s": 0.042562887368731595,
+        "settling_hz": 59.99607373525195,
+        "voltage_deviation_pu": 0.04159654221200393,
+        "reserve_mw": 134.05,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.43771543152591724
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.8,
+        0.2,
+        "interconnected"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.97889988230304,
+        "rocof_hz_s": 0.04220023539392059,
+        "settling_hz": 59.99607373525195,
+        "voltage_deviation_pu": 0.04159654221200393,
+        "reserve_mw": 134.05,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.43771414990927326
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.8,
+        0.4,
+        "interconnected"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.97914644508021,
+        "rocof_hz_s": 0.04170710983957804,
+        "settling_hz": 59.99552405818724,
+        "voltage_deviation_pu": 0.04159654221200393,
+        "reserve_mw": 268.1,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.9970621626001522
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.8,
+        0.4,
+        "interconnected"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.980209678558175,
+        "rocof_hz_s": 0.039580642883649375,
+        "settling_hz": 59.99552405818724,
+        "voltage_deviation_pu": 0.04159654221200393,
+        "reserve_mw": 268.1,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.9970510621783724
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.8,
+        0.4,
+        "interconnected"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.98059648216971,
+        "rocof_hz_s": 0.0388070356605823,
+        "settling_hz": 59.99552405818724,
+        "voltage_deviation_pu": 0.04159654221200393,
+        "reserve_mw": 268.1,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 0.9970444010979291
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.8,
+        0.6,
+        "interconnected"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.978972629917145,
+        "rocof_hz_s": 0.042054740165710314,
+        "settling_hz": 59.99479541649679,
+        "voltage_deviation_pu": 0.04159654221200393,
+        "reserve_mw": 402.15,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 1.7369026837161357
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.8,
+        0.6,
+        "interconnected"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.98102387570667,
+        "rocof_hz_s": 0.03795224858666302,
+        "settling_hz": 59.99479541649679,
+        "voltage_deviation_pu": 0.04159654221200393,
+        "reserve_mw": 402.15,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 1.7368689322111008
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.8,
+        0.6,
+        "interconnected"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.9815873106718,
+        "rocof_hz_s": 0.03682537865640256,
+        "settling_hz": 59.99479541649679,
+        "voltage_deviation_pu": 0.04159654221200393,
+        "reserve_mw": 402.15,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 1.7368486673240418
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.8,
+        0.8,
+        "interconnected"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.97723479388445,
+        "rocof_hz_s": 0.04553041223110199,
+        "settling_hz": 59.99378341414895,
+        "voltage_deviation_pu": 0.04159654221200393,
+        "reserve_mw": 536.2,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 2.7614021763455874
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.8,
+        0.8,
+        "interconnected"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.98091181771847,
+        "rocof_hz_s": 0.038176364563057064,
+        "settling_hz": 59.99378341414895,
+        "voltage_deviation_pu": 0.04159654221200393,
+        "reserve_mw": 536.2,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 2.761316690072663
+      }
+    },
+    {
+      "cell": [
+        "B",
+        0.8,
+        0.8,
+        "interconnected"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.98213489927034,
+        "rocof_hz_s": 0.035730201459315936,
+        "settling_hz": 59.99378341414895,
+        "voltage_deviation_pu": 0.04159654221200393,
+        "reserve_mw": 536.2,
+        "reserve_required_mw": 107.24000000000001,
+        "discharge_mwh": 2.761265301259684
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.2,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.97750018120281,
+        "rocof_hz_s": 0.044999637594386854,
+        "settling_hz": 59.99591528296877,
+        "voltage_deviation_pu": 0.03241015680530457,
+        "reserve_mw": 128.85,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.437717567303655
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.2,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.97785970100247,
+        "rocof_hz_s": 0.044280597995054904,
+        "settling_hz": 59.99591528296877,
+        "voltage_deviation_pu": 0.03241015680530457,
+        "reserve_mw": 128.85,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.4377154315315981
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.2,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.97804834476271,
+        "rocof_hz_s": 0.043903310474576074,
+        "settling_hz": 59.99591528296877,
+        "voltage_deviation_pu": 0.03241015680530457,
+        "reserve_mw": 128.85,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.43771414990945884
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.4,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.97750018120281,
+        "rocof_hz_s": 0.044999637594386854,
+        "settling_hz": 59.99591528296877,
+        "voltage_deviation_pu": 0.03651094516069353,
+        "reserve_mw": 128.85,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.437717567303655
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.4,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.97785970100247,
+        "rocof_hz_s": 0.044280597995054904,
+        "settling_hz": 59.99591528296877,
+        "voltage_deviation_pu": 0.03651094516069353,
+        "reserve_mw": 128.85,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.4377154315315981
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.4,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.97804834476271,
+        "rocof_hz_s": 0.043903310474576074,
+        "settling_hz": 59.99591528296877,
+        "voltage_deviation_pu": 0.03651094516069353,
+        "reserve_mw": 128.85,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.43771414990945884
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.4,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.978304858076164,
+        "rocof_hz_s": 0.043390283847671185,
+        "settling_hz": 59.99534342258438,
+        "voltage_deviation_pu": 0.03651094516069353,
+        "reserve_mw": 257.7,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.9970621625784102
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.4,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.979411000474094,
+        "rocof_hz_s": 0.0411779990518113,
+        "settling_hz": 59.99534342258438,
+        "voltage_deviation_pu": 0.03651094516069353,
+        "reserve_mw": 257.7,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.9970510627483443
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.4,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.97981341432661,
+        "rocof_hz_s": 0.04037317134678631,
+        "settling_hz": 59.99534342258438,
+        "voltage_deviation_pu": 0.03651094516069353,
+        "reserve_mw": 257.7,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.9970444009161463
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.6,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.97750018120281,
+        "rocof_hz_s": 0.044999637594386854,
+        "settling_hz": 59.99591528296877,
+        "voltage_deviation_pu": 0.03956337218956585,
+        "reserve_mw": 128.85,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.437717567303655
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.6,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.97785970100247,
+        "rocof_hz_s": 0.044280597995054904,
+        "settling_hz": 59.99591528296877,
+        "voltage_deviation_pu": 0.03956337218956585,
+        "reserve_mw": 128.85,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.4377154315315981
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.6,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.97804834476271,
+        "rocof_hz_s": 0.043903310474576074,
+        "settling_hz": 59.99591528296877,
+        "voltage_deviation_pu": 0.03956337218956585,
+        "reserve_mw": 128.85,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.43771414990945884
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.6,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.978304858076164,
+        "rocof_hz_s": 0.043390283847671185,
+        "settling_hz": 59.99534342258438,
+        "voltage_deviation_pu": 0.03956337218956585,
+        "reserve_mw": 257.7,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.9970621625784102
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.6,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.979411000474094,
+        "rocof_hz_s": 0.0411779990518113,
+        "settling_hz": 59.99534342258438,
+        "voltage_deviation_pu": 0.03956337218956585,
+        "reserve_mw": 257.7,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.9970510627483443
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.6,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.97981341432661,
+        "rocof_hz_s": 0.04037317134678631,
+        "settling_hz": 59.99534342258438,
+        "voltage_deviation_pu": 0.03956337218956585,
+        "reserve_mw": 257.7,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.9970444009161463
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.6,
+        0.6,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.978124028261824,
+        "rocof_hz_s": 0.043751943476351585,
+        "settling_hz": 59.99458537509815,
+        "voltage_deviation_pu": 0.03956337218956585,
+        "reserve_mw": 386.55,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 1.7369026843298403
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.6,
+        0.6,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.98025805617745,
+        "rocof_hz_s": 0.03948388764510469,
+        "settling_hz": 59.99458537509815,
+        "voltage_deviation_pu": 0.03956337218956585,
+        "reserve_mw": 386.55,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 1.7368689322986748
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.6,
+        0.6,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.98084422968865,
+        "rocof_hz_s": 0.03831154062270059,
+        "settling_hz": 59.99458537509815,
+        "voltage_deviation_pu": 0.03956337218956585,
+        "reserve_mw": 386.55,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 1.7368486683767637
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.8,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.97750018120281,
+        "rocof_hz_s": 0.044999637594386854,
+        "settling_hz": 59.99591528296877,
+        "voltage_deviation_pu": 0.04162147114915049,
+        "reserve_mw": 128.85,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.437717567303655
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.8,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.97785970100247,
+        "rocof_hz_s": 0.044280597995054904,
+        "settling_hz": 59.99591528296877,
+        "voltage_deviation_pu": 0.04162147114915049,
+        "reserve_mw": 128.85,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.4377154315315981
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.8,
+        0.2,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.97804834476271,
+        "rocof_hz_s": 0.043903310474576074,
+        "settling_hz": 59.99591528296877,
+        "voltage_deviation_pu": 0.04162147114915049,
+        "reserve_mw": 128.85,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.43771414990945884
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.8,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.978304858076164,
+        "rocof_hz_s": 0.043390283847671185,
+        "settling_hz": 59.99534342258438,
+        "voltage_deviation_pu": 0.04162147114915049,
+        "reserve_mw": 257.7,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.9970621625784102
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.8,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.979411000474094,
+        "rocof_hz_s": 0.0411779990518113,
+        "settling_hz": 59.99534342258438,
+        "voltage_deviation_pu": 0.04162147114915049,
+        "reserve_mw": 257.7,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.9970510627483443
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.8,
+        0.4,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.97981341432661,
+        "rocof_hz_s": 0.04037317134678631,
+        "settling_hz": 59.99534342258438,
+        "voltage_deviation_pu": 0.04162147114915049,
+        "reserve_mw": 257.7,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.9970444009161463
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.8,
+        0.6,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.978124028261824,
+        "rocof_hz_s": 0.043751943476351585,
+        "settling_hz": 59.99458537509815,
+        "voltage_deviation_pu": 0.04162147114915049,
+        "reserve_mw": 386.55,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 1.7369026843298403
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.8,
+        0.6,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.98025805617745,
+        "rocof_hz_s": 0.03948388764510469,
+        "settling_hz": 59.99458537509815,
+        "voltage_deviation_pu": 0.04162147114915049,
+        "reserve_mw": 386.55,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 1.7368689322986748
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.8,
+        0.6,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.98084422968865,
+        "rocof_hz_s": 0.03831154062270059,
+        "settling_hz": 59.99458537509815,
+        "voltage_deviation_pu": 0.04162147114915049,
+        "reserve_mw": 386.55,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 1.7368486683767637
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.8,
+        0.8,
+        "islanded"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.976316058366436,
+        "rocof_hz_s": 0.04736788326712826,
+        "settling_hz": 59.99353253136723,
+        "voltage_deviation_pu": 0.04162147114915049,
+        "reserve_mw": 515.4,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 2.7614021756875
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.8,
+        0.8,
+        "islanded"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.980141475868116,
+        "rocof_hz_s": 0.03971704826376765,
+        "settling_hz": 59.99353253136723,
+        "voltage_deviation_pu": 0.04162147114915049,
+        "reserve_mw": 515.4,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 2.7613166904852684
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.8,
+        0.8,
+        "islanded"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.98141391732742,
+        "rocof_hz_s": 0.03717216534515444,
+        "settling_hz": 59.99353253136723,
+        "voltage_deviation_pu": 0.04162147114915049,
+        "reserve_mw": 515.4,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 2.761265301247656
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.2,
+        0.2,
+        "interconnected"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.97750018120281,
+        "rocof_hz_s": 0.044999637594386854,
+        "settling_hz": 59.99591528296877,
+        "voltage_deviation_pu": 0.03261952187736128,
+        "reserve_mw": 128.85,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.437717567303655
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.2,
+        0.2,
+        "interconnected"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.97785970100247,
+        "rocof_hz_s": 0.044280597995054904,
+        "settling_hz": 59.99591528296877,
+        "voltage_deviation_pu": 0.03261952187736128,
+        "reserve_mw": 128.85,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.4377154315315981
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.2,
+        0.2,
+        "interconnected"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.97804834476271,
+        "rocof_hz_s": 0.043903310474576074,
+        "settling_hz": 59.99591528296877,
+        "voltage_deviation_pu": 0.03261952187736128,
+        "reserve_mw": 128.85,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.43771414990945884
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.4,
+        0.2,
+        "interconnected"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.97750018120281,
+        "rocof_hz_s": 0.044999637594386854,
+        "settling_hz": 59.99591528296877,
+        "voltage_deviation_pu": 0.03665111293442025,
+        "reserve_mw": 128.85,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.437717567303655
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.4,
+        0.2,
+        "interconnected"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.97785970100247,
+        "rocof_hz_s": 0.044280597995054904,
+        "settling_hz": 59.99591528296877,
+        "voltage_deviation_pu": 0.03665111293442025,
+        "reserve_mw": 128.85,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.4377154315315981
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.4,
+        0.2,
+        "interconnected"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.97804834476271,
+        "rocof_hz_s": 0.043903310474576074,
+        "settling_hz": 59.99591528296877,
+        "voltage_deviation_pu": 0.03665111293442025,
+        "reserve_mw": 128.85,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.43771414990945884
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.4,
+        0.4,
+        "interconnected"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.978304858076164,
+        "rocof_hz_s": 0.043390283847671185,
+        "settling_hz": 59.99534342258438,
+        "voltage_deviation_pu": 0.03665111293442025,
+        "reserve_mw": 257.7,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.9970621625784102
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.4,
+        0.4,
+        "interconnected"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.979411000474094,
+        "rocof_hz_s": 0.0411779990518113,
+        "settling_hz": 59.99534342258438,
+        "voltage_deviation_pu": 0.03665111293442025,
+        "reserve_mw": 257.7,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.9970510627483443
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.4,
+        0.4,
+        "interconnected"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.97981341432661,
+        "rocof_hz_s": 0.04037317134678631,
+        "settling_hz": 59.99534342258438,
+        "voltage_deviation_pu": 0.03665111293442025,
+        "reserve_mw": 257.7,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.9970444009161463
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.6,
+        0.2,
+        "interconnected"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.97750018120281,
+        "rocof_hz_s": 0.044999637594386854,
+        "settling_hz": 59.99591528296877,
+        "voltage_deviation_pu": 0.039638192307268616,
+        "reserve_mw": 128.85,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.437717567303655
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.6,
+        0.2,
+        "interconnected"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.97785970100247,
+        "rocof_hz_s": 0.044280597995054904,
+        "settling_hz": 59.99591528296877,
+        "voltage_deviation_pu": 0.039638192307268616,
+        "reserve_mw": 128.85,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.4377154315315981
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.6,
+        0.2,
+        "interconnected"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.97804834476271,
+        "rocof_hz_s": 0.043903310474576074,
+        "settling_hz": 59.99591528296877,
+        "voltage_deviation_pu": 0.039638192307268616,
+        "reserve_mw": 128.85,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.43771414990945884
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.6,
+        0.4,
+        "interconnected"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.978304858076164,
+        "rocof_hz_s": 0.043390283847671185,
+        "settling_hz": 59.99534342258438,
+        "voltage_deviation_pu": 0.039638192307268616,
+        "reserve_mw": 257.7,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.9970621625784102
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.6,
+        0.4,
+        "interconnected"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.979411000474094,
+        "rocof_hz_s": 0.0411779990518113,
+        "settling_hz": 59.99534342258438,
+        "voltage_deviation_pu": 0.039638192307268616,
+        "reserve_mw": 257.7,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.9970510627483443
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.6,
+        0.4,
+        "interconnected"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.97981341432661,
+        "rocof_hz_s": 0.04037317134678631,
+        "settling_hz": 59.99534342258438,
+        "voltage_deviation_pu": 0.039638192307268616,
+        "reserve_mw": 257.7,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.9970444009161463
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.6,
+        0.6,
+        "interconnected"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.978124028261824,
+        "rocof_hz_s": 0.043751943476351585,
+        "settling_hz": 59.99458537509815,
+        "voltage_deviation_pu": 0.039638192307268616,
+        "reserve_mw": 386.55,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 1.7369026843298403
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.6,
+        0.6,
+        "interconnected"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.98025805617745,
+        "rocof_hz_s": 0.03948388764510469,
+        "settling_hz": 59.99458537509815,
+        "voltage_deviation_pu": 0.039638192307268616,
+        "reserve_mw": 386.55,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 1.7368689322986748
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.6,
+        0.6,
+        "interconnected"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.98084422968865,
+        "rocof_hz_s": 0.03831154062270059,
+        "settling_hz": 59.99458537509815,
+        "voltage_deviation_pu": 0.039638192307268616,
+        "reserve_mw": 386.55,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 1.7368486683767637
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.8,
+        0.2,
+        "interconnected"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.97750018120281,
+        "rocof_hz_s": 0.044999637594386854,
+        "settling_hz": 59.99591528296877,
+        "voltage_deviation_pu": 0.041633074015745564,
+        "reserve_mw": 128.85,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.437717567303655
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.8,
+        0.2,
+        "interconnected"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.97785970100247,
+        "rocof_hz_s": 0.044280597995054904,
+        "settling_hz": 59.99591528296877,
+        "voltage_deviation_pu": 0.041633074015745564,
+        "reserve_mw": 128.85,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.4377154315315981
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.8,
+        0.2,
+        "interconnected"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.97804834476271,
+        "rocof_hz_s": 0.043903310474576074,
+        "settling_hz": 59.99591528296877,
+        "voltage_deviation_pu": 0.041633074015745564,
+        "reserve_mw": 128.85,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.43771414990945884
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.8,
+        0.4,
+        "interconnected"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.978304858076164,
+        "rocof_hz_s": 0.043390283847671185,
+        "settling_hz": 59.99534342258438,
+        "voltage_deviation_pu": 0.041633074015745564,
+        "reserve_mw": 257.7,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.9970621625784102
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.8,
+        0.4,
+        "interconnected"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.979411000474094,
+        "rocof_hz_s": 0.0411779990518113,
+        "settling_hz": 59.99534342258438,
+        "voltage_deviation_pu": 0.041633074015745564,
+        "reserve_mw": 257.7,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.9970510627483443
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.8,
+        0.4,
+        "interconnected"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.97981341432661,
+        "rocof_hz_s": 0.04037317134678631,
+        "settling_hz": 59.99534342258438,
+        "voltage_deviation_pu": 0.041633074015745564,
+        "reserve_mw": 257.7,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 0.9970444009161463
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.8,
+        0.6,
+        "interconnected"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.978124028261824,
+        "rocof_hz_s": 0.043751943476351585,
+        "settling_hz": 59.99458537509815,
+        "voltage_deviation_pu": 0.041633074015745564,
+        "reserve_mw": 386.55,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 1.7369026843298403
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.8,
+        0.6,
+        "interconnected"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.98025805617745,
+        "rocof_hz_s": 0.03948388764510469,
+        "settling_hz": 59.99458537509815,
+        "voltage_deviation_pu": 0.041633074015745564,
+        "reserve_mw": 386.55,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 1.7368689322986748
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.8,
+        0.6,
+        "interconnected"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.98084422968865,
+        "rocof_hz_s": 0.03831154062270059,
+        "settling_hz": 59.99458537509815,
+        "voltage_deviation_pu": 0.041633074015745564,
+        "reserve_mw": 386.55,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 1.7368486683767637
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.8,
+        0.8,
+        "interconnected"
+      ],
+      "virtual_h_s": 2.0,
+      "metrics": {
+        "nadir_hz": 59.976316058366436,
+        "rocof_hz_s": 0.04736788326712826,
+        "settling_hz": 59.99353253136723,
+        "voltage_deviation_pu": 0.041633074015745564,
+        "reserve_mw": 515.4,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 2.7614021756875
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.8,
+        0.8,
+        "interconnected"
+      ],
+      "virtual_h_s": 7.0,
+      "metrics": {
+        "nadir_hz": 59.980141475868116,
+        "rocof_hz_s": 0.03971704826376765,
+        "settling_hz": 59.99353253136723,
+        "voltage_deviation_pu": 0.041633074015745564,
+        "reserve_mw": 515.4,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 2.7613166904852684
+      }
+    },
+    {
+      "cell": [
+        "C",
+        0.8,
+        0.8,
+        "interconnected"
+      ],
+      "virtual_h_s": 10.0,
+      "metrics": {
+        "nadir_hz": 59.98141391732742,
+        "rocof_hz_s": 0.03717216534515444,
+        "settling_hz": 59.99353253136723,
+        "voltage_deviation_pu": 0.041633074015745564,
+        "reserve_mw": 515.4,
+        "reserve_required_mw": 103.08,
+        "discharge_mwh": 2.761265301247656
+      }
+    }
+  ],
+  "limitation": "Three virtual-inertia demonstrations only; not the eleven study cases"
+}
